@@ -38,7 +38,7 @@ Yeh book **Problem Solving with Programming** ko bilkul basic level se samjhane 
 
 ## 🔵 Unit A: Computer Systems and Hardware Concepts
 
-### 📖 Chapter 1: Introduction to Computers
+### 📖 [Chapter 1: Introduction to Computers](chapters/chapter-01-introduction-to-computers.md) ✅
 - **1.1** Introduction to Computers
   - **1.1.1** What is a Computer?
   - **1.1.2** Characteristics of Computers
