@@ -58,7 +58,7 @@ Yeh book **Problem Solving with Programming** ko bilkul basic level se samjhane 
 - **2.6** Secondary Storage Devices
 - **2.7** Basic Processor Architecture
 
-### 📖 Chapter 3: Input and Output Devices
+### 📖 [Chapter 3: Input and Output Devices](chapters/chapter-03-input-and-output-devices.md) ✅
 - **3.1** Input Devices
 - **3.2** Output Devices
 - **3.3** Softcopy Devices
