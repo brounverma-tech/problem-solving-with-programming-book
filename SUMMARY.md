@@ -12,7 +12,7 @@
 
 4. [Computer Software](chapters/chapter-04-computer-software.md)
 5. [Introduction to the Internet](chapters/chapter-05-introduction-to-the-internet.md)
-6. Number Systems and Computer Codes
+6. [Number Systems and Computer Codes](chapters/chapter-06-number-systems-and-computer-codes.md)
 
 ## Unit C: Programming Fundamentals Using C++
 
