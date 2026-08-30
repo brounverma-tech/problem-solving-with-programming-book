@@ -21,6 +21,8 @@ Yeh book **Problem Solving with Programming** ko bilkul basic level se samjhane 
 
 > 🎯 **Goal:** Computer fundamentals se lekar C++ programming, functions, arrays aur pointers tak step-by-step mastery.
 
+## 📑 [Open Table of Contents](SUMMARY.md)
+
 ## 📚 Book Features
 
 - ✅ Official syllabus ke exact order mein topics
@@ -47,7 +49,7 @@ Yeh book **Problem Solving with Programming** ko bilkul basic level se samjhane 
 - **1.4** Basic Computer Organization
 - **1.5** Applications of Computers
 
-### 📖 Chapter 2: Computer Memory and Processors
+### 📖 [Chapter 2: Computer Memory and Processors](chapters/chapter-02-computer-memory-and-processors.md) ✅
 - **2.1** Introduction to Computer Memory
 - **2.2** Memory Hierarchy
 - **2.3** Processor and Registers
