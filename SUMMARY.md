@@ -10,7 +10,7 @@
 
 ## Unit B: Computer Software and Computer Codes
 
-4. Computer Software
+4. [Computer Software](chapters/chapter-04-computer-software.md)
 5. Introduction to the Internet
 6. Number Systems and Computer Codes
 
