@@ -16,7 +16,7 @@
 
 ## Unit C: Programming Fundamentals Using C++
 
-7. Introduction to C++
+7. [Introduction to C++](chapters/chapter-07-introduction-to-cpp.md)
 8. Operators and Expressions
 9. Decision-Making and Loops
 
