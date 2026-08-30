@@ -6,7 +6,7 @@
 
 1. [Introduction to Computers](chapters/chapter-01-introduction-to-computers.md)
 2. [Computer Memory and Processors](chapters/chapter-02-computer-memory-and-processors.md)
-3. Input and Output Devices
+3. [Input and Output Devices](chapters/chapter-03-input-and-output-devices.md)
 
 ## Unit B: Computer Software and Computer Codes
 
