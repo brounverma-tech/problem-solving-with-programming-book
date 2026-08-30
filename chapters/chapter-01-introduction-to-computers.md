@@ -465,13 +465,7 @@ Surveillance, secure communication, simulations aur navigation systems.
 
 # 1.9 Chapter Summary
 
-Is chapter mein humne computer ki basic foundation samjhi. Computer ek electronic aur programmable device hai jo data ko input ke roop mein leta hai, instructions ke according process karta hai aur meaningful information output ke roop mein deta hai. Iski working ko Input–Process–Output–Storage cycle se samjha ja sakta hai.
-
-Computer ki main characteristics speed, accuracy, automation, diligence, storage capacity, versatility, reliability aur multitasking hain. Computer apne aap decision nahi leta; yeh program aur user ke instructions par depend karta hai. Galat input se galat output milne ke principle ko GIGO kehte hain.
-
-Computer technology simple calculating devices se develop hokar modern systems tak pahunchi. Five generations mein vacuum tubes, transistors, integrated circuits, microprocessors aur AI-oriented technologies ka development hua. Computers ko data handling ke आधार पर analog, digital aur hybrid; purpose ke आधार पर general-purpose aur special-purpose; aur processing power ke आधार पर microcomputer, minicomputer, mainframe aur supercomputer mein classify kiya jata hai.
-
-Basic computer organization mein input unit, CPU, memory/storage unit aur output unit shamil hain. CPU ke main parts ALU, Control Unit aur registers hain. Aaj computers education, banking, healthcare, business, science, communication, transport, entertainment aur security jaise lagbhag har field mein use hote hain.
+A computer is an electronic programmable device that accepts data as input, processes it according to instructions, stores it when required and produces meaningful information as output. Its major characteristics include speed, accuracy, automation, diligence, versatility, reliability, storage capacity and multitasking. Computer technology developed through five major generations based on vacuum tubes, transistors, integrated circuits, microprocessors and AI-oriented technologies. Computers can be classified by data handling, purpose, size and processing power. A basic computer system consists of an input unit, CPU, memory or storage and an output unit. Computers are widely used in education, banking, healthcare, business, science, communication, transport, entertainment and security.
 
 ---
 
