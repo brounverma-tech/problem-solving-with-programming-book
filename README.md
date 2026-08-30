@@ -97,7 +97,7 @@ Yeh book **Problem Solving with Programming** ko bilkul basic level se samjhane 
 
 ## 🟠 Unit C: Programming Fundamentals Using C++
 
-### 📖 Chapter 7: Introduction to C++
+### 📖 [Chapter 7: Introduction to C++](chapters/chapter-07-introduction-to-cpp.md) ✅
 - **7.1** Introduction to the C++ Language
 - **7.2** Structure of a C++ Program
 - **7.3** Identifiers
