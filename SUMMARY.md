@@ -11,7 +11,7 @@
 ## Unit B: Computer Software and Computer Codes
 
 4. [Computer Software](chapters/chapter-04-computer-software.md)
-5. Introduction to the Internet
+5. [Introduction to the Internet](chapters/chapter-05-introduction-to-the-internet.md)
 6. Number Systems and Computer Codes
 
 ## Unit C: Programming Fundamentals Using C++
