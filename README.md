@@ -85,7 +85,7 @@ Yeh book **Problem Solving with Programming** ko bilkul basic level se samjhane 
 - **5.6** HTML
 - **5.7** Internet Service Provider
 
-### 📖 Chapter 6: Number Systems and Computer Codes
+### 📖 [Chapter 6: Number Systems and Computer Codes](chapters/chapter-06-number-systems-and-computer-codes.md) ✅
 - **6.1** Binary Number System
 - **6.2** Working with Binary Numbers
 - **6.3** Octal Number System
