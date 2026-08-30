@@ -463,7 +463,19 @@ Surveillance, secure communication, simulations aur navigation systems.
 
 ---
 
-# 1.9 Quick Revision
+# 1.9 Chapter Summary
+
+Is chapter mein humne computer ki basic foundation samjhi. Computer ek electronic aur programmable device hai jo data ko input ke roop mein leta hai, instructions ke according process karta hai aur meaningful information output ke roop mein deta hai. Iski working ko Input–Process–Output–Storage cycle se samjha ja sakta hai.
+
+Computer ki main characteristics speed, accuracy, automation, diligence, storage capacity, versatility, reliability aur multitasking hain. Computer apne aap decision nahi leta; yeh program aur user ke instructions par depend karta hai. Galat input se galat output milne ke principle ko GIGO kehte hain.
+
+Computer technology simple calculating devices se develop hokar modern systems tak pahunchi. Five generations mein vacuum tubes, transistors, integrated circuits, microprocessors aur AI-oriented technologies ka development hua. Computers ko data handling ke आधार पर analog, digital aur hybrid; purpose ke आधार पर general-purpose aur special-purpose; aur processing power ke आधार पर microcomputer, minicomputer, mainframe aur supercomputer mein classify kiya jata hai.
+
+Basic computer organization mein input unit, CPU, memory/storage unit aur output unit shamil hain. CPU ke main parts ALU, Control Unit aur registers hain. Aaj computers education, banking, healthcare, business, science, communication, transport, entertainment aur security jaise lagbhag har field mein use hote hain.
+
+---
+
+# 1.10 Quick Revision
 
 - Computer ek electronic programmable data-processing device hai.
 - Data raw facts hote hain; information processed data hoti hai.
@@ -480,7 +492,7 @@ Surveillance, secure communication, simulations aur navigation systems.
 
 ---
 
-# 1.10 Important Abbreviations
+# 1.11 Important Abbreviations
 
 | Abbreviation | Full Form |
 |---|---|
@@ -497,7 +509,7 @@ Surveillance, secure communication, simulations aur navigation systems.
 
 ---
 
-# 1.11 Multiple-Choice Questions
+# 1.12 Multiple-Choice Questions
 
 1. Computer word kis meaning se related hai?  
    a) To communicate  
@@ -562,9 +574,9 @@ Surveillance, secure communication, simulations aur navigation systems.
 
 ---
 
-# 1.12 Important Exam Questions
+# 1.13 Important Exam Questions
 
-## 1.12.1 Very Short Answer Questions
+## 1.13.1 Very Short Answer Questions
 
 1. Computer ko define kijiye.
 2. Data kya hai?
@@ -575,7 +587,7 @@ Surveillance, secure communication, simulations aur navigation systems.
 7. Analog computer kya hai?
 8. Supercomputer ka ek use likhiye.
 
-## 1.12.2 Short Answer Questions
+## 1.13.2 Short Answer Questions
 
 1. Data aur information mein difference samjhaiye.
 2. Computer ki koi four characteristics explain kijiye.
@@ -584,7 +596,7 @@ Surveillance, secure communication, simulations aur navigation systems.
 5. IPO cycle ko example ke saath explain kijiye.
 6. First aur second generation mein difference likhiye.
 
-## 1.12.3 Long Answer Questions
+## 1.13.3 Long Answer Questions
 
 1. Computer ki definition dete hue uski major characteristics detail mein explain kijiye.
 2. Five generations of computers ko technologies, features aur examples ke saath samjhaiye.
@@ -594,7 +606,7 @@ Surveillance, secure communication, simulations aur navigation systems.
 
 ---
 
-# 1.13 Practice Activity
+# 1.14 Practice Activity
 
 Apne daily life ke kisi ek computer-based task ko select karein aur uska IPO cycle likhein.
 
