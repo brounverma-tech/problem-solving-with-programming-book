@@ -29,7 +29,7 @@
 ## Appendices
 
 A. [Important Computer and Programming Terms](appendices/appendix-a-important-terms.md)  
-B. C++ Syntax Quick Reference  
+B. [C++ Syntax Quick Reference](appendices/appendix-b-cpp-syntax-quick-reference.md)  
 C. Practical C++ Programs  
 D. Viva Questions  
 E. Important Exam Questions  
