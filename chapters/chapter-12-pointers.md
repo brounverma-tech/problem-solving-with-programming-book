@@ -29,19 +29,19 @@ Is chapter ko complete karne ke baad aap:
 
 ---
 
-# 12.1 Introduction to Pointers
+## 12.1 Introduction to Pointers
 
-## 12.1.1 Memory Address
+### 12.1.1 Memory Address
 
 Computer memory bytes/locations mein organized hoti hai. Har location ka unique address hota hai.
 
-## 12.1.2 Meaning of Pointer
+### 12.1.2 Meaning of Pointer
 
 > A pointer is a variable that stores the memory address of another object or function.
 
 **Hinglish:** Normal variable value store karta hai, jabki pointer kisi value ke memory address ko store karta hai.
 
-## 12.1.3 Need for Pointers
+### 12.1.3 Need for Pointers
 
 - Dynamic memory allocation
 - Arrays aur strings processing
@@ -51,7 +51,7 @@ Computer memory bytes/locations mein organized hoti hai. Har location ka unique 
 - Hardware aur low-level programming
 - Function callbacks
 
-## 12.1.4 Important Terms
+### 12.1.4 Important Terms
 
 | Term | Pronunciation | Meaning |
 |---|---|---|
@@ -65,17 +65,17 @@ Computer memory bytes/locations mein organized hoti hai. Har location ka unique 
 
 ---
 
-# 12.2 Pointer Declaration and Initialization
+## 12.2 Pointer Declaration and Initialization
 
-## 12.2.1 Declaration
+### 12.2.1 Declaration
 
-### Syntax
+#### Syntax
 
 ```cpp
 dataType* pointerName;
 ```
 
-### Examples
+#### Examples
 
 ```cpp
 int* integerPointer;
@@ -83,7 +83,7 @@ double* pricePointer;
 char* characterPointer;
 ```
 
-## 12.2.2 Address-of Operator
+### 12.2.2 Address-of Operator
 
 `&` variable ka address obtain karta hai.
 
@@ -92,7 +92,7 @@ int value = 25;
 int* pointer = &value;
 ```
 
-## 12.2.3 Dereference Operator
+### 12.2.3 Dereference Operator
 
 `*` pointer ke stored address par present value access karta hai.
 
@@ -100,7 +100,7 @@ int* pointer = &value;
 cout << *pointer;  // 25
 ```
 
-## 12.2.4 Complete Program
+### 12.2.4 Complete Program
 
 ```cpp
 #include <iostream>
@@ -120,7 +120,7 @@ int main()
 }
 ```
 
-## 12.2.5 Modifying Value Through Pointer
+### 12.2.5 Modifying Value Through Pointer
 
 ```cpp
 int value = 10;
@@ -132,9 +132,9 @@ cout << value;  // 50
 
 ---
 
-# 12.3 Pointer Types and Compatibility
+## 12.3 Pointer Types and Compatibility
 
-## 12.3.1 Typed Pointers
+### 12.3.1 Typed Pointers
 
 Pointer type pointed object type se compatible hona chahiye.
 
@@ -143,7 +143,7 @@ int number = 10;
 int* pointer = &number;
 ```
 
-## 12.3.2 Incompatible Assignment
+### 12.3.2 Incompatible Assignment
 
 ```cpp
 double price = 9.5;
@@ -156,7 +156,7 @@ Correct:
 double* pointer = &price;
 ```
 
-## 12.3.3 Pointer Size
+### 12.3.3 Pointer Size
 
 Different pointed types ke pointer sizes same implementation par often same hote hain, lekin standard assumptions ke badle `sizeof` se check karein.
 
@@ -165,15 +165,15 @@ cout << sizeof(int*) << '\n';
 cout << sizeof(double*) << '\n';
 ```
 
-## 12.3.4 Pointer Conversion
+### 12.3.4 Pointer Conversion
 
 Implicit conversions limited aur type-safe rules follow karti hain. Unrelated object pointer types ko directly assign nahi karna chahiye. Unsafe casts bugs aur undefined behavior cause kar sakte hain.
 
 ---
 
-# 12.4 Null, Wild and Dangling Pointers
+## 12.4 Null, Wild and Dangling Pointers
 
-## 12.4.1 Null Pointer
+### 12.4.1 Null Pointer
 
 Kisi valid object ko point nahi karta.
 
@@ -190,7 +190,7 @@ if (pointer != nullptr)
 }
 ```
 
-## 12.4.2 Wild Pointer
+### 12.4.2 Wild Pointer
 
 Uninitialized pointer jisme indeterminate address ho sakta hai.
 
@@ -204,7 +204,7 @@ Initialize karein:
 int* pointer = nullptr;
 ```
 
-## 12.4.3 Dangling Pointer
+### 12.4.3 Dangling Pointer
 
 Pointer aise object/memory ko refer kare jo destroy/deallocate ho chuki ho.
 
@@ -214,19 +214,19 @@ delete pointer;
 pointer = nullptr;
 ```
 
-## 12.4.4 Invalid Dereference
+### 12.4.4 Invalid Dereference
 
 Null, wild ya dangling pointer dereference karna undefined behavior cause kar sakta hai.
 
 ---
 
-# 12.5 Pointers and Functions
+## 12.5 Pointers and Functions
 
-## 12.5.1 Pointer Parameter
+### 12.5.1 Pointer Parameter
 
 Function pointer ke through caller variable modify kar sakta hai.
 
-### Program: Swap Using Pointers
+#### Program: Swap Using Pointers
 
 ```cpp
 #include <iostream>
@@ -252,7 +252,7 @@ int main()
 }
 ```
 
-## 12.5.2 Pointer vs Reference Parameter
+### 12.5.2 Pointer vs Reference Parameter
 
 | Pointer Parameter | Reference Parameter |
 |---|---|
@@ -261,7 +261,7 @@ int main()
 | Dereference required | Normal variable syntax |
 | `int* p` | `int& r` |
 
-## 12.5.3 Returning a Pointer
+### 12.5.3 Returning a Pointer
 
 Function dynamically allocated memory ya sufficiently long-lived object ka pointer return kar sakta hai, but local automatic variable ka address return nahi karna chahiye.
 
@@ -275,19 +275,19 @@ int* wrong()
 
 ---
 
-# 12.6 Pointer to Pointer
+## 12.6 Pointer to Pointer
 
-## 12.6.1 Meaning
+### 12.6.1 Meaning
 
 > A pointer to pointer stores the address of another pointer.
 
-## 12.6.2 Declaration
+### 12.6.2 Declaration
 
 ```cpp
 int** doublePointer;
 ```
 
-## 12.6.3 Example
+### 12.6.3 Example
 
 ```cpp
 int value = 50;
@@ -299,7 +299,7 @@ cout << *pointer << '\n';            // 50
 cout << **pointerToPointer << '\n';   // 50
 ```
 
-## 12.6.4 Uses
+### 12.6.4 Uses
 
 - Pointer ko function mein modify karna
 - Dynamic 2D structures
@@ -308,9 +308,9 @@ cout << **pointerToPointer << '\n';   // 50
 
 ---
 
-# 12.7 const and Pointers
+## 12.7 const and Pointers
 
-## 12.7.1 Pointer to Const Data
+### 12.7.1 Pointer to Const Data
 
 Pointer ke through pointed value modify nahi kar sakte.
 
@@ -320,7 +320,7 @@ const int* pointer = &value;
 
 Pointer another compatible object ko point kar sakta hai.
 
-## 12.7.2 Const Pointer
+### 12.7.2 Const Pointer
 
 Pointer ka stored address change nahi kar sakte, pointed value modify ho sakti hai.
 
@@ -328,7 +328,7 @@ Pointer ka stored address change nahi kar sakte, pointed value modify ho sakti h
 int* const pointer = &value;
 ```
 
-## 12.7.3 Const Pointer to Const Data
+### 12.7.3 Const Pointer to Const Data
 
 Na pointer address change aur na pointed value pointer ke through modify.
 
@@ -336,7 +336,7 @@ Na pointer address change aur na pointed value pointer ke through modify.
 const int* const pointer = &value;
 ```
 
-## 12.7.4 Comparison
+### 12.7.4 Comparison
 
 | Declaration | Pointer Changes? | Data Changes Through Pointer? |
 |---|:---:|:---:|
@@ -346,9 +346,9 @@ const int* const pointer = &value;
 
 ---
 
-# 12.8 Arrays and Pointers
+## 12.8 Arrays and Pointers
 
-## 12.8.1 Array-to-Pointer Conversion
+### 12.8.1 Array-to-Pointer Conversion
 
 Many expressions mein array name first element ke pointer mein convert hota hai.
 
@@ -357,7 +357,7 @@ int values[] = {10, 20, 30, 40};
 int* pointer = values;
 ```
 
-## 12.8.2 Element Access
+### 12.8.2 Element Access
 
 ```cpp
 cout << values[0];      // 10
@@ -369,7 +369,7 @@ Relationship:
 
 $$values[i] = *(values+i)$$
 
-## 12.8.3 Traversal with Pointer
+### 12.8.3 Traversal with Pointer
 
 ```cpp
 int values[] = {10, 20, 30, 40};
@@ -381,7 +381,7 @@ for (int i = 0; i < 4; ++i)
 }
 ```
 
-## 12.8.4 Array and Pointer Difference
+### 12.8.4 Array and Pointer Difference
 
 | Array | Pointer |
 |---|---|
@@ -392,24 +392,24 @@ for (int i = 0; i < 4; ++i)
 
 ---
 
-# 12.9 Pointer Arithmetic
+## 12.9 Pointer Arithmetic
 
-## 12.9.1 Increment
+### 12.9.1 Increment
 
 `pointer++` next element par move karta hai, next byte necessarily nahi; movement pointed type size ke according hota hai.
 
-## 12.9.2 Decrement
+### 12.9.2 Decrement
 
 `pointer--` previous element par move karta hai within valid array range.
 
-## 12.9.3 Addition and Subtraction
+### 12.9.3 Addition and Subtraction
 
 ```cpp
 pointer + n
 pointer - n
 ```
 
-## 12.9.4 Pointer Difference
+### 12.9.4 Pointer Difference
 
 Same array ke two pointers subtract karne par element-distance mil sakta hai.
 
@@ -420,11 +420,11 @@ int* second = &values[4];
 cout << second - first;  // 3
 ```
 
-## 12.9.5 Pointer Comparison
+### 12.9.5 Pointer Comparison
 
 Same array/range ke pointers ko position relationship ke context mein compare kiya ja sakta hai.
 
-## 12.9.6 Safety Rules
+### 12.9.6 Safety Rules
 
 - Arithmetic only valid array/object range mein karein.
 - One-past-the-end pointer form ho sakta hai, dereference nahi.
@@ -433,13 +433,13 @@ Same array/range ke pointers ko position relationship ke context mein compare ki
 
 ---
 
-# 12.10 Dynamic Memory Allocation
+## 12.10 Dynamic Memory Allocation
 
-## 12.10.1 Meaning
+### 12.10.1 Meaning
 
 Runtime par required memory heap/free store se allocate karna dynamic memory allocation hai.
 
-## 12.10.2 new Operator
+### 12.10.2 new Operator
 
 Single object allocate:
 
@@ -454,14 +454,14 @@ Initialize directly:
 int* pointer = new int(25);
 ```
 
-## 12.10.3 delete Operator
+### 12.10.3 delete Operator
 
 ```cpp
 delete pointer;
 pointer = nullptr;
 ```
 
-## 12.10.4 Dynamic Array
+### 12.10.4 Dynamic Array
 
 ```cpp
 int size;
@@ -477,7 +477,7 @@ delete[] values;
 values = nullptr;
 ```
 
-## 12.10.5 Complete Program
+### 12.10.5 Complete Program
 
 ```cpp
 #include <iostream>
@@ -512,15 +512,15 @@ int main()
 }
 ```
 
-## 12.10.6 Memory Leak
+### 12.10.6 Memory Leak
 
 Allocated memory release na hone par memory leak hota hai.
 
-## 12.10.7 Double Delete
+### 12.10.7 Double Delete
 
 Same allocation ko twice delete karna undefined behavior hai.
 
-## 12.10.8 new/delete Matching
+### 12.10.8 new/delete Matching
 
 | Allocation | Deallocation |
 |---|---|
@@ -529,27 +529,27 @@ Same allocation ko twice delete karna undefined behavior hai.
 
 ---
 
-# 12.11 C-Style Memory Allocation Functions
+## 12.11 C-Style Memory Allocation Functions
 
 Header: `<cstdlib>`
 
-## 12.11.1 malloc
+### 12.11.1 malloc
 
 Raw uninitialized bytes allocate karta hai.
 
-## 12.11.2 calloc
+### 12.11.2 calloc
 
 Multiple objects ke liye zero-initialized raw storage allocate karta hai.
 
-## 12.11.3 realloc
+### 12.11.3 realloc
 
 Existing C allocation ka size change karne ki attempt karta hai.
 
-## 12.11.4 free
+### 12.11.4 free
 
 `malloc`/`calloc`/`realloc` family se allocated storage release karta hai.
 
-## 12.11.5 C++ Guidance
+### 12.11.5 C++ Guidance
 
 - `malloc` constructors call nahi karta.
 - `free` destructors call nahi karta.
@@ -558,13 +558,13 @@ Existing C allocation ka size change karne ki attempt karta hai.
 
 ---
 
-# 12.12 Smart Pointers
+## 12.12 Smart Pointers
 
-## 12.12.1 Need
+### 12.12.1 Need
 
 Manual `new`/`delete` errors reduce karne ke liye standard smart pointers automatic ownership management provide karte hain.
 
-## 12.12.2 unique_ptr
+### 12.12.2 unique_ptr
 
 Single ownership represent karta hai.
 
@@ -574,11 +574,11 @@ Single ownership represent karta hai.
 auto pointer = std::make_unique<int>(25);
 ```
 
-## 12.12.3 shared_ptr
+### 12.12.3 shared_ptr
 
 Shared ownership with reference counting.
 
-## 12.12.4 weak_ptr
+### 12.12.4 weak_ptr
 
 Non-owning observer jo shared ownership cycles avoid karne mein help karta hai.
 
@@ -586,9 +586,9 @@ Non-owning observer jo shared ownership cycles avoid karne mein help karta hai.
 
 ---
 
-# 12.13 Array of Pointers
+## 12.13 Array of Pointers
 
-## 12.13.1 Meaning
+### 12.13.1 Meaning
 
 Array jiske each element ka type pointer ho.
 
@@ -596,7 +596,7 @@ Array jiske each element ka type pointer ho.
 int* pointers[3];
 ```
 
-## 12.13.2 Example
+### 12.13.2 Example
 
 ```cpp
 int a = 10;
@@ -611,7 +611,7 @@ for (int i = 0; i < 3; ++i)
 }
 ```
 
-## 12.13.3 Array of C-Style Strings
+### 12.13.3 Array of C-Style Strings
 
 ```cpp
 const char* names[] = {"Aman", "Broun", "Chetan"};
@@ -621,9 +621,9 @@ Modern C++ mein `std::string` container often easier aur safer hai.
 
 ---
 
-# 12.14 Void Pointers
+## 12.14 Void Pointers
 
-## 12.14.1 Meaning
+### 12.14.1 Meaning
 
 > A void pointer can hold the address of an object of any object type, but it has no direct pointed type information.
 
@@ -632,7 +632,7 @@ int value = 10;
 void* genericPointer = &value;
 ```
 
-## 12.14.2 Dereferencing
+### 12.14.2 Dereferencing
 
 Void pointer directly dereference nahi hota. Correct type mein convert karna padta hai.
 
@@ -641,32 +641,32 @@ int* integerPointer = static_cast<int*>(genericPointer);
 cout << *integerPointer;
 ```
 
-## 12.14.3 Limitations
+### 12.14.3 Limitations
 
 - Direct dereference allowed nahi.
 - Pointer arithmetic directly valid nahi.
 - Type safety lost ho sakti hai.
 - Incorrect cast undefined behavior cause kar sakta hai.
 
-## 12.14.4 Use
+### 12.14.4 Use
 
 Low-level generic C interfaces aur raw memory APIs mein mil sakta hai. Modern typed abstractions generally safer hain.
 
 ---
 
-# 12.15 Function Pointers
+## 12.15 Function Pointers
 
-## 12.15.1 Meaning
+### 12.15.1 Meaning
 
 Function pointer function ka address store karta hai.
 
-## 12.15.2 Declaration
+### 12.15.2 Declaration
 
 ```cpp
 int (*operation)(int, int);
 ```
 
-## 12.15.3 Example
+### 12.15.3 Example
 
 ```cpp
 int add(int a, int b)
@@ -689,7 +689,7 @@ int main()
 }
 ```
 
-## 12.15.4 Uses
+### 12.15.4 Uses
 
 - Callbacks
 - Operation selection
@@ -697,7 +697,7 @@ int main()
 - Sorting/comparison functions
 - Function tables
 
-## 12.15.5 Type Alias
+### 12.15.5 Type Alias
 
 ```cpp
 using Operation = int (*)(int, int);
@@ -706,27 +706,27 @@ Operation function = add;
 
 ---
 
-# 12.16 Command-Line Arguments
+## 12.16 Command-Line Arguments
 
-## 12.16.1 Meaning
+### 12.16.1 Meaning
 
 Program start karte time command line se supplied values command-line arguments hain.
 
-## 12.16.2 main Signature
+### 12.16.2 main Signature
 
 ```cpp
 int main(int argc, char* argv[])
 ```
 
-## 12.16.3 argc
+### 12.16.3 argc
 
 Arguments ki count, normally program name including.
 
-## 12.16.4 argv
+### 12.16.4 argv
 
 C-style strings ka array, jisme argument text hota hai.
 
-## 12.16.5 Program
+### 12.16.5 Program
 
 ```cpp
 #include <iostream>
@@ -745,7 +745,7 @@ int main(int argc, char* argv[])
 }
 ```
 
-### Example Run
+#### Example Run
 
 ```text
 program hello 25
@@ -759,73 +759,73 @@ argv[1] = hello
 argv[2] = 25
 ```
 
-## 12.16.6 Conversion
+### 12.16.6 Conversion
 
 Arguments strings hote hain. Numeric conversion ke liye validated methods, such as `std::stoi`, use kiye ja sakte hain with error handling.
 
 ---
 
-# 12.17 Pointer Applications
+## 12.17 Pointer Applications
 
-## 12.17.1 Dynamic Data Structures
+### 12.17.1 Dynamic Data Structures
 
 Linked lists, trees aur graphs nodes ko pointers/smart pointers se connect kar sakte hain.
 
-## 12.17.2 Efficient Function Communication
+### 12.17.2 Efficient Function Communication
 
 Large data copy avoid aur caller data modify karna.
 
-## 12.17.3 Dynamic Arrays
+### 12.17.3 Dynamic Arrays
 
 Runtime-size storage allocate karna.
 
-## 12.17.4 Hardware Access
+### 12.17.4 Hardware Access
 
 Embedded/system programming mein mapped memory aur device registers access.
 
-## 12.17.5 Callbacks
+### 12.17.5 Callbacks
 
 Function pointers/callables se behavior dynamically select karna.
 
 ---
 
-# 12.18 Common Pointer Errors
+## 12.18 Common Pointer Errors
 
-## 12.18.1 Null Dereference
+### 12.18.1 Null Dereference
 
 `nullptr` ko dereference karna invalid hai.
 
-## 12.18.2 Wild Pointer Use
+### 12.18.2 Wild Pointer Use
 
 Uninitialized pointer use na karein.
 
-## 12.18.3 Dangling Pointer Use
+### 12.18.3 Dangling Pointer Use
 
 Deleted/out-of-scope object ka address access na karein.
 
-## 12.18.4 Memory Leak
+### 12.18.4 Memory Leak
 
 Owned allocated memory release na karna.
 
-## 12.18.5 Double Delete
+### 12.18.5 Double Delete
 
 Same memory ko twice release karna.
 
-## 12.18.6 Mismatched Deallocation
+### 12.18.6 Mismatched Deallocation
 
 `new[]` with `delete[]` aur `new` with `delete` match karein.
 
-## 12.18.7 Out-of-Bounds Arithmetic
+### 12.18.7 Out-of-Bounds Arithmetic
 
 Pointer ko valid array range ke outside dereference na karein.
 
-## 12.18.8 Wrong Format or Type Cast
+### 12.18.8 Wrong Format or Type Cast
 
 Incorrect cast pointed object type ko change nahi karta; unsafe access undefined behavior cause kar sakta hai.
 
 ---
 
-# 12.19 Pointer Safety Best Practices
+## 12.19 Pointer Safety Best Practices
 
 1. Pointer ko initialize karein, preferably `nullptr` se.
 2. Dereference se pehle validity check karein.
@@ -840,9 +840,9 @@ Incorrect cast pointed object type ko change nahi karta; unsafe access undefined
 
 ---
 
-# 12.20 Important Differences
+## 12.20 Important Differences
 
-## 12.20.1 Pointer vs Normal Variable
+### 12.20.1 Pointer vs Normal Variable
 
 | Normal Variable | Pointer |
 |---|---|
@@ -850,7 +850,7 @@ Incorrect cast pointed object type ko change nahi karta; unsafe access undefined
 | `int value` | `int* pointer` |
 | Name se value access | Dereference se pointed value |
 
-## 12.20.2 Null vs Dangling Pointer
+### 12.20.2 Null vs Dangling Pointer
 
 | Null Pointer | Dangling Pointer |
 |---|---|
@@ -858,7 +858,7 @@ Incorrect cast pointed object type ko change nahi karta; unsafe access undefined
 | Explicit `nullptr` | Deletion/scope exit ke baad ho sakta hai |
 | Checkable safe state | Dangerous if used |
 
-## 12.20.3 Static vs Dynamic Array
+### 12.20.3 Static vs Dynamic Array
 
 | Fixed Built-in Array | Dynamic Array |
 |---|---|
@@ -866,7 +866,7 @@ Incorrect cast pointed object type ko change nahi karta; unsafe access undefined
 | Automatic/static storage possible | `new[]` allocated |
 | Automatic cleanup if local object | Manual `delete[]` required for raw pointer |
 
-## 12.20.4 Array of Pointers vs Pointer to Array
+### 12.20.4 Array of Pointers vs Pointer to Array
 
 | Array of Pointers | Pointer to Array |
 |---|---|
@@ -875,13 +875,13 @@ Incorrect cast pointed object type ko change nahi karta; unsafe access undefined
 
 ---
 
-# 12.21 Chapter Summary
+## 12.21 Chapter Summary
 
 A pointer is a variable that stores the address of another object or function. The address-of operator obtains an address and the dereference operator accesses the pointed value. Pointer type compatibility, initialization and lifetime are essential because null, wild and dangling pointers must not be dereferenced. Pointers support function communication, multi-level indirection, arrays and pointer arithmetic within valid ranges. Dynamic memory can be allocated with new and released with delete, while arrays require new[] and delete[]. C allocation functions must not be mixed with C++ deallocation. Arrays of pointers store multiple addresses, void pointers provide untyped object addresses and function pointers enable callbacks. Command-line arguments arrive through argc and argv. Modern C++ reduces ownership errors through containers, RAII and smart pointers.
 
 ---
 
-# 12.22 Quick Revision
+## 12.22 Quick Revision
 
 - Pointer another object/function ka address store karta hai.
 - `&` address aur `*` dereferenced value deta hai.
@@ -897,7 +897,7 @@ A pointer is a variable that stores the address of another object or function. T
 
 ---
 
-# 12.23 Important Abbreviations
+## 12.23 Important Abbreviations
 
 | Abbreviation | Full Form |
 |---|---|
@@ -908,7 +908,7 @@ A pointer is a variable that stores the address of another object or function. T
 
 ---
 
-# 12.24 Multiple-Choice Questions
+## 12.24 Multiple-Choice Questions
 
 1. Pointer kya store karta hai?  
    A. Address  B. Only character  C. Loop  D. Header  
@@ -944,7 +944,7 @@ A pointer is a variable that stores the address of another object or function. T
 
 ---
 
-# 12.25 Short-Answer Questions
+## 12.25 Short-Answer Questions
 
 1. Pointer ko define kijiye.
 2. Address-of aur dereference operators explain kijiye.
@@ -962,7 +962,7 @@ A pointer is a variable that stores the address of another object or function. T
 
 ---
 
-# 12.26 Long-Answer and Exam Questions
+## 12.26 Long-Answer and Exam Questions
 
 1. Pointers ko memory diagram aur program ke saath explain kijiye.
 2. Pointer parameters se swap program likhiye.
@@ -978,7 +978,7 @@ A pointer is a variable that stores the address of another object or function. T
 
 ---
 
-# 12.27 Practice Programs
+## 12.27 Practice Programs
 
 1. Pointer se variable display aur modify kijiye.
 2. Pointers se two numbers swap kijiye.
@@ -993,7 +993,7 @@ A pointer is a variable that stores the address of another object or function. T
 
 ---
 
-# 12.28 Viva Questions
+## 12.28 Viva Questions
 
 1. Pointer aur address mein kya relation hai?
 2. `int* p` mein star ka kya role hai?
@@ -1012,7 +1012,7 @@ A pointer is a variable that stores the address of another object or function. T
 
 <div align="center">
 
-## ✅ Chapter 12 Complete
+### ✅ Chapter 12 Complete
 
 [⬅️ Previous Chapter](chapter-11-arrays.md) · [📚 Table of Contents](../SUMMARY.md) · **Course Chapters Complete 🎉**
 
