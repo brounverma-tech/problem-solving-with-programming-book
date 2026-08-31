@@ -17,7 +17,7 @@
 
 ## 🌟 About This Book
 
-Yeh book **Problem Solving with Programming** ko bilkul basic level se samjhane ke liye banayi gayi hai. Har concept ki English definition ke saath simple Hinglish explanation, examples aur exam-oriented questions diye jayenge.
+Yeh book **Problem Solving with Programming** ko bilkul basic level se samjhane ke liye banayi gayi hai. Har concept ki English definition ke saath simple Hinglish explanation, examples aur exam-oriented questions diye gaye hain.
 
 > 🎯 **Goal:** Computer fundamentals se lekar C++ programming, functions, arrays aur pointers tak step-by-step mastery.
 
@@ -40,134 +40,37 @@ Yeh book **Problem Solving with Programming** ko bilkul basic level se samjhane 
 
 ## 🔵 Unit A: Computer Systems and Hardware Concepts
 
-### 📖 [Chapter 1: Introduction to Computers](chapters/chapter-01-introduction-to-computers.md) ✅
-- **1.1** Introduction to Computers
-  - **1.1.1** What is a Computer?
-  - **1.1.2** Characteristics of Computers
-- **1.2** Generations of Computers
-- **1.3** Classification of Computers
-- **1.4** Basic Computer Organization
-- **1.5** Applications of Computers
-
-### 📖 [Chapter 2: Computer Memory and Processors](chapters/chapter-02-computer-memory-and-processors.md) ✅
-- **2.1** Introduction to Computer Memory
-- **2.2** Memory Hierarchy
-- **2.3** Processor and Registers
-- **2.4** Cache Memory
-- **2.5** Primary Memory
-- **2.6** Secondary Storage Devices
-- **2.7** Basic Processor Architecture
-
-### 📖 [Chapter 3: Input and Output Devices](chapters/chapter-03-input-and-output-devices.md) ✅
-- **3.1** Input Devices
-- **3.2** Output Devices
-- **3.3** Softcopy Devices
-- **3.4** Hardcopy Devices
-
----
+1. [Chapter 1: Introduction to Computers](chapters/chapter-01-introduction-to-computers.md)
+2. [Chapter 2: Computer Memory and Processors](chapters/chapter-02-computer-memory-and-processors.md)
+3. [Chapter 3: Input and Output Devices](chapters/chapter-03-input-and-output-devices.md)
 
 ## 🟢 Unit B: Computer Software and Computer Codes
 
-### 📖 [Chapter 4: Computer Software](chapters/chapter-04-computer-software.md) ✅
-- **4.1** Introduction to Computer Software
-- **4.2** Classification of Software
-- **4.3** System Software
-- **4.4** Application Software
-- **4.5** Firmware
-- **4.6** Middleware
-
-### 📖 [Chapter 5: Introduction to the Internet](chapters/chapter-05-introduction-to-the-internet.md) ✅
-- **5.1** Brief History of the Internet
-- **5.2** Web Page
-- **5.3** Website
-- **5.4** Web Browsers
-- **5.5** URL
-- **5.6** HTML
-- **5.7** Internet Service Provider
-
-### 📖 [Chapter 6: Number Systems and Computer Codes](chapters/chapter-06-number-systems-and-computer-codes.md) ✅
-- **6.1** Binary Number System
-- **6.2** Working with Binary Numbers
-- **6.3** Octal Number System
-- **6.4** Hexadecimal Number System
-- **6.5** Working with Fractions
-- **6.6** Signed Binary Number Representation
-
----
+4. [Chapter 4: Computer Software](chapters/chapter-04-computer-software.md)
+5. [Chapter 5: Introduction to the Internet](chapters/chapter-05-introduction-to-the-internet.md)
+6. [Chapter 6: Number Systems and Computer Codes](chapters/chapter-06-number-systems-and-computer-codes.md)
 
 ## 🟠 Unit C: Programming Fundamentals Using C++
 
-### 📖 [Chapter 7: Introduction to C++](chapters/chapter-07-introduction-to-cpp.md) ✅
-- **7.1** Introduction to the C++ Language
-- **7.2** Structure of a C++ Program
-- **7.3** Identifiers
-- **7.4** Data Types
-- **7.5** Variables and Constants
-- **7.6** Input and Output
-
-### 📖 [Chapter 8: Operators and Expressions](chapters/chapter-08-operators-and-expressions.md) ✅
-- **8.1** Arithmetic Operators
-- **8.2** Relational Operators
-- **8.3** Logical Operators
-- **8.4** Bitwise Operators
-- **8.5** Expressions
-- **8.6** Precedence and Associativity
-- **8.7** Expression Evaluation
-- **8.8** Type Conversion
-
-### 📖 [Chapter 9: Decision-Making and Loops](chapters/chapter-09-decision-making-and-loops.md) ✅
-- **9.1** Selection Statements
-  - **9.1.1** if Statement
-  - **9.1.2** if-else Statement
-  - **9.1.3** switch Statement
-- **9.2** Repetition Statements
-  - **9.2.1** while Loop
-  - **9.2.2** for Loop
-  - **9.2.3** do-while Loop
-- **9.3** break Statement
-- **9.4** continue Statement
-- **9.5** goto Statement
-- **9.6** Simple C++ Programs
-
----
+7. [Chapter 7: Introduction to C++](chapters/chapter-07-introduction-to-cpp.md)
+8. [Chapter 8: Operators and Expressions](chapters/chapter-08-operators-and-expressions.md)
+9. [Chapter 9: Decision-Making and Loops](chapters/chapter-09-decision-making-and-loops.md)
 
 ## 🔴 Unit D: Functions, Arrays and Pointers in C++
 
-### 📖 [Chapter 10: Functions and Structured Programming](chapters/chapter-10-functions-and-structured-programming.md) ✅
-- **10.1** Introduction to Structured Programming
-- **10.2** Function Basics
-- **10.3** User-Defined Functions
-- **10.4** Call by Value
-- **10.5** Call by Reference
-- **10.6** Standard Functions
-- **10.7** Storage Classes
-  - **10.7.1** auto
-  - **10.7.2** register
-  - **10.7.3** static
-  - **10.7.4** extern
-- **10.8** Scope Rules
-- **10.9** Arrays to Functions
-- **10.10** Recursive Functions
+10. [Chapter 10: Functions and Structured Programming](chapters/chapter-10-functions-and-structured-programming.md)
+11. [Chapter 11: Arrays](chapters/chapter-11-arrays.md)
+12. [Chapter 12: Pointers](chapters/chapter-12-pointers.md)
 
-### 📖 [Chapter 11: Arrays](chapters/chapter-11-arrays.md) ✅
-- **11.1** Introduction to Arrays
-- **11.2** One-Dimensional Arrays
-- **11.3** Two-Dimensional Arrays
-- **11.4** Multidimensional Arrays
-- **11.5** Array-Based C++ Programs
+## 📎 Appendices
 
-### 📖 [Chapter 12: Pointers](chapters/chapter-12-pointers.md) ✅
-- **12.1** Pointer Basics
-- **12.2** Pointers to Pointers
-- **12.3** Pointer Compatibility
-- **12.4** Pointer Applications
-- **12.5** Arrays and Pointers
-- **12.6** Pointer Arithmetic
-- **12.7** Dynamic Memory Allocation
-- **12.8** Array of Pointers
-- **12.9** Void Pointers
-- **12.10** Pointers to Functions
-- **12.11** Command-Line Arguments
+- [Appendix A: Important Computer and Programming Terms](appendices/appendix-a-important-terms.md)
+- [Appendix B: C++ Syntax Quick Reference](appendices/appendix-b-cpp-syntax-quick-reference.md)
+- [Appendix C: Practical C++ Programs](appendices/appendix-c-practical-cpp-programs.md)
+- [Appendix D: Viva Questions with Answers](appendices/appendix-d-viva-questions.md)
+- [Appendix E: Important Exam Questions](appendices/appendix-e-important-exam-questions.md)
+- [Appendix F: MCQ Practice Sets and Answer Keys](appendices/appendix-f-mcq-answer-keys.md)
+- [Appendix G: A–Z Glossary](appendices/appendix-g-glossary.md)
 
 ---
 
