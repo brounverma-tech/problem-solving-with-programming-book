@@ -581,7 +581,7 @@ Small portable flash storage, commonly cameras, phones aur embedded devices mein
 
 Mass storage large amounts of data ko long-term store karne wali technologies ko describe karta hai.
 
-## 2.13.2 Examples
+## Examples
 
 - Internal and external HDD
 - SSD
@@ -590,7 +590,7 @@ Mass storage large amounts of data ko long-term store karne wali technologies ko
 - Magnetic tape libraries
 - Cloud-backed storage systems
 
-## 2.13.3 Uses
+## 2.13.2 Uses
 
 - Organizational data
 - Backups
@@ -654,7 +654,7 @@ Result register ya memory mein store hota hai.
 Fetch → Decode → Execute → Store → Next Instruction
 ```
 
-## 2.14.4 Simple Example
+## Simple Example
 
 Instruction: Do numbers ko add karna.
 
