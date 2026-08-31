@@ -133,7 +133,7 @@ Yeh book **Problem Solving with Programming** ko bilkul basic level se samjhane 
 
 ## 🔴 Unit D: Functions, Arrays and Pointers in C++
 
-### 📖 Chapter 10: Functions and Structured Programming
+### 📖 [Chapter 10: Functions and Structured Programming](chapters/chapter-10-functions-and-structured-programming.md) ✅
 - **10.1** Introduction to Structured Programming
 - **10.2** Function Basics
 - **10.3** User-Defined Functions
