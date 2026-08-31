@@ -28,19 +28,19 @@ Is chapter ko complete karne ke baad aap:
 
 ---
 
-# 5.1 Introduction to the Internet
+## 5.1 Introduction to the Internet
 
-## 5.1.1 Meaning of the Internet
+### 5.1.1 Meaning of the Internet
 
-### 📘 English Definition
+#### 📘 English Definition
 
 > The Internet is a worldwide network of interconnected computer networks that communicate using standard protocols.
 
-### 💬 Hinglish Explanation
+#### 💬 Hinglish Explanation
 
 Internet duniya bhar ke computers, servers, phones aur networks ko connect karne wala **global network** hai. Iske through users information access, email, messaging, video calls, online study, banking aur shopping kar sakte hain.
 
-## 5.1.2 Network of Networks
+### 5.1.2 Network of Networks
 
 Internet ko **network of networks** kaha jata hai kyunki yeh millions of smaller private, public, educational, business aur government networks ko connect karta hai.
 
@@ -48,7 +48,7 @@ Internet ko **network of networks** kaha jata hai kyunki yeh millions of smaller
 Device → Local Network → ISP → Internet → Server
 ```
 
-## 5.1.3 Important Terms
+### 5.1.3 Important Terms
 
 | Term | Pronunciation | Meaning |
 |---|---|---|
@@ -64,40 +64,40 @@ Device → Local Network → ISP → Internet → Server
 
 ---
 
-# 5.2 Brief History of the Internet
+## 5.2 Brief History of the Internet
 
-## 5.2.1 ARPA and ARPANET
+### 5.2.1 ARPA and ARPANET
 
 1960s mein United States ki **Advanced Research Projects Agency** ne computer-network research support ki. **ARPANET** early packet-switched network tha.
 
-## 5.2.2 First ARPANET Connection
+### 5.2.2 First ARPANET Connection
 
 1969 mein early ARPANET nodes universities aur research institutions ke beech connect hue. Isne remote computers ke बीच data communication demonstrate kiya.
 
-## 5.2.3 Packet Switching
+### 5.2.3 Packet Switching
 
 Data ko small packets mein divide karke network ke through destination tak bhejne ka method packet switching kehlata hai.
 
-### Basic Process
+#### Basic Process
 
 1. Data packets mein divide hota hai.
 2. Har packet addressing information carry karta hai.
 3. Packets different routes se travel kar sakte hain.
 4. Destination par packets reassemble hote hain.
 
-## 5.2.4 Development of Email
+### 5.2.4 Development of Email
 
 1970s mein network email popular service bani aur users ko electronic messages exchange karne ki सुविधा मिली.
 
-## 5.2.5 TCP/IP
+### 5.2.5 TCP/IP
 
 **TCP/IP** protocols ne different networks ko common communication rules provide kiye. 1 January 1983 ko ARPANET ke TCP/IP adoption ko modern Internet development ka important milestone maana jata hai.
 
-## 5.2.6 Domain Name System
+### 5.2.6 Domain Name System
 
 1980s mein **DNS** develop hua, jisse numeric IP addresses ke badle human-readable domain names use karna आसान hua.
 
-## 5.2.7 World Wide Web
+### 5.2.7 World Wide Web
 
 1989–1990 ke around Tim Berners-Lee ne CERN mein World Wide Web ke main concepts develop kiye:
 
@@ -106,11 +106,11 @@ Data ko small packets mein divide karke network ke through destination tak bhejn
 - URL
 - Web browser/server model
 
-## 5.2.8 Public and Commercial Growth
+### 5.2.8 Public and Commercial Growth
 
 1990s mein graphical browsers aur commercial Internet access ke कारण Web common users tak pahunchi. Later broadband, Wi-Fi, smartphones, cloud computing aur mobile networks ne Internet ko everyday life ka part bana diya.
 
-## 5.2.9 Internet Timeline
+### 5.2.9 Internet Timeline
 
 | Period/Year | Development |
 |---|---|
@@ -126,13 +126,13 @@ Data ko small packets mein divide karke network ke through destination tak bhejn
 
 ---
 
-# 5.3 Internet and World Wide Web
+## 5.3 Internet and World Wide Web
 
-## 5.3.1 Meaning of World Wide Web
+### 5.3.1 Meaning of World Wide Web
 
 > The World Wide Web is a system of interlinked web pages and resources accessed through the Internet using web browsers.
 
-## 5.3.2 Internet vs World Wide Web
+### 5.3.2 Internet vs World Wide Web
 
 | Basis | Internet | World Wide Web |
 |---|---|---|
@@ -146,9 +146,9 @@ Data ko small packets mein divide karke network ke through destination tak bhejn
 
 ---
 
-# 5.4 How the Web Works
+## 5.4 How the Web Works
 
-## 5.4.1 Basic Request–Response Process
+### 5.4.1 Basic Request–Response Process
 
 ```text
 User enters URL
@@ -164,29 +164,29 @@ Server sends response
 Browser displays web page
 ```
 
-## 5.4.2 Client
+### 5.4.2 Client
 
 Client service request karta hai.
 
 **Examples:** Web browser, mobile app and email client.
 
-## 5.4.3 Server
+### 5.4.3 Server
 
 Server requested data, web page, file ya service provide karta hai.
 
-## 5.4.4 Protocol
+### 5.4.4 Protocol
 
 Protocol communication ke rules define karta hai.
 
 **Examples:** HTTP, HTTPS, TCP, IP, FTP and SMTP.
 
-## 5.4.5 IP Address
+### 5.4.5 IP Address
 
 Network par device ko identify karne wala numerical address.
 
 **Examples:** IPv4 and IPv6 addresses.
 
-## 5.4.6 Domain Name System
+### 5.4.6 Domain Name System
 
 DNS domain name ko corresponding IP address se map karta hai.
 
@@ -196,19 +196,19 @@ example.com → DNS lookup → Server IP address
 
 ---
 
-# 5.5 Web Page
+## 5.5 Web Page
 
-## 5.5.1 Meaning of Web Page
+### 5.5.1 Meaning of Web Page
 
-### 📘 English Definition
+#### 📘 English Definition
 
 > A web page is a document or resource on the World Wide Web that can be viewed through a web browser.
 
-### 💬 Hinglish Explanation
+#### 💬 Hinglish Explanation
 
 Web page ek single digital page hota hai jo browser mein open hota hai. Isme text, images, links, audio, video, forms aur interactive content ho sakta hai.
 
-## 5.5.2 Components of a Web Page
+### 5.5.2 Components of a Web Page
 
 - Headings
 - Paragraphs
@@ -220,15 +220,15 @@ Web page ek single digital page hota hai jo browser mein open hota hai. Isme tex
 - Audio and video
 - Buttons and interactive elements
 
-## 5.5.3 Static Web Page
+### 5.5.3 Static Web Page
 
 Fixed content show karta hai. Change ke liye page file edit karni padti hai.
 
-## 5.5.4 Dynamic Web Page
+### 5.5.4 Dynamic Web Page
 
 Content user, database, time ya other conditions ke according change ho sakta hai.
 
-## 5.5.5 Static and Dynamic Web Page Difference
+### 5.5.5 Static and Dynamic Web Page Difference
 
 | Basis | Static | Dynamic |
 |---|---|---|
@@ -239,19 +239,19 @@ Content user, database, time ya other conditions ke according change ho sakta ha
 
 ---
 
-# 5.6 Website
+## 5.6 Website
 
-## 5.6.1 Meaning of Website
+### 5.6.1 Meaning of Website
 
 > A website is a collection of related web pages and resources available under a common domain name.
 
 **Examples:** University website, online store, news website and portfolio.
 
-## 5.6.2 Home Page
+### 5.6.2 Home Page
 
 Website ka main entry page **home page** kehlata hai. Yeh important sections aur navigation links provide karta hai.
 
-## 5.6.3 Website Structure
+### 5.6.3 Website Structure
 
 ```text
 Website
@@ -263,41 +263,41 @@ Website
 └── Other Pages and Resources
 ```
 
-## 5.6.4 Types of Websites
+### 5.6.4 Types of Websites
 
-### 5.6.4.1 Educational Website
+#### 5.6.4.1 Educational Website
 
 Courses, learning resources aur academic information provide karti hai.
 
-### 5.6.4.2 E-Commerce Website
+#### 5.6.4.2 E-Commerce Website
 
 Products/services browse aur purchase karne deta hai.
 
-### 5.6.4.3 News Website
+#### 5.6.4.3 News Website
 
 Current news aur articles publish karti hai.
 
-### 5.6.4.4 Social-Networking Website
+#### 5.6.4.4 Social-Networking Website
 
 Users ko profiles, posts aur communication features provide karti hai.
 
-### 5.6.4.5 Government Website
+#### 5.6.4.5 Government Website
 
 Public information aur digital services provide karti hai.
 
-### 5.6.4.6 Business Website
+#### 5.6.4.6 Business Website
 
 Company, products aur services ki information deti hai.
 
-### 5.6.4.7 Blog
+#### 5.6.4.7 Blog
 
 Regular articles ya posts publish karta hai.
 
-### 5.6.4.8 Portfolio Website
+#### 5.6.4.8 Portfolio Website
 
 Person ya organization ka work showcase karti hai.
 
-## 5.6.5 Web Page and Website Difference
+### 5.6.5 Web Page and Website Difference
 
 | Web Page | Website |
 |---|---|
@@ -308,19 +308,19 @@ Person ya organization ka work showcase karti hai.
 
 ---
 
-# 5.7 Web Browser
+## 5.7 Web Browser
 
-## 5.7.1 Meaning of Browser
+### 5.7.1 Meaning of Browser
 
-### 📘 English Definition
+#### 📘 English Definition
 
 > A web browser is application software used to request, receive, interpret and display web content.
 
-### 💬 Hinglish Explanation
+#### 💬 Hinglish Explanation
 
 Browser woh application hai jisse hum websites open karte hain. Browser server ko request bhejta hai aur received HTML, CSS, JavaScript aur media ko screen par display karta hai.
 
-## Examples
+#### Examples
 
 - Google Chrome
 - Mozilla Firefox
@@ -329,33 +329,33 @@ Browser woh application hai jisse hum websites open karte hain. Browser server k
 - Opera
 - Brave
 
-## 5.7.2 Main Browser Components
+### 5.7.2 Main Browser Components
 
-### 5.7.2.1 Address Bar
+#### 5.7.2.1 Address Bar
 
 URL enter aur current address view karne ke liye.
 
-### 5.7.2.2 Tabs
+#### 5.7.2.2 Tabs
 
 Ek window mein multiple web pages open karne ke liye.
 
-### 5.7.2.3 Navigation Buttons
+#### 5.7.2.3 Navigation Buttons
 
 Back, forward, reload aur home actions ke liye.
 
-### 5.7.2.4 Bookmarks
+#### 5.7.2.4 Bookmarks
 
 Useful web addresses save karne ke liye.
 
-### 5.7.2.5 History
+#### 5.7.2.5 History
 
 Previously visited pages ka record.
 
-### 5.7.2.6 Download Manager
+#### 5.7.2.6 Download Manager
 
 Downloaded files manage karta hai.
 
-## 5.7.3 Functions of a Browser
+### 5.7.3 Functions of a Browser
 
 1. URL receive karna.
 2. DNS aur network ke through server locate karna.
@@ -367,7 +367,7 @@ Downloaded files manage karta hai.
 8. Final page display karna.
 9. Security warnings aur permissions manage karna.
 
-## 5.7.4 Browser vs Search Engine
+### 5.7.4 Browser vs Search Engine
 
 | Browser | Search Engine |
 |---|---|
@@ -378,49 +378,49 @@ Downloaded files manage karta hai.
 
 ---
 
-# 5.8 Uniform Resource Locator
+## 5.8 Uniform Resource Locator
 
-## 5.8.1 Meaning of URL
+### 5.8.1 Meaning of URL
 
 > A Uniform Resource Locator is the address used to identify and access a resource on the Internet or Web.
 
-## URL Example
+#### URL Example
 
 ```text
 https://www.example.com:443/courses/cpp?unit=1#notes
 ```
 
-## 5.8.2 Components of a URL
+### 5.8.2 Components of a URL
 
-### 5.8.2.1 Scheme or Protocol
+#### 5.8.2.1 Scheme or Protocol
 
 `https://` batata hai resource ko kis protocol se access karna hai.
 
-### 5.8.2.2 Subdomain
+#### 5.8.2.2 Subdomain
 
 `www` main domain ke under optional subdomain hai.
 
-### 5.8.2.3 Domain Name
+#### 5.8.2.3 Domain Name
 
 `example.com` website ka human-readable name hai.
 
-### 5.8.2.4 Port
+#### 5.8.2.4 Port
 
 `:443` service ka network port represent karta hai. Standard ports often URL mein omit hote hain.
 
-### 5.8.2.5 Path
+#### 5.8.2.5 Path
 
 `/courses/cpp` server par resource ka location/path batata hai.
 
-### 5.8.2.6 Query String
+#### 5.8.2.6 Query String
 
 `?unit=1` request ke saath parameters bhejti hai.
 
-### 5.8.2.7 Fragment
+#### 5.8.2.7 Fragment
 
 `#notes` page ke specific section ko indicate karta hai.
 
-## 5.8.3 Domain Name Parts
+### 5.8.3 Domain Name Parts
 
 ```text
 www.example.com
@@ -429,7 +429,7 @@ www.example.com
 └─────────────── Subdomain
 ```
 
-## 5.8.4 Common Top-Level Domains
+### 5.8.4 Common Top-Level Domains
 
 | TLD | Common Association |
 |---|---|
@@ -440,7 +440,7 @@ www.example.com
 | .in | India country-code domain |
 | .net | Network/general |
 
-## 5.8.5 HTTP and HTTPS
+### 5.8.5 HTTP and HTTPS
 
 - **HTTP:** Hypertext Transfer Protocol
 - **HTTPS:** Hypertext Transfer Protocol Secure
@@ -449,21 +449,21 @@ HTTPS communication ko encryption aur server authentication mechanisms se protec
 
 ---
 
-# 5.9 HyperText Markup Language
+## 5.9 HyperText Markup Language
 
-## 5.9.1 Meaning of HTML
+### 5.9.1 Meaning of HTML
 
-### 📘 English Definition
+#### 📘 English Definition
 
 > HTML is the standard markup language used to structure content on web pages.
 
-### 💬 Hinglish Explanation
+#### 💬 Hinglish Explanation
 
 HTML web page ka basic structure banata hai. Yeh browser ko batata hai ki heading, paragraph, image, link aur other content ka role kya hai.
 
 > HTML programming language nahi, **markup language** hai.
 
-## HTML Document Example
+#### HTML Document Example
 
 ```html
 <!DOCTYPE html>
@@ -479,7 +479,7 @@ HTML web page ka basic structure banata hai. Yeh browser ko batata hai ki headin
 </html>
 ```
 
-## 5.9.2 Basic HTML Elements
+### 5.9.2 Basic HTML Elements
 
 | Element | Purpose |
 |---|---|
@@ -492,7 +492,7 @@ HTML web page ka basic structure banata hai. Yeh browser ko batata hai ki headin
 | `a` | Hyperlink |
 | `img` | Image |
 
-## 5.9.3 HTML, CSS and JavaScript
+### 5.9.3 HTML, CSS and JavaScript
 
 | Technology | Main Role |
 |---|---|
@@ -500,25 +500,25 @@ HTML web page ka basic structure banata hai. Yeh browser ko batata hai ki headin
 | CSS | Style and layout |
 | JavaScript | Behaviour and interactivity |
 
-## 5.9.4 Hyperlink
+### 5.9.4 Hyperlink
 
 Hyperlink ek clickable connection hai jo user ko another page, file, section ya resource par le jata hai.
 
 ---
 
-# 5.10 Internet Service Provider
+## 5.10 Internet Service Provider
 
-## 5.10.1 Meaning of ISP
+### 5.10.1 Meaning of ISP
 
-### 📘 English Definition
+#### 📘 English Definition
 
 > An Internet Service Provider is an organization that provides users and businesses with access to the Internet and related services.
 
-### 💬 Hinglish Explanation
+#### 💬 Hinglish Explanation
 
 ISP company ya organization hoti hai jo ghar, office ya mobile device ko Internet connection provide karti hai.
 
-## 5.10.2 Services Provided by an ISP
+### 5.10.2 Services Provided by an ISP
 
 - Internet connectivity
 - IP address assignment
@@ -529,37 +529,37 @@ ISP company ya organization hoti hai jo ghar, office ya mobile device ko Interne
 - Security or filtering options
 - Business connectivity
 
-## 5.10.3 Internet Connection Types
+### 5.10.3 Internet Connection Types
 
-### 5.10.3.1 Dial-Up
+#### 5.10.3.1 Dial-Up
 
 Telephone line based slow connection. Aaj largely outdated hai.
 
-### 5.10.3.2 Digital Subscriber Line
+#### 5.10.3.2 Digital Subscriber Line
 
 Telephone infrastructure ke through broadband connection.
 
-### 5.10.3.3 Cable Internet
+#### 5.10.3.3 Cable Internet
 
 Cable television network infrastructure use karta hai.
 
-### 5.10.3.4 Fiber-Optic Internet
+#### 5.10.3.4 Fiber-Optic Internet
 
 Light signals ke through very high-speed data transmission provide karta hai.
 
-### 5.10.3.5 Mobile Internet
+#### 5.10.3.5 Mobile Internet
 
 Cellular networks such as 4G aur 5G ke through access.
 
-### 5.10.3.6 Satellite Internet
+#### 5.10.3.6 Satellite Internet
 
 Satellite communication ke through remote areas mein connectivity provide kar sakta hai.
 
-### 5.10.3.7 Leased Line
+#### 5.10.3.7 Leased Line
 
 Business ke liye dedicated connection with defined service conditions.
 
-## 5.10.4 ISP Selection Factors
+### 5.10.4 ISP Selection Factors
 
 - Download and upload speed
 - Data limit
@@ -571,66 +571,66 @@ Business ke liye dedicated connection with defined service conditions.
 - Contract terms
 - Security and privacy practices
 
-## 5.10.5 Bandwidth and Speed
+### 5.10.5 Bandwidth and Speed
 
 Bandwidth connection ki maximum data-carrying capacity describe karti hai. Internet speed actual data-transfer rate ko represent karti hai.
 
-## 5.10.6 Download and Upload Speed
+### 5.10.6 Download and Upload Speed
 
 - **Download speed:** Internet se device par data receive karne ki speed.
 - **Upload speed:** Device se Internet par data send karne ki speed.
 
-## 5.10.7 Latency
+### 5.10.7 Latency
 
 Data ko source se destination aur response travel karne mein lagne wala delay. Usually milliseconds mein measured.
 
 ---
 
-# 5.11 Common Internet Services
+## 5.11 Common Internet Services
 
-## 5.11.1 Email
+### 5.11.1 Email
 
 Electronic messages aur files exchange karne ki service.
 
-## 5.11.2 File Transfer
+### 5.11.2 File Transfer
 
 Internet par files upload aur download karna.
 
-## 5.11.3 Instant Messaging
+### 5.11.3 Instant Messaging
 
 Real-time text, audio aur media communication.
 
-## 5.11.4 Voice and Video Calling
+### 5.11.4 Voice and Video Calling
 
 Internet protocol ke through audio/video communication.
 
-## 5.11.5 Search Engines
+### 5.11.5 Search Engines
 
 Web resources search aur discover karne ki service.
 
-## 5.11.6 Cloud Services
+### 5.11.6 Cloud Services
 
 Remote servers par storage, applications aur computing resources provide karna.
 
-## 5.11.7 Streaming
+### 5.11.7 Streaming
 
 Audio/video ko complete download ke bina continuously play karna.
 
-## 5.11.8 E-Commerce
+### 5.11.8 E-Commerce
 
 Online products aur services buy/sell karna.
 
-## 5.11.9 E-Learning
+### 5.11.9 E-Learning
 
 Online lectures, courses, tests aur study resources.
 
-## 5.11.10 Digital Banking
+### 5.11.10 Digital Banking
 
 Account access, payments aur transactions online perform karna.
 
 ---
 
-# 5.12 Advantages of the Internet
+## 5.12 Advantages of the Internet
 
 - Fast communication
 - Global information access
@@ -645,35 +645,35 @@ Account access, payments aur transactions online perform karna.
 
 ---
 
-# 5.13 Limitations and Risks
+## 5.13 Limitations and Risks
 
-## 5.13.1 Misinformation
+### 5.13.1 Misinformation
 
 Internet par incorrect ya misleading information ho sakti hai.
 
-## 5.13.2 Privacy Risk
+### 5.13.2 Privacy Risk
 
 Personal information inappropriate collection ya sharing ka risk.
 
-## 5.13.3 Cybercrime
+### 5.13.3 Cybercrime
 
 Phishing, fraud, malware aur account theft jaise threats.
 
-## 5.13.4 Digital Addiction
+### 5.13.4 Digital Addiction
 
 Excessive Internet use health, study aur productivity affect kar sakta hai.
 
-## 5.13.5 Digital Divide
+### 5.13.5 Digital Divide
 
 Har person ya region ko equal Internet access available nahi hota.
 
-## 5.13.6 Harmful Content
+### 5.13.6 Harmful Content
 
 Unsafe, illegal ya inappropriate content ka exposure ho sakta hai.
 
 ---
 
-# 5.14 Safe Internet Practices
+## 5.14 Safe Internet Practices
 
 1. Strong and unique passwords use karein.
 2. Multi-factor authentication enable karein.
@@ -688,9 +688,9 @@ Unsafe, illegal ya inappropriate content ka exposure ho sakta hai.
 
 ---
 
-# 5.15 Important Differences
+## 5.15 Important Differences
 
-## 5.15.1 Internet vs Intranet
+### 5.15.1 Internet vs Intranet
 
 | Internet | Intranet |
 |---|---|
@@ -699,7 +699,7 @@ Unsafe, illegal ya inappropriate content ka exposure ho sakta hai.
 | Many owners/networks | One organization manages |
 | Public services | Internal resources |
 
-## 5.15.2 Website vs Web Page
+### 5.15.2 Website vs Web Page
 
 | Website | Web Page |
 |---|---|
@@ -707,7 +707,7 @@ Unsafe, illegal ya inappropriate content ka exposure ho sakta hai.
 | Common domain name | Unique URL |
 | Multiple resources | Website ka one part |
 
-## 5.15.3 Browser vs Search Engine
+### 5.15.3 Browser vs Search Engine
 
 | Browser | Search Engine |
 |---|---|
@@ -715,7 +715,7 @@ Unsafe, illegal ya inappropriate content ka exposure ho sakta hai.
 | Device par installed ho sakta hai | Website/service ke form mein |
 | Chrome, Firefox | Google Search, Bing |
 
-## 5.15.4 Download vs Upload
+### 5.15.4 Download vs Upload
 
 | Download | Upload |
 |---|---|
@@ -725,13 +725,13 @@ Unsafe, illegal ya inappropriate content ka exposure ho sakta hai.
 
 ---
 
-# 5.16 Chapter Summary
+## 5.16 Chapter Summary
 
 The Internet is a worldwide network of interconnected networks that communicate through standard protocols such as TCP/IP. Its development progressed from early packet-switching research and ARPANET to TCP/IP, DNS and the World Wide Web. A web page is a single web document, while a website is a collection of related pages under a common domain. Browsers request, interpret and display web content, and URLs identify the locations of online resources. HTML provides the structure of web pages, while CSS and JavaScript support presentation and interactivity. Internet Service Providers connect users to the Internet through technologies such as fiber, cable, mobile and satellite networks. The Internet supports communication, education, banking, commerce and entertainment, but it must be used with attention to security, privacy and reliable information.
 
 ---
 
-# 5.17 Quick Revision
+## 5.17 Quick Revision
 
 - Internet worldwide network of networks hai.
 - ARPANET early packet-switched network tha.
@@ -747,7 +747,7 @@ The Internet is a worldwide network of interconnected networks that communicate 
 
 ---
 
-# 5.18 Important Abbreviations
+## 5.18 Important Abbreviations
 
 | Abbreviation | Full Form |
 |---|---|
@@ -769,7 +769,7 @@ The Internet is a worldwide network of interconnected networks that communicate 
 
 ---
 
-# 5.19 Multiple-Choice Questions
+## 5.19 Multiple-Choice Questions
 
 ### 1. Internet ko kya kaha jata hai?
 
@@ -863,7 +863,7 @@ D. ISP
 
 ---
 
-# 5.20 Short-Answer Questions
+## 5.20 Short-Answer Questions
 
 1. Internet ko define kijiye.
 2. ARPANET kya tha?
@@ -882,7 +882,7 @@ D. ISP
 
 ---
 
-# 5.21 Long-Answer and Exam Questions
+## 5.21 Long-Answer and Exam Questions
 
 1. Internet ki brief history ko timeline ke saath explain kijiye.
 2. Internet aur World Wide Web mein detailed difference likhiye.
@@ -897,7 +897,7 @@ D. ISP
 
 ---
 
-# 5.22 Practical Exercises
+## 5.22 Practical Exercises
 
 1. Browser mein kisi website ka complete URL identify kijiye.
 2. URL ke scheme, domain, path, query aur fragment parts likhiye.
@@ -910,7 +910,7 @@ D. ISP
 
 ---
 
-# 5.23 Viva Questions
+## 5.23 Viva Questions
 
 1. Internet ko network of networks kyun kehte hain?
 2. ARPANET ka importance kya tha?
@@ -925,7 +925,7 @@ D. ISP
 
 ---
 
-# 5.24 Answers to Selected Viva Questions
+## 5.24 Answers to Selected Viva Questions
 
 1. Internet many independent networks ko globally connect karta hai.
 2. ARPANET early packet-switched networking demonstrate karne wala network tha.
@@ -942,7 +942,7 @@ D. ISP
 
 <div align="center">
 
-## ✅ Chapter 5 Complete
+### ✅ Chapter 5 Complete
 
 [⬅️ Previous Chapter](chapter-04-computer-software.md) · [📚 Table of Contents](../SUMMARY.md) · **Next: Number Systems and Computer Codes ➡️**
 
