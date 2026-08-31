@@ -34,4 +34,4 @@ C. [Practical C++ Programs](appendices/appendix-c-practical-cpp-programs.md)
 D. [Viva Questions](appendices/appendix-d-viva-questions.md)  
 E. [Important Exam Questions](appendices/appendix-e-important-exam-questions.md)  
 F. [MCQ Practice Sets and Answer Keys](appendices/appendix-f-mcq-answer-keys.md)  
-G. Glossary
+G. [Glossary](appendices/appendix-g-glossary.md)
