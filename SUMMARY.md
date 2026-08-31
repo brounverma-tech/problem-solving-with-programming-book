@@ -28,7 +28,7 @@
 
 ## Appendices
 
-A. Important Computer and Programming Terms  
+A. [Important Computer and Programming Terms](appendices/appendix-a-important-terms.md)  
 B. C++ Syntax Quick Reference  
 C. Practical C++ Programs  
 D. Viva Questions  
