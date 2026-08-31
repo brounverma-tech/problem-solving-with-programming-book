@@ -25,19 +25,19 @@ Is chapter ko complete karne ke baad aap:
 
 ---
 
-# 8.1 Operator, Operand and Expression
+## 8.1 Operator, Operand and Expression
 
-## 8.1.1 Operator
+### 8.1.1 Operator
 
 > An operator is a symbol that performs a specific operation on one or more operands.
 
 **Hinglish:** Operator ek symbol hai jo values ya variables par operation karta hai. Example: `a + b` mein `+` operator hai.
 
-## 8.1.2 Operand
+### 8.1.2 Operand
 
 Operator jis value ya variable par work karta hai, use operand kehte hain. `a + b` mein `a` aur `b` operands hain.
 
-## 8.1.3 Expression
+### 8.1.3 Expression
 
 > An expression is a valid combination of operators and operands that produces a value.
 
@@ -45,7 +45,7 @@ Operator jis value ya variable par work karta hai, use operand kehte hain. `a + 
 (a + b) * 2
 ```
 
-## 8.1.4 Types by Operand Count
+### 8.1.4 Types by Operand Count
 
 | Type | Operands | Example |
 |---|---:|---|
@@ -55,7 +55,7 @@ Operator jis value ya variable par work karta hai, use operand kehte hain. `a + 
 
 ---
 
-# 8.2 Arithmetic Operators
+## 8.2 Arithmetic Operators
 
 | Operator | Operation | Example |
 |:---:|---|---|
@@ -65,7 +65,7 @@ Operator jis value ya variable par work karta hai, use operand kehte hain. `a + 
 | `/` | Division | `a / b` |
 | `%` | Remainder | `a % b` |
 
-## Program
+### Program
 
 ```cpp
 #include <iostream>
@@ -86,7 +86,7 @@ int main()
 }
 ```
 
-## 8.2.1 Integer Division
+### 8.2.1 Integer Division
 
 Dono operands integer hon to fractional part truncate ho jata hai.
 
@@ -95,7 +95,7 @@ cout << 7 / 2;    // 3
 cout << 7.0 / 2;  // 3.5
 ```
 
-## 8.2.2 Modulus Uses
+### 8.2.2 Modulus Uses
 
 - Even/odd check
 - Divisibility test
@@ -106,9 +106,9 @@ cout << 7.0 / 2;  // 3.5
 
 ---
 
-# 8.3 Increment and Decrement Operators
+## 8.3 Increment and Decrement Operators
 
-## 8.3.1 Prefix
+### 8.3.1 Prefix
 
 Pehle value update, phir expression mein use.
 
@@ -117,7 +117,7 @@ int x = 5;
 int y = ++x;  // x = 6, y = 6
 ```
 
-## 8.3.2 Postfix
+### 8.3.2 Postfix
 
 Pehle old value use, phir update.
 
@@ -135,7 +135,7 @@ int y = x++;  // y = 5, x = 6
 
 ---
 
-# 8.4 Relational Operators
+## 8.4 Relational Operators
 
 Relational operators comparison karke Boolean result dete hain.
 
@@ -158,7 +158,7 @@ cout << (a != b) << '\n';  // true
 cout << (a < b) << '\n';   // true
 ```
 
-## 8.4.1 Assignment vs Equality
+### 8.4.1 Assignment vs Equality
 
 ```cpp
 x = 5;   // Assignment
@@ -167,7 +167,7 @@ x == 5;  // Comparison
 
 ---
 
-# 8.5 Logical Operators
+## 8.5 Logical Operators
 
 | Operator | Name | True When |
 |:---:|---|---|
@@ -175,7 +175,7 @@ x == 5;  // Comparison
 | `\|\|` | Logical OR | At least one true |
 | `!` | Logical NOT | Condition ko reverse karta hai |
 
-## 8.5.1 Truth Table
+### 8.5.1 Truth Table
 
 | A | B | A && B | A \|\| B |
 |:---:|:---:|:---:|:---:|
@@ -184,7 +184,7 @@ x == 5;  // Comparison
 | true | false | false | true |
 | true | true | true | true |
 
-## 8.5.2 Short-Circuit Evaluation
+### 8.5.2 Short-Circuit Evaluation
 
 - AND mein first condition false ho to second evaluate nahi hoti.
 - OR mein first condition true ho to second evaluate nahi hoti.
@@ -198,7 +198,7 @@ if (denominator != 0 && numerator / denominator > 2)
 
 ---
 
-# 8.6 Assignment Operators
+## 8.6 Assignment Operators
 
 | Operator | Equivalent |
 |:---:|---|
@@ -225,7 +225,7 @@ a = b = c = 0;
 
 ---
 
-# 8.7 Bitwise Operators
+## 8.7 Bitwise Operators
 
 Bitwise operators integer values ke individual bits par work karte hain.
 
@@ -238,7 +238,7 @@ Bitwise operators integer values ke individual bits par work karte hain.
 | `<<` | Left shift |
 | `>>` | Right shift |
 
-## Binary Examples
+### Binary Examples
 
 ```text
   0101     0101     0101
@@ -253,7 +253,7 @@ Therefore, for 5 and 3:
 - `5 | 3 = 7`
 - `5 ^ 3 = 6`
 
-## 8.7.1 Shift Operators
+### 8.7.1 Shift Operators
 
 ```cpp
 unsigned int x = 5;
@@ -261,7 +261,7 @@ cout << (x << 1);  // 10
 cout << (x >> 1);  // 2
 ```
 
-## 8.7.2 Common Uses
+### 8.7.2 Common Uses
 
 - Flags and masks
 - Permissions
@@ -269,7 +269,7 @@ cout << (x >> 1);  // 2
 - Device control
 - Low-level programming
 
-## 8.7.3 Logical vs Bitwise
+### 8.7.3 Logical vs Bitwise
 
 | Logical | Bitwise |
 |---|---|
@@ -279,22 +279,22 @@ cout << (x >> 1);  // 2
 
 ---
 
-# 8.8 Conditional Operator
+## 8.8 Conditional Operator
 
-## Syntax
+### Syntax
 
 ```cpp
 condition ? valueIfTrue : valueIfFalse
 ```
 
-## Example
+### Example
 
 ```cpp
 int age = 20;
 string result = (age >= 18) ? "Adult" : "Minor";
 ```
 
-## 8.8.1 Maximum of Two Values
+### 8.8.1 Maximum of Two Values
 
 ```cpp
 int maximum = (a > b) ? a : b;
@@ -304,9 +304,9 @@ Simple selection ke liye useful hai. Complex logic ke liye `if-else` clearer hot
 
 ---
 
-# 8.9 Special Operators
+## 8.9 Special Operators
 
-## 8.9.1 sizeof
+### 8.9.1 sizeof
 
 Type ya object ki size bytes mein return karta hai.
 
@@ -316,7 +316,7 @@ double price = 50.5;
 cout << sizeof(price);
 ```
 
-## 8.9.2 Address-of and Dereference
+### 8.9.2 Address-of and Dereference
 
 ```cpp
 int value = 10;
@@ -327,7 +327,7 @@ cout << *ptr;
 - `&value` address obtain karta hai.
 - `*ptr` pointed value access karta hai.
 
-## 8.9.3 Scope Resolution
+### 8.9.3 Scope Resolution
 
 `::` namespace ya class scope access karta hai.
 
@@ -337,7 +337,7 @@ std::cout << "Hello";
 
 ---
 
-# 8.10 Operator Precedence
+## 8.10 Operator Precedence
 
 Precedence decide karti hai ki expression mein kaunsa operator pehle group hoga.
 
@@ -356,7 +356,7 @@ Precedence decide karti hai ki expression mein kaunsa operator pehle group hoga.
 | 11 | Assignment operators | Right to left |
 | Lowest | Comma | Left to right |
 
-## Example
+### Example
 
 ```cpp
 int result1 = 10 + 5 * 2;    // 20
@@ -367,15 +367,15 @@ Parentheses intended order aur readability improve karti hain.
 
 ---
 
-# 8.11 Associativity
+## 8.11 Associativity
 
 Same precedence ke operators ki grouping direction associativity decide karti hai.
 
-## 8.11.1 Left-to-Right
+### 8.11.1 Left-to-Right
 
 `20 / 5 * 2` → first 20/5, then ×2 → result 8.
 
-## 8.11.2 Right-to-Left
+### 8.11.2 Right-to-Left
 
 `a = b = c = 10` → first c, then b, then a ko value milti hai.
 
@@ -383,9 +383,9 @@ Same precedence ke operators ki grouping direction associativity decide karti ha
 
 ---
 
-# 8.12 Expression Evaluation
+## 8.12 Expression Evaluation
 
-## Example 1
+### Example 1
 
 `10 + 6 / 2 * 3`
 
@@ -393,7 +393,7 @@ Same precedence ke operators ki grouping direction associativity decide karti ha
 2. 3 × 3 = 9
 3. 10 + 9 = 19
 
-## Example 2
+### Example 2
 
 `(8 + 4) * 2 - 6`
 
@@ -401,7 +401,7 @@ Same precedence ke operators ki grouping direction associativity decide karti ha
 2. 12 × 2 = 24
 3. 24 - 6 = 18
 
-## Logical Example
+### Logical Example
 
 `5 > 3 && 10 != 8`
 
@@ -411,9 +411,9 @@ Same precedence ke operators ki grouping direction associativity decide karti ha
 
 ---
 
-# 8.13 Type Conversion
+## 8.13 Type Conversion
 
-## 8.13.1 Implicit Conversion
+### 8.13.1 Implicit Conversion
 
 Compiler automatically compatible conversion karta hai.
 
@@ -422,14 +422,14 @@ int count = 5;
 double result = count + 2.5;
 ```
 
-## 8.13.2 Widening Conversion
+### 8.13.2 Widening Conversion
 
 ```cpp
 int x = 25;
 double y = x;
 ```
 
-## 8.13.3 Narrowing Conversion
+### 8.13.3 Narrowing Conversion
 
 Data loss possible hota hai.
 
@@ -438,7 +438,7 @@ double price = 99.95;
 int whole = price;  // 99
 ```
 
-## 8.13.4 Explicit Conversion
+### 8.13.4 Explicit Conversion
 
 ```cpp
 int total = 7;
@@ -450,7 +450,7 @@ cout << average;  // 3.5
 
 ---
 
-# Program: Arithmetic Calculator
+#### Program: Arithmetic Calculator
 
 ```cpp
 #include <iostream>
@@ -478,7 +478,7 @@ int main()
 
 ---
 
-# Program: Even or Odd
+#### Program: Even or Odd
 
 ```cpp
 #include <iostream>
@@ -497,7 +497,7 @@ int main()
 
 ---
 
-# Program: Bitwise Demonstration
+#### Program: Bitwise Demonstration
 
 ```cpp
 #include <iostream>
@@ -520,30 +520,30 @@ int main()
 
 ---
 
-# 8.14 Common Mistakes
+## 8.14 Common Mistakes
 
-## 8.14.1 Assignment Instead of Comparison
+### 8.14.1 Assignment Instead of Comparison
 
 ```cpp
 if (x = 5)   // Likely mistake
 if (x == 5)  // Correct comparison
 ```
 
-## 8.14.2 Unexpected Integer Division
+### 8.14.2 Unexpected Integer Division
 
 ```cpp
 double wrong = 5 / 2;    // 2
 double right = 5.0 / 2;  // 2.5
 ```
 
-## 8.14.3 Wrong Average Expression
+### 8.14.3 Wrong Average Expression
 
 ```cpp
 double wrong = a + b + c / 3.0;
 double right = (a + b + c) / 3.0;
 ```
 
-## 8.14.4 Logical and Bitwise Confusion
+### 8.14.4 Logical and Bitwise Confusion
 
 - Logical AND: `&&`
 - Bitwise AND: `&`
@@ -552,23 +552,23 @@ double right = (a + b + c) / 3.0;
 
 ---
 
-# 8.15 Important Differences
+## 8.15 Important Differences
 
-## 8.15.1 Assignment vs Equality
+### 8.15.1 Assignment vs Equality
 
 | Assignment | Equality |
 |---|---|
 | `=` | `==` |
 | Value store karta hai | Values compare karta hai |
 
-## 8.15.2 Prefix vs Postfix
+### 8.15.2 Prefix vs Postfix
 
 | Prefix | Postfix |
 |---|---|
 | Pehle update | Pehle old value use |
 | `++x` | `x++` |
 
-## 8.15.3 Implicit vs Explicit Conversion
+### 8.15.3 Implicit vs Explicit Conversion
 
 | Implicit | Explicit |
 |---|---|
@@ -578,13 +578,13 @@ double right = (a + b + c) / 3.0;
 
 ---
 
-# 8.16 Chapter Summary
+## 8.16 Chapter Summary
 
 Operators perform operations on operands, and expressions combine operators and values to produce results. C++ provides arithmetic, relational, logical, assignment, increment, decrement, bitwise, conditional and special operators. Integer division removes the fractional part, while the modulus operator returns the remainder. Relational and logical expressions produce Boolean results, and short-circuit evaluation can prevent unnecessary or unsafe operations. Bitwise operators manipulate individual bits. Precedence determines operator priority, associativity resolves operators of equal priority and parentheses make the intended order clear. Implicit conversions happen automatically, while explicit conversions such as static_cast express programmer intent and help control integer division or narrowing.
 
 ---
 
-# 8.17 Quick Revision
+## 8.17 Quick Revision
 
 - Operator operation perform karta hai; operand value hoti hai.
 - Arithmetic operators: `+`, `-`, `*`, `/`, `%`.
@@ -599,7 +599,7 @@ Operators perform operations on operands, and expressions combine operators and 
 
 ---
 
-# 8.18 Multiple-Choice Questions
+## 8.18 Multiple-Choice Questions
 
 1. Remainder ke liye kaunsa operator hai?  
    A. `/`  B. `%`  C. `*`  D. `==`  
@@ -631,7 +631,7 @@ Operators perform operations on operands, and expressions combine operators and 
 
 ---
 
-# 8.19 Short-Answer Questions
+## 8.19 Short-Answer Questions
 
 1. Operator, operand aur expression define kijiye.
 2. Unary, binary aur ternary operators explain kijiye.
@@ -646,7 +646,7 @@ Operators perform operations on operands, and expressions combine operators and 
 
 ---
 
-# 8.20 Long-Answer and Exam Questions
+## 8.20 Long-Answer and Exam Questions
 
 1. C++ operators ko classification aur examples ke saath explain kijiye.
 2. Arithmetic, relational aur logical operators ke programs likhiye.
@@ -659,7 +659,7 @@ Operators perform operations on operands, and expressions combine operators and 
 
 ---
 
-# 8.21 Practice Problems
+## 8.21 Practice Problems
 
 1. Evaluate: `12 + 4 * 3`
 2. Evaluate: `(12 + 4) * 3`
@@ -672,7 +672,7 @@ Operators perform operations on operands, and expressions combine operators and 
 
 ---
 
-# 8.22 Viva Questions
+## 8.22 Viva Questions
 
 1. Operator aur operand mein difference kya hai?
 2. Modulus operator ka use kya hai?
@@ -689,7 +689,7 @@ Operators perform operations on operands, and expressions combine operators and 
 
 <div align="center">
 
-## ✅ Chapter 8 Complete
+### ✅ Chapter 8 Complete
 
 [⬅️ Previous Chapter](chapter-07-introduction-to-cpp.md) · [📚 Table of Contents](../SUMMARY.md) · **Next: Decision-Making and Loops ➡️**
 
