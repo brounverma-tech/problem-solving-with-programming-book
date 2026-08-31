@@ -149,7 +149,7 @@ Yeh book **Problem Solving with Programming** ko bilkul basic level se samjhane 
 - **10.9** Arrays to Functions
 - **10.10** Recursive Functions
 
-### 📖 Chapter 11: Arrays
+### 📖 [Chapter 11: Arrays](chapters/chapter-11-arrays.md) ✅
 - **11.1** Introduction to Arrays
 - **11.2** One-Dimensional Arrays
 - **11.3** Two-Dimensional Arrays
