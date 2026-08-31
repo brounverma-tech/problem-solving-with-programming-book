@@ -28,15 +28,15 @@ Is chapter ko complete karne ke baad aap:
 
 ---
 
-# 11.1 Introduction to Arrays
+## 11.1 Introduction to Arrays
 
-## 11.1.1 Meaning of Array
+### 11.1.1 Meaning of Array
 
 > An array is a fixed-size collection of elements of the same data type stored in contiguous memory locations.
 
 **Hinglish:** Array same data type ki multiple values ko ek hi name ke under consecutive memory locations mein store karta hai.
 
-## 11.1.2 Need for Arrays
+### 11.1.2 Need for Arrays
 
 Without array:
 
@@ -52,7 +52,7 @@ int marks[5];
 
 Arrays repeated data ko organize karte hain aur loops ke saath processing easy banate hain.
 
-## 11.1.3 Main Characteristics
+### 11.1.3 Main Characteristics
 
 - All elements same data type ke hote hain.
 - Size fixed hota hai for built-in arrays.
@@ -61,7 +61,7 @@ Arrays repeated data ko organize karte hain aur loops ke saath processing easy b
 - Direct index access fast hota hai.
 - Built-in array apni size automatically runtime par track nahi karta.
 
-## 11.1.4 Important Terms
+### 11.1.4 Important Terms
 
 | Term | Pronunciation | Meaning |
 |---|---|---|
@@ -75,17 +75,17 @@ Arrays repeated data ko organize karte hain aur loops ke saath processing easy b
 
 ---
 
-# 11.2 One-Dimensional Arrays
+## 11.2 One-Dimensional Arrays
 
-## 11.2.1 Declaration
+### 11.2.1 Declaration
 
-### Syntax
+#### Syntax
 
 ```cpp
 dataType arrayName[arraySize];
 ```
 
-### Example
+#### Example
 
 ```cpp
 int marks[5];
@@ -93,7 +93,7 @@ double prices[10];
 char grades[4];
 ```
 
-## 11.2.2 Indexing
+### 11.2.2 Indexing
 
 Five-element array ke valid indexes:
 
@@ -106,7 +106,7 @@ For size n, valid indexes:
 
 $$0\text{ to }n-1$$
 
-## 11.2.3 Element Access
+### 11.2.3 Element Access
 
 ```cpp
 marks[0] = 75;
@@ -115,7 +115,7 @@ marks[1] = 82;
 cout << marks[0];
 ```
 
-## 11.2.4 Element Update
+### 11.2.4 Element Update
 
 ```cpp
 marks[2] = 90;
@@ -124,15 +124,15 @@ marks[2] += 5;
 
 ---
 
-# 11.3 Array Initialization
+## 11.3 Array Initialization
 
-## 11.3.1 Complete Initialization
+### 11.3.1 Complete Initialization
 
 ```cpp
 int numbers[5] = {10, 20, 30, 40, 50};
 ```
 
-## 11.3.2 Size Inference
+### 11.3.2 Size Inference
 
 ```cpp
 int numbers[] = {10, 20, 30, 40, 50};
@@ -140,7 +140,7 @@ int numbers[] = {10, 20, 30, 40, 50};
 
 Compiler initializer count se size determine karta hai.
 
-## 11.3.3 Partial Initialization
+### 11.3.3 Partial Initialization
 
 ```cpp
 int numbers[5] = {10, 20};
@@ -148,7 +148,7 @@ int numbers[5] = {10, 20};
 
 Remaining elements zero-initialize hote hain.
 
-## 11.3.4 Zero Initialization
+### 11.3.4 Zero Initialization
 
 ```cpp
 int numbers[5] = {};
@@ -156,7 +156,7 @@ int numbers[5] = {};
 
 All elements zero ho jate hain.
 
-## 11.3.5 Character Array Initialization
+### 11.3.5 Character Array Initialization
 
 ```cpp
 char word[] = {'H', 'e', 'l', 'l', 'o', '\0'};
@@ -167,9 +167,9 @@ Null character `\0` C-style string ka end mark karta hai.
 
 ---
 
-# 11.4 Array Input and Output
+## 11.4 Array Input and Output
 
-## 11.4.1 Input with Loop
+### 11.4.1 Input with Loop
 
 ```cpp
 const int size = 5;
@@ -182,7 +182,7 @@ for (int i = 0; i < size; ++i)
 }
 ```
 
-## 11.4.2 Output with Loop
+### 11.4.2 Output with Loop
 
 ```cpp
 for (int i = 0; i < size; ++i)
@@ -191,7 +191,7 @@ for (int i = 0; i < size; ++i)
 }
 ```
 
-## 11.4.3 Range-Based for Loop
+### 11.4.3 Range-Based for Loop
 
 ```cpp
 int values[] = {10, 20, 30, 40};
@@ -213,9 +213,9 @@ for (int& value : values)
 
 ---
 
-# 11.5 Array Size
+## 11.5 Array Size
 
-## 11.5.1 sizeof Method
+### 11.5.1 sizeof Method
 
 Same scope mein complete built-in array available ho to:
 
@@ -225,7 +225,7 @@ int values[] = {10, 20, 30, 40, 50};
 int count = sizeof(values) / sizeof(values[0]);
 ```
 
-## 11.5.2 std::size
+### 11.5.2 std::size
 
 Modern C++:
 
@@ -239,31 +239,31 @@ int count = std::size(values);
 
 ---
 
-# 11.6 Basic Array Operations
+## 11.6 Basic Array Operations
 
-## 11.6.1 Traversal
+### 11.6.1 Traversal
 
 All elements ko sequentially visit karna.
 
-## 11.6.2 Insertion by Position
+### 11.6.2 Insertion by Position
 
 Fixed array mein middle insertion ke liye elements right shift karne padte hain, aur enough capacity required hoti hai.
 
-## 11.6.3 Deletion by Position
+### 11.6.3 Deletion by Position
 
 Element logically remove karne ke liye later elements left shift kiye jate hain aur logical size decrease hoti hai.
 
-## 11.6.4 Searching
+### 11.6.4 Searching
 
 Target element locate karna.
 
-## 11.6.5 Sorting
+### 11.6.5 Sorting
 
 Elements ko ascending ya descending order mein arrange karna.
 
 ---
 
-# 11.7 Sum and Average
+## 11.7 Sum and Average
 
 ### Program
 
@@ -294,16 +294,16 @@ int main()
 
 ---
 
-# 11.8 Minimum and Maximum
+## 11.8 Minimum and Maximum
 
-## 11.8.1 Algorithm
+### 11.8.1 Algorithm
 
 1. First element ko initial minimum/maximum maan lein.
 2. Remaining elements traverse karein.
 3. Smaller value mile to minimum update karein.
 4. Larger value mile to maximum update karein.
 
-### Program
+#### Program
 
 ```cpp
 #include <iostream>
@@ -334,20 +334,20 @@ int main()
 
 ---
 
-# 11.9 Linear Search
+## 11.9 Linear Search
 
-## 11.9.1 Meaning
+### 11.9.1 Meaning
 
 > Linear search checks elements one by one until the target is found or the array ends.
 
-## 11.9.2 Working
+### 11.9.2 Working
 
 1. Index 0 se start karein.
 2. Current element ko target se compare karein.
 3. Match par index return/display karein.
 4. End tak match na ho to not found.
 
-### Program
+#### Program
 
 ```cpp
 #include <iostream>
@@ -381,23 +381,23 @@ int main()
 }
 ```
 
-## 11.9.3 Complexity
+### 11.9.3 Complexity
 
 Worst case mein n elements check karne padte hain: $O(n)$.
 
 ---
 
-# 11.10 Bubble Sort
+## 11.10 Bubble Sort
 
-## 11.10.1 Meaning
+### 11.10.1 Meaning
 
 Bubble sort repeatedly adjacent elements compare karta hai aur wrong order mein hone par swap karta hai.
 
-## 11.10.2 Working
+### 11.10.2 Working
 
 Har pass ke baad largest unsorted element end ki taraf move hota hai.
 
-### Program
+#### Program
 
 ```cpp
 #include <iostream>
@@ -434,15 +434,15 @@ int main()
 }
 ```
 
-## 11.10.3 Complexity
+### 11.10.3 Complexity
 
 Typical/worst-case time complexity $O(n^2)$ hai. Large data ke liye more efficient standard sorting algorithms prefer hote hain.
 
 ---
 
-# 11.11 Arrays and Functions
+## 11.11 Arrays and Functions
 
-## 11.11.1 Passing Array to Function
+### 11.11.1 Passing Array to Function
 
 ```cpp
 void display(const int values[], int size)
@@ -452,7 +452,7 @@ void display(const int values[], int size)
 }
 ```
 
-## 11.11.2 Modifying Elements
+### 11.11.2 Modifying Elements
 
 ```cpp
 void doubleValues(int values[], int size)
@@ -462,11 +462,11 @@ void doubleValues(int values[], int size)
 }
 ```
 
-## 11.11.3 Read-Only Array Parameter
+### 11.11.3 Read-Only Array Parameter
 
 Input-only array ke liye `const` use karein.
 
-## 11.11.4 Fixed-Size Array by Reference
+### 11.11.4 Fixed-Size Array by Reference
 
 Template/reference syntax size preserve kar sakti hai:
 
@@ -483,13 +483,13 @@ Beginner programs mein array plus explicit size simple aur clear approach hai.
 
 ---
 
-# 11.12 Two-Dimensional Arrays
+## 11.12 Two-Dimensional Arrays
 
-## 11.12.1 Meaning
+### 11.12.1 Meaning
 
 > A two-dimensional array stores elements in rows and columns.
 
-### Declaration
+#### Declaration
 
 ```cpp
 int matrix[3][4];
@@ -497,7 +497,7 @@ int matrix[3][4];
 
 Yeh 3 rows aur 4 columns ka array hai.
 
-## 11.12.2 Initialization
+### 11.12.2 Initialization
 
 ```cpp
 int matrix[2][3] = {
@@ -506,14 +506,14 @@ int matrix[2][3] = {
 };
 ```
 
-## 11.12.3 Element Access
+### 11.12.3 Element Access
 
 ```cpp
 cout << matrix[0][1];  // 2
 matrix[1][2] = 10;
 ```
 
-## 11.12.4 Traversal
+### 11.12.4 Traversal
 
 ```cpp
 for (int row = 0; row < 2; ++row)
@@ -526,13 +526,13 @@ for (int row = 0; row < 2; ++row)
 }
 ```
 
-## 11.12.5 Row-Major Storage
+### 11.12.5 Row-Major Storage
 
 C++ built-in multidimensional arrays row-major order mein store hote hain: first row ke elements, then second row, and so on.
 
 ---
 
-# 11.13 Matrix Input and Output
+## 11.13 Matrix Input and Output
 
 ### Program
 
@@ -572,7 +572,7 @@ int main()
 
 ---
 
-# 11.14 Matrix Addition
+## 11.14 Matrix Addition
 
 Two matrices add karne ke liye dimensions same hone chahiye.
 
@@ -614,15 +614,15 @@ int main()
 
 ---
 
-# 11.15 Matrix Transpose
+## 11.15 Matrix Transpose
 
-## 11.15.1 Meaning
+### 11.15.1 Meaning
 
 Transpose mein rows columns aur columns rows ban jate hain.
 
 $$T[j][i] = A[i][j]$$
 
-### Example
+#### Example
 
 ```text
 Original:       Transpose:
@@ -633,9 +633,9 @@ Original:       Transpose:
 
 ---
 
-# 11.16 Multidimensional Arrays
+## 11.16 Multidimensional Arrays
 
-## 11.16.1 Meaning
+### 11.16.1 Meaning
 
 Two se more indexing dimensions wala array multidimensional array hai.
 
@@ -643,13 +643,13 @@ Two se more indexing dimensions wala array multidimensional array hai.
 int data[2][3][4];
 ```
 
-## 11.16.2 Access
+### 11.16.2 Access
 
 ```cpp
 data[0][1][2] = 50;
 ```
 
-## 11.16.3 Uses
+### 11.16.3 Uses
 
 - 3D coordinates
 - Scientific data
@@ -657,15 +657,15 @@ data[0][1][2] = 50;
 - Multiple tables
 - Game boards and simulations
 
-## 11.16.4 Traversal
+### 11.16.4 Traversal
 
 Three-dimensional array ke liye three nested loops use hote hain.
 
 ---
 
-# 11.17 Modern Array Containers
+## 11.17 Modern Array Containers
 
-## 11.17.1 std::array
+### 11.17.1 std::array
 
 Fixed-size standard container jo size information preserve karta hai.
 
@@ -677,7 +677,7 @@ std::array<int, 5> values = {10, 20, 30, 40, 50};
 
 Useful functions: `size()`, `at()`, `front()`, `back()`.
 
-## 11.17.2 std::vector
+### 11.17.2 std::vector
 
 Dynamic-size standard container.
 
@@ -692,9 +692,9 @@ values.push_back(40);
 
 ---
 
-# 11.18 Common Mistakes
+## 11.18 Common Mistakes
 
-## 11.18.1 Out-of-Bounds Access
+### 11.18.1 Out-of-Bounds Access
 
 ```cpp
 int values[5];
@@ -703,7 +703,7 @@ values[5] = 10;  // Invalid; last valid index is 4
 
 Built-in arrays automatic boundary checking nahi karte. Invalid access undefined behavior cause karta hai.
 
-## 11.18.2 Uninitialized Elements
+### 11.18.2 Uninitialized Elements
 
 Local built-in array without initializer indeterminate values contain kar sakta hai.
 
@@ -711,30 +711,30 @@ Local built-in array without initializer indeterminate values contain kar sakta 
 int values[5] = {};
 ```
 
-## 11.18.3 Off-by-One Loop
+### 11.18.3 Off-by-One Loop
 
 ```cpp
 for (int i = 0; i <= size; ++i) // Wrong
 for (int i = 0; i < size; ++i)  // Correct
 ```
 
-## 11.18.4 Losing Size in Function Parameter
+### 11.18.4 Losing Size in Function Parameter
 
 Array parameter ke saath size separately pass karein.
 
-## 11.18.5 Wrong Matrix Bounds
+### 11.18.5 Wrong Matrix Bounds
 
 Row loop rows tak aur column loop columns tak chalna chahiye.
 
-## 11.18.6 Empty Array Assumption
+### 11.18.6 Empty Array Assumption
 
 Minimum/maximum logic se pehle ensure karein ki logical element count greater than zero hai.
 
 ---
 
-# 11.19 Important Differences
+## 11.19 Important Differences
 
-## 11.19.1 Variable vs Array
+### 11.19.1 Variable vs Array
 
 | Variable | Array |
 |---|---|
@@ -742,7 +742,7 @@ Minimum/maximum logic se pehle ensure karein ki logical element count greater th
 | Direct name access | Name plus index |
 | Example: `mark` | Example: `marks[5]` |
 
-## 11.19.2 One-Dimensional vs Two-Dimensional
+### 11.19.2 One-Dimensional vs Two-Dimensional
 
 | One-Dimensional | Two-Dimensional |
 |---|---|
@@ -750,7 +750,7 @@ Minimum/maximum logic se pehle ensure karein ki logical element count greater th
 | List-like | Table/matrix-like |
 | `a[i]` | `a[i][j]` |
 
-## 11.19.3 Built-in Array vs vector
+### 11.19.3 Built-in Array vs vector
 
 | Built-in Array | std::vector |
 |---|---|
@@ -760,13 +760,13 @@ Minimum/maximum logic se pehle ensure karein ki logical element count greater th
 
 ---
 
-# 11.20 Chapter Summary
+## 11.20 Chapter Summary
 
 An array is a fixed-size collection of same-type elements stored in contiguous memory and accessed through zero-based indexes. One-dimensional arrays represent lists, while two-dimensional arrays represent rows and columns and higher-dimensional arrays model more complex data. Loops support input, output, traversal, aggregation, searching and sorting. Linear search checks elements sequentially, while bubble sort repeatedly compares adjacent elements. Arrays can be passed to functions, but built-in array parameters normally require size information separately. Matrix operations use nested loops. Correct bounds, initialization and dimension limits are essential because built-in arrays do not perform automatic boundary checking. Standard containers such as std::array and std::vector provide safer and more convenient alternatives for many modern programs.
 
 ---
 
-# 11.21 Quick Revision
+## 11.21 Quick Revision
 
 - Array same-type elements ka fixed collection hai.
 - Built-in array elements contiguous memory mein hote hain.
@@ -782,7 +782,7 @@ An array is a fixed-size collection of same-type elements stored in contiguous m
 
 ---
 
-# 11.22 Important Abbreviations
+## 11.22 Important Abbreviations
 
 | Abbreviation | Full Form |
 |---|---|
@@ -793,7 +793,7 @@ An array is a fixed-size collection of same-type elements stored in contiguous m
 
 ---
 
-# 11.23 Multiple-Choice Questions
+## 11.23 Multiple-Choice Questions
 
 1. Array elements ka data type kaisa hota hai?  
    A. Same  B. Always different  C. None  D. Only char  
@@ -825,7 +825,7 @@ An array is a fixed-size collection of same-type elements stored in contiguous m
 
 ---
 
-# 11.24 Short-Answer Questions
+## 11.24 Short-Answer Questions
 
 1. Array ko define kijiye.
 2. Array ki main characteristics likhiye.
@@ -842,7 +842,7 @@ An array is a fixed-size collection of same-type elements stored in contiguous m
 
 ---
 
-# 11.25 Long-Answer and Exam Questions
+## 11.25 Long-Answer and Exam Questions
 
 1. One-dimensional array ko complete program ke saath explain kijiye.
 2. Array input, output, sum aur average ka program likhiye.
@@ -857,7 +857,7 @@ An array is a fixed-size collection of same-type elements stored in contiguous m
 
 ---
 
-# 11.26 Practice Programs
+## 11.26 Practice Programs
 
 1. n elements input karke reverse order mein print kijiye.
 2. Array mein even aur odd elements count kijiye.
@@ -872,7 +872,7 @@ An array is a fixed-size collection of same-type elements stored in contiguous m
 
 ---
 
-# 11.27 Viva Questions
+## 11.27 Viva Questions
 
 1. Array ka first index kya hota hai?
 2. Array size 10 ka last index kya hai?
@@ -889,7 +889,7 @@ An array is a fixed-size collection of same-type elements stored in contiguous m
 
 <div align="center">
 
-## ✅ Chapter 11 Complete
+### ✅ Chapter 11 Complete
 
 [⬅️ Previous Chapter](chapter-10-functions-and-structured-programming.md) · [📚 Table of Contents](../SUMMARY.md) · **Next: Pointers ➡️**
 
