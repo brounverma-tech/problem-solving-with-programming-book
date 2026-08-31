@@ -18,7 +18,7 @@
 
 7. [Introduction to C++](chapters/chapter-07-introduction-to-cpp.md)
 8. [Operators and Expressions](chapters/chapter-08-operators-and-expressions.md)
-9. Decision-Making and Loops
+9. [Decision-Making and Loops](chapters/chapter-09-decision-making-and-loops.md)
 
 ## Unit D: Functions, Arrays and Pointers in C++
 
