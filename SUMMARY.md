@@ -17,7 +17,7 @@
 ## Unit C: Programming Fundamentals Using C++
 
 7. [Introduction to C++](chapters/chapter-07-introduction-to-cpp.md)
-8. Operators and Expressions
+8. [Operators and Expressions](chapters/chapter-08-operators-and-expressions.md)
 9. Decision-Making and Loops
 
 ## Unit D: Functions, Arrays and Pointers in C++
