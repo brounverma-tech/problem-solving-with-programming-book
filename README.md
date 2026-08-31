@@ -156,7 +156,7 @@ Yeh book **Problem Solving with Programming** ko bilkul basic level se samjhane 
 - **11.4** Multidimensional Arrays
 - **11.5** Array-Based C++ Programs
 
-### 📖 Chapter 12: Pointers
+### 📖 [Chapter 12: Pointers](chapters/chapter-12-pointers.md) ✅
 - **12.1** Pointer Basics
 - **12.2** Pointers to Pointers
 - **12.3** Pointer Compatibility
