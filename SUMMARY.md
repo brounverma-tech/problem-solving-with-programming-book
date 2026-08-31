@@ -24,7 +24,7 @@
 
 10. [Functions and Structured Programming](chapters/chapter-10-functions-and-structured-programming.md)
 11. [Arrays](chapters/chapter-11-arrays.md)
-12. Pointers
+12. [Pointers](chapters/chapter-12-pointers.md)
 
 ## Appendices
 
