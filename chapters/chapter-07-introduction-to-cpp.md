@@ -40,7 +40,7 @@ Is chapter ko complete karne ke baad aap:
 
 Programming mein hum problem ko samajhkar computer ke liye step-by-step instructions likhte hain. Yeh instructions programming language mein likhi jati hain.
 
-## 7.1.2 Program
+## Program
 
 > A program is an ordered collection of instructions written to perform a specific task.
 
@@ -51,27 +51,27 @@ Programming mein hum problem ko samajhkar computer ke liye step-by-step instruct
 - Even/odd check karna
 - Bill generate karna
 
-## 7.1.3 Programming Language
+## 7.1.2 Programming Language
 
 Programming language rules, symbols aur words ka formal system hai jisse programs likhe jate hain.
 
-## 7.1.4 Types of Programming Languages
+## 7.1.3 Types of Programming Languages
 
-### 7.1.4.1 Machine Language
+### 7.1.3.1 Machine Language
 
 Binary instructions `0` aur `1` mein hoti hain.
 
-### 7.1.4.2 Assembly Language
+### 7.1.3.2 Assembly Language
 
 Mnemonic codes use karti hai, jaise `ADD`, `MOV` aur `SUB`.
 
-### 7.1.4.3 High-Level Language
+### 7.1.3.3 High-Level Language
 
 Human-readable syntax provide karti hai.
 
 **Examples:** C++, C, Java, Python.
 
-## 7.1.5 Problem-Solving Process
+## 7.1.4 Problem-Solving Process
 
 ```text
 Problem Definition
@@ -106,7 +106,7 @@ Documentation and Maintenance
 5. Effective and practical operations
 6. Correct result
 
-## 7.2.3 Example Algorithm: Add Two Numbers
+## Example Algorithm: Add Two Numbers
 
 ```text
 Step 1: Start
@@ -117,7 +117,7 @@ Step 5: Display SUM
 Step 6: Stop
 ```
 
-## 7.2.4 Pseudocode
+## 7.2.3 Pseudocode
 
 Pseudocode programming logic ko simple language-like statements mein represent karta hai.
 
@@ -184,35 +184,35 @@ C++ mein `++` increment operator hai. Name symbolically C language ke improved/e
 
 # 7.4 Programming Terms
 
-## 7.4.1 Source Code
+## Source Code
 
 Programmer ke द्वारा written human-readable code.
 
-## 7.4.2 Source File
+## 7.4.1 Source File
 
 C++ source-code file generally `.cpp` extension use karti hai.
 
-## 7.4.3 Compiler
+## 7.4.2 Compiler
 
 C++ source code ko object/machine-oriented code mein translate karta hai aur compile-time errors identify karta hai.
 
-## 7.4.4 Object Code
+## 7.4.3 Object Code
 
 Compilation ke baad generated intermediate machine-oriented code.
 
-## 7.4.5 Linker
+## 7.4.4 Linker
 
 Object code ko required libraries ke saath combine karke executable banata hai.
 
-## 7.4.6 Executable File
+## 7.4.5 Executable File
 
 Operating system ke through run hone wali final program file.
 
-## 7.4.7 Debugging
+## 7.4.6 Debugging
 
 Program errors ko locate aur correct karne ki process.
 
-## 7.4.8 Important Terms Table
+## 7.4.7 Important Terms Table
 
 | Term | Pronunciation | Meaning |
 |---|---|---|
@@ -228,7 +228,7 @@ Program errors ko locate aur correct karne ki process.
 
 # 7.5 Program Development and Execution
 
-## 7.5.1 Main Stages
+## Main Stages
 
 ```text
 Source Code (.cpp)
@@ -246,23 +246,23 @@ Executable Program
 Output
 ```
 
-## 7.5.2 Edit
+## 7.5.1 Edit
 
 Source code editor ya IDE mein program likhna.
 
-## 7.5.3 Preprocess
+## 7.5.2 Preprocess
 
 `#include` jaise preprocessor directives process hote hain.
 
-## 7.5.4 Compile
+## 7.5.3 Compile
 
 Syntax aur type-related rules check hote hain aur object code generate hota hai.
 
-## 7.5.5 Link
+## 7.5.4 Link
 
 Required library code aur object files combine hote hain.
 
-## 7.5.6 Run
+## 7.5.5 Run
 
 Executable memory mein load hokar instructions execute karta hai.
 
@@ -270,7 +270,7 @@ Executable memory mein load hokar instructions execute karta hai.
 
 # 7.6 First C++ Program
 
-## 7.6.1 Program
+## Program
 
 ```cpp
 #include <iostream>
@@ -283,13 +283,13 @@ int main()
 }
 ```
 
-## 7.6.2 Output
+## Output
 
 ```text
 Hello, World!
 ```
 
-## 7.6.3 Line-by-Line Explanation
+## Line-by-Line Explanation
 
 ### 7.6.3.1 `#include <iostream>`
 
@@ -391,7 +391,7 @@ int total = 50;
 
 Keywords reserved words hote hain jinka language mein predefined meaning hota hai. Inhe identifiers ke रूप में use nahi kar sakte.
 
-## 7.9.2 Examples
+## Examples
 
 ```text
 int, char, float, double, if, else, switch,
@@ -574,7 +574,7 @@ void showMessage()
 
 # 7.13 Checking Data-Type Size
 
-## 7.13.1 Program
+## Program
 
 ```cpp
 #include <iostream>
@@ -592,7 +592,7 @@ int main()
 }
 ```
 
-## 7.13.2 Explanation
+## 7.13.1 Explanation
 
 `sizeof(type)` selected implementation mein type ki size bytes mein return karta hai.
 
@@ -759,13 +759,13 @@ Special characters ko backslash ke saath represent kiya jata hai.
 | `\'` | Single quote |
 | `\0` | Null character |
 
-## 7.17.1 Example
+## Example
 
 ```cpp
 cout << "Name:\tBroun\nCourse:\tBCA";
 ```
 
-## 7.17.2 Output
+## Output
 
 ```text
 Name:   Broun
@@ -824,7 +824,7 @@ int a, b;
 cin >> a >> b;
 ```
 
-## 7.19.4 Prompt with Input
+## Prompt with Input
 
 ```cpp
 int marks;
@@ -881,9 +881,9 @@ getline(cin, fullName);
 
 ---
 
-# 7.21 Program: Add Two Numbers
+# Program: Add Two Numbers
 
-## 7.21.1 Source Code
+## Source Code
 
 ```cpp
 #include <iostream>
@@ -908,7 +908,7 @@ int main()
 }
 ```
 
-## 7.21.2 Sample Output
+## Sample Output
 
 ```text
 Enter first number: 12
@@ -916,7 +916,7 @@ Enter second number: 8
 Sum = 20
 ```
 
-## 7.21.3 Dry Run
+## Dry Run
 
 | Step | firstNumber | secondNumber | sum |
 |---|---:|---:|---:|
@@ -927,9 +927,9 @@ Sum = 20
 
 ---
 
-# 7.22 Program: Student Information
+# Program: Student Information
 
-## 7.22.1 Source Code
+## Source Code
 
 ```cpp
 #include <iostream>
@@ -960,7 +960,7 @@ int main()
 }
 ```
 
-## 7.22.2 Sample Output
+## Sample Output
 
 ```text
 Enter name: Broun Verma
@@ -975,9 +975,9 @@ Percentage: 82.5%
 
 ---
 
-# 7.23 Program: Area of a Circle
+# Program: Area of a Circle
 
-## 7.23.1 Source Code
+## Source Code
 
 ```cpp
 #include <iostream>
@@ -999,7 +999,7 @@ int main()
 }
 ```
 
-## 7.23.2 Sample Output
+## Sample Output
 
 ```text
 Enter radius: 5
@@ -1008,9 +1008,9 @@ Area = 78.5398
 
 ---
 
-# 7.24 Type Safety and Input Considerations
+# 7.21 Type Safety and Input Considerations
 
-## 7.24.1 Matching Type and Value
+## 7.21.1 Matching Type and Value
 
 - Age ke liye integer
 - Price ke liye double
@@ -1018,23 +1018,23 @@ Area = 78.5398
 - Status ke liye bool
 - Name ke liye string
 
-## 7.24.2 Range
+## 7.21.2 Range
 
 Aisa data type choose karein jo required range ko safely store kar sake.
 
-## 7.24.3 Precision
+## 7.21.3 Precision
 
 Scientific ya financial calculations mein floating-point behavior aur required precision carefully consider karein.
 
-## 7.24.4 Input Failure
+## 7.21.4 Input Failure
 
 User wrong type enter kare to `cin` fail state mein ja sakta hai. Advanced input validation later chapters mein use hogi.
 
 ---
 
-# 7.25 Types of Errors
+# 7.22 Types of Errors
 
-## 7.25.1 Syntax Error
+## 7.22.1 Syntax Error
 
 Language grammar/rules violate hote hain.
 
@@ -1042,7 +1042,7 @@ Language grammar/rules violate hote hain.
 cout << "Hello"  // Missing semicolon
 ```
 
-## 7.25.2 Compile-Time Error
+## 7.22.2 Compile-Time Error
 
 Compiler program translate karte time error detect karta hai.
 
@@ -1050,17 +1050,17 @@ Compiler program translate karte time error detect karta hai.
 cout << unknownVariable;
 ```
 
-## 7.25.3 Linker Error
+## 7.22.3 Linker Error
 
 Required function/object definition linking ke time nahi milti.
 
-## 7.25.4 Runtime Error
+## 7.22.4 Runtime Error
 
 Program run hote time problem hoti hai.
 
 **Examples:** Invalid memory access, certain invalid operations or unavailable resources.
 
-## 7.25.5 Logical Error
+## 7.22.5 Logical Error
 
 Program run hota hai, lekin result incorrect hota hai.
 
@@ -1068,7 +1068,7 @@ Program run hota hai, lekin result incorrect hota hai.
 area = 2 * PI * radius;  // This is circumference, not area
 ```
 
-## 7.25.6 Error Comparison
+## 7.22.6 Error Comparison
 
 | Error | Detected When | Example |
 |---|---|---|
@@ -1079,7 +1079,7 @@ area = 2 * PI * radius;  // This is circumference, not area
 
 ---
 
-# 7.26 Coding Best Practices
+# 7.23 Coding Best Practices
 
 1. Meaningful identifiers use karein.
 2. Variables initialize karein.
@@ -1094,9 +1094,9 @@ area = 2 * PI * radius;  // This is circumference, not area
 
 ---
 
-# 7.27 Important Differences
+# 7.24 Important Differences
 
-## 7.27.1 Compiler vs Linker
+## 7.24.1 Compiler vs Linker
 
 | Compiler | Linker |
 |---|---|
@@ -1104,7 +1104,7 @@ area = 2 * PI * radius;  // This is circumference, not area
 | Syntax/type errors detect karta hai | Missing definitions resolve/check karta hai |
 | Object code produce karta hai | Executable produce karta hai |
 
-## 7.27.2 Keyword vs Identifier
+## 7.24.2 Keyword vs Identifier
 
 | Keyword | Identifier |
 |---|---|
@@ -1113,7 +1113,7 @@ area = 2 * PI * radius;  // This is circumference, not area
 | Variable name nahi ho sakta | Variable/function/class name ho sakta |
 | Example: `int` | Example: `studentAge` |
 
-## 7.27.3 Variable vs Constant
+## 7.24.3 Variable vs Constant
 
 | Variable | Constant |
 |---|---|
@@ -1121,7 +1121,7 @@ area = 2 * PI * radius;  // This is circumference, not area
 | `int score` | `const int MAX` |
 | Mutable data | Fixed rule/value |
 
-## 7.27.4 cin vs cout
+## 7.24.4 cin vs cout
 
 | cin | cout |
 |---|---|
@@ -1131,13 +1131,13 @@ area = 2 * PI * radius;  // This is circumference, not area
 
 ---
 
-# 7.28 Chapter Summary
+# 7.25 Chapter Summary
 
 C++ is a compiled, general-purpose programming language that supports procedural, object-oriented and generic programming. Program development begins with problem analysis and an algorithm, followed by coding, compilation, linking, execution, testing and debugging. A C++ program starts from the main function and commonly uses the iostream library for console input and output. Tokens include keywords, identifiers, literals, operators and punctuators. Data types define the kind of values stored in memory, variables represent changeable named locations and constants represent fixed values. The standard streams cin and cout receive input and display output. Correct syntax, meaningful identifiers, proper initialization and careful type selection make programs clearer and safer.
 
 ---
 
-# 7.29 Quick Revision
+# 7.26 Quick Revision
 
 - Program instructions ka ordered set hai.
 - Algorithm finite step-by-step solution hai.
@@ -1153,7 +1153,7 @@ C++ is a compiled, general-purpose programming language that supports procedural
 
 ---
 
-# 7.30 Important Abbreviations
+# 7.27 Important Abbreviations
 
 | Abbreviation | Full Form |
 |---|---|
@@ -1167,7 +1167,7 @@ C++ is a compiled, general-purpose programming language that supports procedural
 
 ---
 
-# 7.31 Multiple-Choice Questions
+# 7.28 Multiple-Choice Questions
 
 ### 1. C++ ko kisne develop kiya?
 
@@ -1261,7 +1261,7 @@ D. `const`
 
 ---
 
-# 7.32 Short-Answer Questions
+# 7.29 Short-Answer Questions
 
 1. Programming ko define kijiye.
 2. Algorithm kya hai?
@@ -1281,7 +1281,7 @@ D. `const`
 
 ---
 
-# 7.33 Long-Answer and Exam Questions
+# 7.30 Long-Answer and Exam Questions
 
 1. Program-development cycle ko diagram ke saath explain kijiye.
 2. C++ ka introduction, history, features aur applications explain kijiye.
@@ -1296,7 +1296,7 @@ D. `const`
 
 ---
 
-# 7.34 Practical Programs
+# 7.31 Practical Programs
 
 1. Apna name, course aur city display kijiye.
 2. Two integers input karke sum display kijiye.
@@ -1309,7 +1309,7 @@ D. `const`
 
 ---
 
-# 7.35 Viva Questions
+# 7.32 Viva Questions
 
 1. C++ compiled language ka kya meaning hai?
 2. `main()` function kyun required hai?
@@ -1324,7 +1324,7 @@ D. `const`
 
 ---
 
-# 7.36 Answers to Selected Viva Questions
+# 7.33 Answers to Selected Viva Questions
 
 1. Source code machine-oriented executable form mein translate hota hai.
 2. Program execution ka standard entry point `main()` hai.
