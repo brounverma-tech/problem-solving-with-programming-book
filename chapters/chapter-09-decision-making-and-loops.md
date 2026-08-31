@@ -84,7 +84,7 @@ Control Statements
 
 Condition true ho to block execute hota hai; false ho to block skip hota hai.
 
-## 9.2.2 Syntax
+## Syntax
 
 ```cpp
 if (condition)
@@ -93,7 +93,7 @@ if (condition)
 }
 ```
 
-## 9.2.3 Example
+## Example
 
 ```cpp
 int age = 20;
@@ -104,7 +104,7 @@ if (age >= 18)
 }
 ```
 
-## 9.2.4 Flow
+## Flow
 
 ```text
       Condition
@@ -116,7 +116,7 @@ if (age >= 18)
        Continue
 ```
 
-## 9.2.5 Program: Positive Number
+## Program: Positive Number
 
 ```cpp
 #include <iostream>
@@ -145,7 +145,7 @@ int main()
 
 Condition true ho to `if` block aur false ho to `else` block execute hota hai.
 
-## 9.3.2 Syntax
+## Syntax
 
 ```cpp
 if (condition)
@@ -158,7 +158,7 @@ else
 }
 ```
 
-## 9.3.3 Program: Even or Odd
+## Program: Even or Odd
 
 ```cpp
 #include <iostream>
@@ -191,7 +191,7 @@ int main()
 
 Multiple conditions ko top-to-bottom check karta hai. First true condition ka block execute hota hai.
 
-## 9.4.2 Syntax
+## Syntax
 
 ```cpp
 if (condition1)
@@ -212,7 +212,7 @@ else
 }
 ```
 
-## 9.4.3 Program: Grade Calculator
+## Program: Grade Calculator
 
 ```cpp
 #include <iostream>
@@ -251,7 +251,7 @@ int main()
 
 Ek `if` ya `else` block ke andar another `if` statement nested if kehlata hai.
 
-## 9.5.2 Program: Login Check
+## Program: Login Check
 
 ```cpp
 #include <iostream>
@@ -315,7 +315,7 @@ if (a > 0)
 
 > A switch statement selects one execution path from multiple constant cases based on an expression.
 
-## 9.7.2 Syntax
+## Syntax
 
 ```cpp
 switch (expression)
@@ -333,7 +333,7 @@ switch (expression)
 }
 ```
 
-## 9.7.3 Working
+## Working
 
 1. Expression evaluate hoti hai.
 2. Matching case locate hota hai.
@@ -341,7 +341,7 @@ switch (expression)
 4. `break` switch se bahar nikalta hai.
 5. Match na mile to `default` execute hota hai.
 
-## 9.7.4 Program: Simple Calculator
+## Program: Simple Calculator
 
 ```cpp
 #include <iostream>
@@ -384,7 +384,7 @@ int main()
 }
 ```
 
-## 9.7.5 Fall-Through
+## 9.7.2 Fall-Through
 
 `break` absent ho to execution next case mein continue kar sakti hai.
 
@@ -400,7 +400,7 @@ switch (day)
 }
 ```
 
-## 9.7.6 switch Limitations
+## 9.7.3 switch Limitations
 
 - Case labels compile-time constant values hone chahiye.
 - Duplicate case values allowed nahi.
@@ -445,7 +445,7 @@ switch (day)
 
 # 9.10 while Loop
 
-## 9.10.1 Syntax
+## Syntax
 
 ```cpp
 initialization;
@@ -459,7 +459,7 @@ while (condition)
 
 Condition loop body se pehle check hoti hai. Initially false condition par loop zero times execute ho sakta hai.
 
-## 9.10.2 Program: 1 to 10
+## Program: 1 to 10
 
 ```cpp
 #include <iostream>
@@ -479,7 +479,7 @@ int main()
 }
 ```
 
-## 9.10.3 Program: Sum of First n Numbers
+## Program: Sum of First n Numbers
 
 ```cpp
 int n;
@@ -501,7 +501,7 @@ cout << "Sum = " << sum;
 
 # 9.11 do-while Loop
 
-## 9.11.1 Syntax
+## Syntax
 
 ```cpp
 do
@@ -514,7 +514,7 @@ while (condition);
 
 Condition body ke baad check hoti hai, isliye loop minimum one time execute hota hai.
 
-## 9.11.2 Program: Menu Repeat
+## Program: Menu Repeat
 
 ```cpp
 #include <iostream>
@@ -544,7 +544,7 @@ int main()
 
 # 9.12 for Loop
 
-## 9.12.1 Syntax
+## Syntax
 
 ```cpp
 for (initialization; condition; update)
@@ -553,7 +553,7 @@ for (initialization; condition; update)
 }
 ```
 
-## 9.12.2 Program: Multiplication Table
+## Program: Multiplication Table
 
 ```cpp
 #include <iostream>
@@ -575,7 +575,7 @@ int main()
 }
 ```
 
-## 9.12.3 Execution Order
+## Execution Order
 
 1. Initialization once.
 2. Condition check.
@@ -583,7 +583,7 @@ int main()
 4. Update execute.
 5. Condition dobara check.
 
-## 9.12.4 Multiple Expressions
+## 9.12.1 Multiple Expressions
 
 ```cpp
 for (int i = 0, j = 10; i < j; ++i, --j)
@@ -609,7 +609,7 @@ for (int i = 0, j = 10; i < j; ++i, --j)
 
 Ek loop ke andar another loop nested loop hai.
 
-## 9.14.1 Program: Star Pattern
+## Program: Star Pattern
 
 ```cpp
 #include <iostream>
@@ -632,7 +632,7 @@ int main()
 }
 ```
 
-## 9.14.2 Output
+## Output
 
 ```text
 *
@@ -642,7 +642,7 @@ int main()
 * * * * *
 ```
 
-## 9.14.3 Iteration Count
+## 9.14.1 Iteration Count
 
 Outer loop m aur inner loop n times run ho to total body executions approximately m × n ho sakte hain.
 
@@ -699,7 +699,7 @@ labelName:
     statement;
 ```
 
-## 9.17.2 Example
+## Example
 
 ```cpp
 int number;
@@ -712,7 +712,7 @@ if (number <= 0)
     goto readAgain;
 ```
 
-## 9.17.3 Why goto Is Usually Avoided
+## 9.17.2 Why goto Is Usually Avoided
 
 - Control flow difficult to follow ho sakta hai.
 - Debugging aur maintenance hard hoti hai.
@@ -769,7 +769,7 @@ while (i <= 10)
 
 ---
 
-# 9.20 Program: Factorial
+# Program: Factorial
 
 For non-negative n:
 
@@ -807,7 +807,7 @@ int main()
 
 ---
 
-# 9.21 Program: Prime Number Check
+# Program: Prime Number Check
 
 ```cpp
 #include <iostream>
@@ -846,7 +846,7 @@ int main()
 
 ---
 
-# 9.22 Program: Reverse a Number
+# Program: Reverse a Number
 
 ```cpp
 #include <iostream>
@@ -874,9 +874,9 @@ int main()
 
 ---
 
-# 9.23 Common Mistakes
+# 9.20 Common Mistakes
 
-## 9.23.1 Semicolon After if
+## 9.20.1 Semicolon After if
 
 ```cpp
 if (marks >= 40);  // Wrong unintended empty statement
@@ -885,48 +885,48 @@ if (marks >= 40);  // Wrong unintended empty statement
 }
 ```
 
-## 9.23.2 Assignment Instead of Comparison
+## 9.20.2 Assignment Instead of Comparison
 
 ```cpp
 if (choice = 1)   // Assignment
 if (choice == 1)  // Comparison
 ```
 
-## 9.23.3 Missing break in switch
+## 9.20.3 Missing break in switch
 
 Unwanted fall-through cause ho sakta hai.
 
-## 9.23.4 Missing Loop Update
+## 9.20.4 Missing Loop Update
 
 Infinite loop cause ho sakta hai.
 
-## 9.23.5 Off-by-One Error
+## 9.20.5 Off-by-One Error
 
 `i < n` aur `i <= n` ka incorrect selection one extra ya one fewer iteration cause karta hai.
 
-## 9.23.6 Uninitialized Counter
+## 9.20.6 Uninitialized Counter
 
 Counter ko use se pehle initialize karein.
 
 ---
 
-# 9.24 Important Differences
+# 9.21 Important Differences
 
-## 9.24.1 if vs if-else
+## 9.21.1 if vs if-else
 
 | if | if-else |
 |---|---|
 | True path only | True and false paths |
 | False par block skip | False par else block |
 
-## 9.24.2 break vs continue
+## 9.21.2 break vs continue
 
 | break | continue |
 |---|---|
 | Loop terminate | Current iteration skip |
 | Control loop ke baad | Control next iteration par |
 
-## 9.24.3 Entry vs Exit Controlled
+## 9.21.3 Entry vs Exit Controlled
 
 | Entry-Controlled | Exit-Controlled |
 |---|---|
@@ -936,13 +936,13 @@ Counter ko use se pehle initialize karein.
 
 ---
 
-# 9.25 Chapter Summary
+# 9.22 Chapter Summary
 
 Control statements change the normal sequence of program execution. Selection statements choose a path: if handles a single condition, if-else provides two alternatives, an else-if ladder checks multiple conditions, nested if supports dependent decisions and switch selects among constant cases. Loops repeat statements: while and for are entry-controlled, while do-while is exit-controlled and executes at least once. Nested loops solve grid and pattern problems. The break statement terminates the nearest loop or switch, continue skips the remaining part of the current iteration, goto performs an unconditional labeled jump and return ends a function. Correct initialization, conditions, updates and braces prevent common errors such as infinite loops, fall-through and off-by-one mistakes.
 
 ---
 
-# 9.26 Quick Revision
+# 9.23 Quick Revision
 
 - Control flow statements ka execution order hai.
 - `if` condition true hone par block execute karta hai.
@@ -958,7 +958,7 @@ Control statements change the normal sequence of program execution. Selection st
 
 ---
 
-# 9.27 Multiple-Choice Questions
+# 9.24 Multiple-Choice Questions
 
 1. Two-way selection ke liye kya use hota hai?  
    A. if-else  B. comment  C. include  D. namespace  
@@ -994,7 +994,7 @@ Control statements change the normal sequence of program execution. Selection st
 
 ---
 
-# 9.28 Short-Answer Questions
+# 9.25 Short-Answer Questions
 
 1. Control statement ko define kijiye.
 2. Simple if ka syntax aur working likhiye.
@@ -1011,7 +1011,7 @@ Control statements change the normal sequence of program execution. Selection st
 
 ---
 
-# 9.29 Long-Answer and Exam Questions
+# 9.26 Long-Answer and Exam Questions
 
 1. Selection statements ko syntax, flow aur examples ke saath explain kijiye.
 2. else-if ladder se grade-calculator program likhiye.
@@ -1026,7 +1026,7 @@ Control statements change the normal sequence of program execution. Selection st
 
 ---
 
-# 9.30 Practice Programs
+# 9.27 Practice Programs
 
 1. Number positive, negative ya zero check kijiye.
 2. Three numbers mein largest find kijiye.
@@ -1043,7 +1043,7 @@ Control statements change the normal sequence of program execution. Selection st
 
 ---
 
-# 9.31 Viva Questions
+# 9.28 Viva Questions
 
 1. Condition ka result kis type ka hota hai?
 2. else kis if se attach hota hai?
