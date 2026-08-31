@@ -32,6 +32,6 @@ A. [Important Computer and Programming Terms](appendices/appendix-a-important-te
 B. [C++ Syntax Quick Reference](appendices/appendix-b-cpp-syntax-quick-reference.md)  
 C. [Practical C++ Programs](appendices/appendix-c-practical-cpp-programs.md)  
 D. [Viva Questions](appendices/appendix-d-viva-questions.md)  
-E. Important Exam Questions  
+E. [Important Exam Questions](appendices/appendix-e-important-exam-questions.md)  
 F. MCQ Answer Keys  
 G. Glossary
