@@ -28,21 +28,21 @@ Is chapter ko complete karne ke baad aap:
 
 ---
 
-# 10.1 Introduction to Structured Programming
+## 10.1 Introduction to Structured Programming
 
-## 10.1.1 Meaning of Structured Programming
+### 10.1.1 Meaning of Structured Programming
 
 > Structured programming is a programming approach that organizes a program into clear blocks, control structures and reusable modules.
 
 **Hinglish:** Structured programming mein large problem ko small aur manageable parts mein divide kiya jata hai. Har part ka clear purpose hota hai.
 
-## 10.1.2 Main Control Structures
+### 10.1.2 Main Control Structures
 
 1. Sequence
 2. Selection
 3. Repetition
 
-## 10.1.3 Modular Programming
+### 10.1.3 Modular Programming
 
 Program ko independent, reusable functions/modules mein divide karna modular programming hai.
 
@@ -55,7 +55,7 @@ Large Problem
 └── Output Function
 ```
 
-## 10.1.4 Advantages
+### 10.1.4 Advantages
 
 - Program easy to understand hota hai.
 - Testing aur debugging easier hoti hai.
@@ -65,13 +65,13 @@ Large Problem
 
 ---
 
-# 10.2 Introduction to Functions
+## 10.2 Introduction to Functions
 
-## 10.2.1 Meaning of Function
+### 10.2.1 Meaning of Function
 
 > A function is a named, reusable block of code designed to perform a specific task.
 
-## 10.2.2 Need for Functions
+### 10.2.2 Need for Functions
 
 - Large program ko smaller parts mein divide karna
 - Repeated code avoid karna
@@ -79,7 +79,7 @@ Large Problem
 - Testing aur debugging simplify karna
 - Code reuse support karna
 
-## 10.2.3 Types of Functions
+### 10.2.3 Types of Functions
 
 ```text
 Functions
@@ -90,29 +90,29 @@ Functions
 
 ---
 
-# 10.3 Function Declaration, Definition and Call
+## 10.3 Function Declaration, Definition and Call
 
-## 10.3.1 Function Declaration
+### 10.3.1 Function Declaration
 
 Compiler ko function ka name, return type aur parameter types batata hai. Isse function prototype bhi kehte hain.
 
-### Syntax
+#### Syntax
 
 ```cpp
 returnType functionName(parameterTypes);
 ```
 
-### Example
+#### Example
 
 ```cpp
 int add(int, int);
 ```
 
-## 10.3.2 Function Definition
+### 10.3.2 Function Definition
 
 Function ka actual code/body provide karti hai.
 
-### Syntax
+#### Syntax
 
 ```cpp
 returnType functionName(parameters)
@@ -122,7 +122,7 @@ returnType functionName(parameters)
 }
 ```
 
-## 10.3.3 Function Call
+### 10.3.3 Function Call
 
 Function ko execute karne ke liye name aur arguments use hote hain.
 
@@ -130,7 +130,7 @@ Function ko execute karne ke liye name aur arguments use hote hain.
 int result = add(10, 20);
 ```
 
-### Complete Program
+#### Complete Program
 
 ```cpp
 #include <iostream>
@@ -153,37 +153,37 @@ int add(int first, int second)
 
 ---
 
-# 10.4 Function Components
+## 10.4 Function Components
 
-## 10.4.1 Function Name
+### 10.4.1 Function Name
 
 Function ko identify karne wala valid identifier.
 
-## 10.4.2 Return Type
+### 10.4.2 Return Type
 
 Function caller ko kis type ki value return karega.
 
-## 10.4.3 Parameters
+### 10.4.3 Parameters
 
 Function definition/declaration mein input receive karne wale variables.
 
-## 10.4.4 Function Body
+### 10.4.4 Function Body
 
 Curly braces ke andar executable statements.
 
-## 10.4.5 Return Statement
+### 10.4.5 Return Statement
 
 Function se value aur control caller ko return karta hai.
 
-## 10.4.6 Function Signature
+### 10.4.6 Function Signature
 
 Function name aur parameter-type list function identity mein important hote hain. Return type alone overloading distinguish nahi karta.
 
 ---
 
-# 10.5 Parameters and Arguments
+## 10.5 Parameters and Arguments
 
-## 10.5.1 Formal Parameters
+### 10.5.1 Formal Parameters
 
 Function definition mein declared variables.
 
@@ -193,7 +193,7 @@ int add(int first, int second)
 
 `first` aur `second` formal parameters hain.
 
-## 10.5.2 Actual Arguments
+### 10.5.2 Actual Arguments
 
 Function call ke time supplied values/expressions.
 
@@ -203,7 +203,7 @@ add(10, 20);
 
 `10` aur `20` actual arguments hain.
 
-## 10.5.3 Difference
+### 10.5.3 Difference
 
 | Parameters | Arguments |
 |---|---|
@@ -213,9 +213,9 @@ add(10, 20);
 
 ---
 
-# 10.6 Categories of User-Defined Functions
+## 10.6 Categories of User-Defined Functions
 
-## 10.6.1 No Arguments and No Return Value
+### 10.6.1 No Arguments and No Return Value
 
 ```cpp
 void greet()
@@ -224,7 +224,7 @@ void greet()
 }
 ```
 
-## 10.6.2 Arguments and No Return Value
+### 10.6.2 Arguments and No Return Value
 
 ```cpp
 void printSum(int a, int b)
@@ -233,7 +233,7 @@ void printSum(int a, int b)
 }
 ```
 
-## 10.6.3 No Arguments but Return Value
+### 10.6.3 No Arguments but Return Value
 
 ```cpp
 int readNumber()
@@ -244,7 +244,7 @@ int readNumber()
 }
 ```
 
-## 10.6.4 Arguments and Return Value
+### 10.6.4 Arguments and Return Value
 
 ```cpp
 int maximum(int a, int b)
@@ -255,15 +255,15 @@ int maximum(int a, int b)
 
 ---
 
-# 10.7 Call by Value
+## 10.7 Call by Value
 
-## 10.7.1 Meaning
+### 10.7.1 Meaning
 
 > In call by value, a function receives copies of the argument values.
 
 Original variable directly modify nahi hota.
 
-### Program
+#### Program
 
 ```cpp
 #include <iostream>
@@ -284,27 +284,27 @@ int main()
 }
 ```
 
-## 10.7.2 Advantages
+### 10.7.2 Advantages
 
 - Original data protected rehta hai.
 - Function side effects reduce hote hain.
 - Small simple types ke liye easy hai.
 
-## 10.7.3 Limitation
+### 10.7.3 Limitation
 
 Large objects copy karna costly ho sakta hai, aur caller value modify nahi hoti.
 
 ---
 
-# 10.8 Call by Reference
+## 10.8 Call by Reference
 
-## 10.8.1 Meaning
+### 10.8.1 Meaning
 
 > In call by reference, a reference parameter acts as another name for the original argument.
 
 Function original variable modify kar sakta hai.
 
-### Program: Swap Two Numbers
+#### Program: Swap Two Numbers
 
 ```cpp
 #include <iostream>
@@ -330,14 +330,14 @@ int main()
 }
 ```
 
-### Output
+#### Output
 
 ```text
 a = 20
 b = 10
 ```
 
-## 10.8.2 Const Reference
+### 10.8.2 Const Reference
 
 Large object ko copy kiye bina read-only access dene ke liye const reference use ho sakta hai.
 
@@ -348,7 +348,7 @@ void display(const string& text)
 }
 ```
 
-## 10.8.3 Value vs Reference
+### 10.8.3 Value vs Reference
 
 | Call by Value | Call by Reference |
 |---|---|
@@ -359,9 +359,9 @@ void display(const string& text)
 
 ---
 
-# 10.9 Returning Values
+## 10.9 Returning Values
 
-## 10.9.1 Single Return Value
+### 10.9.1 Single Return Value
 
 ```cpp
 double square(double number)
@@ -370,7 +370,7 @@ double square(double number)
 }
 ```
 
-## 10.9.2 Early Return
+### 10.9.2 Early Return
 
 ```cpp
 bool isPositive(int number)
@@ -382,7 +382,7 @@ bool isPositive(int number)
 }
 ```
 
-## 10.9.3 void Function
+### 10.9.3 void Function
 
 `void` function value return nahi karta.
 
@@ -395,9 +395,9 @@ void showMessage()
 
 ---
 
-# 10.10 Default Arguments
+## 10.10 Default Arguments
 
-## 10.10.1 Meaning
+### 10.10.1 Meaning
 
 Parameter ke liye default value define ki ja sakti hai. Argument omit hone par default use hota hai.
 
@@ -413,7 +413,7 @@ calculatePrice(1000);       // Default taxRate
 calculatePrice(1000, 0.05); // Supplied taxRate
 ```
 
-## 10.10.2 Rules
+### 10.10.2 Rules
 
 - Default arguments usually declaration mein specify karein.
 - Rightmost parameters se defaults start hone chahiye.
@@ -421,13 +421,13 @@ calculatePrice(1000, 0.05); // Supplied taxRate
 
 ---
 
-# 10.11 Function Overloading
+## 10.11 Function Overloading
 
-## 10.11.1 Meaning
+### 10.11.1 Meaning
 
 > Function overloading allows multiple functions to have the same name with different parameter lists.
 
-### Example
+#### Example
 
 ```cpp
 int add(int a, int b)
@@ -446,7 +446,7 @@ int add(int a, int b, int c)
 }
 ```
 
-## 10.11.2 Overloading Rules
+### 10.11.2 Overloading Rules
 
 - Parameter count different ho sakta hai.
 - Parameter types different ho sakte hain.
@@ -455,13 +455,13 @@ int add(int a, int b, int c)
 
 ---
 
-# 10.12 Standard Library Functions
+## 10.12 Standard Library Functions
 
-## 10.12.1 Meaning
+### 10.12.1 Meaning
 
 Standard library reusable ready-made functions aur classes provide karti hai.
 
-## 10.12.2 Mathematical Functions
+### 10.12.2 Mathematical Functions
 
 Header: `<cmath>`
 
@@ -474,7 +474,7 @@ Header: `<cmath>`
 | `floor(x)` | Downward integral rounding |
 | `round(x)` | Nearest integral value |
 
-### Program
+#### Program
 
 ```cpp
 #include <cmath>
@@ -490,7 +490,7 @@ int main()
 }
 ```
 
-## 10.12.3 Character Functions
+### 10.12.3 Character Functions
 
 Header: `<cctype>`
 
@@ -502,7 +502,7 @@ Header: `<cctype>`
 | `toupper(ch)` | Uppercase conversion |
 | `tolower(ch)` | Lowercase conversion |
 
-## 10.12.4 String Functions
+### 10.12.4 String Functions
 
 `std::string` member functions:
 
@@ -514,9 +514,9 @@ Header: `<cctype>`
 
 ---
 
-# 10.13 Scope Rules
+## 10.13 Scope Rules
 
-## 10.13.1 Local Scope
+### 10.13.1 Local Scope
 
 Block/function ke andar declared variable sirf us scope mein accessible hota hai.
 
@@ -527,7 +527,7 @@ void test()
 }
 ```
 
-## 10.13.2 Global Scope
+### 10.13.2 Global Scope
 
 Functions ke outside declared name global scope mein hota hai.
 
@@ -537,7 +537,7 @@ int globalValue = 50;
 
 > Unnecessary global variables avoid karein because dependencies aur side effects badh sakte hain.
 
-## 10.13.3 Block Scope
+### 10.13.3 Block Scope
 
 ```cpp
 if (true)
@@ -547,11 +547,11 @@ if (true)
 // value is unavailable here
 ```
 
-## 10.13.4 Shadowing
+### 10.13.4 Shadowing
 
 Inner scope ka same-name variable outer variable ko temporarily hide karta hai.
 
-## 10.13.5 Scope Resolution Operator
+### 10.13.5 Scope Resolution Operator
 
 Global variable ko access karne ke liye `::` use ho sakta hai.
 
@@ -568,11 +568,11 @@ int main()
 
 ---
 
-# 10.14 Storage Classes
+## 10.14 Storage Classes
 
 Storage-related specifiers variable ki storage duration, linkage ya access behavior affect karte hain.
 
-## 10.14.1 auto
+### 10.14.1 auto
 
 Traditional syllabus context mein automatic local storage ko describe karta hai. Modern C++ mein `auto` commonly type deduction ke liye use hota hai.
 
@@ -580,11 +580,11 @@ Traditional syllabus context mein automatic local storage ko describe karta hai.
 auto total = 10 + 20;  // int deduced
 ```
 
-## 10.14.2 register
+### 10.14.2 register
 
 Historically compiler ko fast register storage ka hint deta tha. Modern C++ compilers optimization automatically karte hain; keyword modern standards mein removed/deprecated historical topic hai.
 
-## 10.14.3 static
+### 10.14.3 static
 
 Local static variable calls ke beech value retain karta hai.
 
@@ -599,7 +599,7 @@ void countCalls()
 
 Three calls par output: `1`, `2`, `3`.
 
-## 10.14.4 extern
+### 10.14.4 extern
 
 Variable/function ki definition another translation unit ya later location par existing hone ka declaration provide karta hai.
 
@@ -607,7 +607,7 @@ Variable/function ki definition another translation unit ya later location par e
 extern int sharedValue;
 ```
 
-## 10.14.5 Comparison
+### 10.14.5 Comparison
 
 | Specifier | Main Idea |
 |---|---|
@@ -618,9 +618,9 @@ extern int sharedValue;
 
 ---
 
-# 10.15 Arrays as Function Parameters
+## 10.15 Arrays as Function Parameters
 
-## 10.15.1 Passing an Array
+### 10.15.1 Passing an Array
 
 Built-in array parameter commonly pointer-like form mein receive hota hai; size separately pass karna padta hai.
 
@@ -638,7 +638,7 @@ int calculateSum(const int values[], int size)
 }
 ```
 
-### Program
+#### Program
 
 ```cpp
 #include <iostream>
@@ -662,31 +662,31 @@ int main()
 }
 ```
 
-## 10.15.2 const Array Parameter
+### 10.15.2 const Array Parameter
 
 `const` function ko array elements modify karne se rokta hai.
 
-## 10.15.3 Returning an Array
+### 10.15.3 Returning an Array
 
 Built-in local array directly by value return nahi kiya jata. Safer modern alternatives include `std::array` aur `std::vector`, jo later data-structure study mein useful hain.
 
 ---
 
-# 10.16 Recursion
+## 10.16 Recursion
 
-## 10.16.1 Meaning of Recursion
+### 10.16.1 Meaning of Recursion
 
 > Recursion is a technique in which a function calls itself to solve a smaller version of the same problem.
 
-## 10.16.2 Base Case
+### 10.16.2 Base Case
 
 Recursion stop karne wali condition.
 
-## 10.16.3 Recursive Case
+### 10.16.3 Recursive Case
 
 Problem ko smaller instance mein reduce karke function dobara call karta hai.
 
-## 10.16.4 Recursive Factorial
+### 10.16.4 Recursive Factorial
 
 ```cpp
 unsigned long long factorial(unsigned int n)
@@ -698,7 +698,7 @@ unsigned long long factorial(unsigned int n)
 }
 ```
 
-### Trace for factorial(4)
+#### Trace for factorial(4)
 
 ```text
 factorial(4)
@@ -708,7 +708,7 @@ factorial(4)
 = 24
 ```
 
-## 10.16.5 Recursive Sum
+### 10.16.5 Recursive Sum
 
 ```cpp
 int sumToN(int n)
@@ -720,11 +720,11 @@ int sumToN(int n)
 }
 ```
 
-## 10.16.6 Recursion and Call Stack
+### 10.16.6 Recursion and Call Stack
 
 Har recursive call ka separate stack frame hota hai. Base case missing ho to stack overflow ho sakta hai.
 
-## 10.16.7 Recursion vs Iteration
+### 10.16.7 Recursion vs Iteration
 
 | Recursion | Iteration |
 |---|---|
@@ -735,7 +735,7 @@ Har recursive call ka separate stack frame hota hai. Base case missing ho to sta
 
 ---
 
-# 10.17 Function Best Practices
+## 10.17 Function Best Practices
 
 1. Function ka one clear purpose rakhein.
 2. Meaningful name use karein.
@@ -750,37 +750,37 @@ Har recursive call ka separate stack frame hota hai. Base case missing ho to sta
 
 ---
 
-# 10.18 Common Mistakes
+## 10.18 Common Mistakes
 
-## 10.18.1 Missing Declaration
+### 10.18.1 Missing Declaration
 
 Call se pehle compiler ko declaration/definition visible honi chahiye.
 
-## 10.18.2 Parameter Mismatch
+### 10.18.2 Parameter Mismatch
 
 Argument count aur compatible types function declaration se match hone chahiye.
 
-## 10.18.3 Missing Return
+### 10.18.3 Missing Return
 
 Non-void function ke required path par correct value return karein.
 
-## 10.18.4 Expecting Value Parameter to Modify Caller
+### 10.18.4 Expecting Value Parameter to Modify Caller
 
 Original modify karne ke liye reference parameter required ho sakta hai.
 
-## 10.18.5 Returning Local Reference or Pointer
+### 10.18.5 Returning Local Reference or Pointer
 
 Local automatic variable function end par destroy hota hai; uska dangling reference/pointer return na karein.
 
-## 10.18.6 Missing Recursive Base Case
+### 10.18.6 Missing Recursive Base Case
 
 Unbounded calls aur stack overflow cause ho sakta hai.
 
 ---
 
-# 10.19 Important Differences
+## 10.19 Important Differences
 
-## 10.19.1 Library vs User-Defined Function
+### 10.19.1 Library vs User-Defined Function
 
 | Library Function | User-Defined Function |
 |---|---|
@@ -788,14 +788,14 @@ Unbounded calls aur stack overflow cause ho sakta hai.
 | Required header use hota hai | Declaration/definition required |
 | Example: `sqrt` | Example: `calculateSum` |
 
-## 10.19.2 Declaration vs Definition
+### 10.19.2 Declaration vs Definition
 
 | Declaration | Definition |
 |---|---|
 | Interface batati hai | Actual body provide karti hai |
 | Semicolon ke saath prototype | Curly-brace block |
 
-## 10.19.3 Local vs Global Variable
+### 10.19.3 Local vs Global Variable
 
 | Local | Global |
 |---|---|
@@ -805,13 +805,13 @@ Unbounded calls aur stack overflow cause ho sakta hai.
 
 ---
 
-# 10.20 Chapter Summary
+## 10.20 Chapter Summary
 
 Structured programming organizes a solution through sequence, selection, repetition and reusable modules. A function is a named block that performs a specific task and may accept parameters and return a value. Function declarations describe the interface, definitions provide the body and calls execute the function. Call by value protects the original argument by copying it, while call by reference can modify the caller's variable and avoid copies. C++ supports default arguments, function overloading and many standard library functions. Scope controls name visibility, and storage specifiers such as static and extern affect storage duration or linkage. Arrays can be passed with their size, and recursion solves a problem through smaller self-calls that must reach a base case.
 
 ---
 
-# 10.21 Quick Revision
+## 10.21 Quick Revision
 
 - Structured programming program ko clear modules mein divide karti hai.
 - Function reusable named block hai.
@@ -827,7 +827,7 @@ Structured programming organizes a solution through sequence, selection, repetit
 
 ---
 
-# 10.22 Important Abbreviations
+## 10.22 Important Abbreviations
 
 | Abbreviation | Full Form |
 |---|---|
@@ -838,7 +838,7 @@ Structured programming organizes a solution through sequence, selection, repetit
 
 ---
 
-# 10.23 Multiple-Choice Questions
+## 10.23 Multiple-Choice Questions
 
 1. Reusable named block ko kya kehte hain?  
    A. Function  B. Comment  C. Header only  D. Token only  
@@ -870,7 +870,7 @@ Structured programming organizes a solution through sequence, selection, repetit
 
 ---
 
-# 10.24 Short-Answer Questions
+## 10.24 Short-Answer Questions
 
 1. Structured programming ko define kijiye.
 2. Function kya hai aur kyun use hota hai?
@@ -887,7 +887,7 @@ Structured programming organizes a solution through sequence, selection, repetit
 
 ---
 
-# 10.25 Long-Answer and Exam Questions
+## 10.25 Long-Answer and Exam Questions
 
 1. Structured programming aur modular programming explain kijiye.
 2. C++ functions ko syntax aur complete program ke saath samjhaiye.
@@ -902,7 +902,7 @@ Structured programming organizes a solution through sequence, selection, repetit
 
 ---
 
-# 10.26 Practice Programs
+## 10.26 Practice Programs
 
 1. Function se two numbers ka maximum find kijiye.
 2. Function se number even/odd check kijiye.
@@ -915,7 +915,7 @@ Structured programming organizes a solution through sequence, selection, repetit
 
 ---
 
-# 10.27 Viva Questions
+## 10.27 Viva Questions
 
 1. Function prototype kya hai?
 2. Function call mein control kahan jata hai?
@@ -932,7 +932,7 @@ Structured programming organizes a solution through sequence, selection, repetit
 
 <div align="center">
 
-## ✅ Chapter 10 Complete
+### ✅ Chapter 10 Complete
 
 [⬅️ Previous Chapter](chapter-09-decision-making-and-loops.md) · [📚 Table of Contents](../SUMMARY.md) · **Next: Arrays ➡️**
 
