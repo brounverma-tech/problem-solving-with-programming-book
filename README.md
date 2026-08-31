@@ -115,7 +115,7 @@ Yeh book **Problem Solving with Programming** ko bilkul basic level se samjhane 
 - **8.7** Expression Evaluation
 - **8.8** Type Conversion
 
-### 📖 Chapter 9: Decision-Making and Loops
+### 📖 [Chapter 9: Decision-Making and Loops](chapters/chapter-09-decision-making-and-loops.md) ✅
 - **9.1** Selection Statements
   - **9.1.1** if Statement
   - **9.1.2** if-else Statement
