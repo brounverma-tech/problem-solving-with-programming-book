@@ -27,19 +27,19 @@ Is chapter ko complete karne ke baad aap:
 
 ---
 
-# 6.1 Introduction to Number Systems
+## 6.1 Introduction to Number Systems
 
-## 6.1.1 Meaning of Number System
+### 6.1.1 Meaning of Number System
 
-### 📘 English Definition
+#### 📘 English Definition
 
 > A number system is a method of representing numbers using a defined set of digits and rules.
 
-### 💬 Hinglish Explanation
+#### 💬 Hinglish Explanation
 
 Number system numbers ko likhne aur represent karne ka तरीका hai. Har number system mein kuch allowed digits aur ek **base** hota hai.
 
-## 6.1.2 Base or Radix
+### 6.1.2 Base or Radix
 
 Number system mein available unique digits ki total quantity ko **base** ya **radix** kehte hain.
 
@@ -50,11 +50,11 @@ Number system mein available unique digits ki total quantity ko **base** ya **ra
 | Decimal | 10 | 0–9 |
 | Hexadecimal | 16 | 0–9, A–F |
 
-## 6.1.3 Positional Number System
+### 6.1.3 Positional Number System
 
 Digit ki value uske digit aur position dono par depend karti hai.
 
-### 6.1.3.1 General Form
+#### 6.1.3.1 General Form
 
 For base $r$:
 
@@ -68,7 +68,7 @@ $$
 \sum d_i \times r^i
 $$
 
-## Place-Value Example
+##### Place-Value Example
 
 Decimal number:
 
@@ -84,7 +84,7 @@ $$
 = 500+70+2+0.4=572.4
 $$
 
-## 6.1.4 Important Terms
+### 6.1.4 Important Terms
 
 | Term | Pronunciation | Meaning |
 |---|---|---|
@@ -99,19 +99,19 @@ $$
 
 ---
 
-# 6.2 Decimal Number System
+## 6.2 Decimal Number System
 
-## 6.2.1 Meaning
+### 6.2.1 Meaning
 
 Decimal system ka base **10** hai aur digits `0` se `9` tak hain.
 
-## 6.2.2 Positional Weights
+### 6.2.2 Positional Weights
 
 ```text
 ... 10³  10²  10¹  10⁰ . 10⁻¹  10⁻² ...
 ```
 
-## Example
+#### Example
 
 $$
 (3847)_{10}
@@ -127,13 +127,13 @@ $$
 
 ---
 
-# 6.3 Binary Number System
+## 6.3 Binary Number System
 
-## 6.3.1 Meaning
+### 6.3.1 Meaning
 
 Binary system ka base **2** hai. Ismein sirf `0` aur `1` digits use hoti hain.
 
-## 6.3.2 Why Computers Use Binary
+### 6.3.2 Why Computers Use Binary
 
 Electronic circuits easily two stable states represent karte hain:
 
@@ -142,13 +142,13 @@ Electronic circuits easily two stable states represent karte hain:
 | 0 | OFF, Low, False |
 | 1 | ON, High, True |
 
-## 6.3.3 Positional Weights
+### 6.3.3 Positional Weights
 
 ```text
 ... 2⁴  2³  2²  2¹  2⁰ . 2⁻¹  2⁻²  2⁻³ ...
 ```
 
-## 6.3.4 Binary Place Values
+### 6.3.4 Binary Place Values
 
 | Power | Value |
 |---:|---:|
@@ -164,13 +164,13 @@ Electronic circuits easily two stable states represent karte hain:
 
 ---
 
-# 6.4 Binary to Decimal Conversion
+## 6.4 Binary to Decimal Conversion
 
-## Method
+### Method
 
 Har binary digit ko corresponding power of 2 se multiply karke values add karein.
 
-## Solved Example 1
+### Solved Example 1
 
 Convert $(101101)_2$ to decimal.
 
@@ -189,7 +189,7 @@ $$
 (101101)_2=(45)_{10}
 $$
 
-## Solved Example 2
+### Solved Example 2
 
 Convert $(11001)_2$ to decimal.
 
@@ -209,9 +209,9 @@ $$
 
 ---
 
-# 6.5 Decimal Integer to Binary Conversion
+## 6.5 Decimal Integer to Binary Conversion
 
-## 6.5.1 Repeated Division Method
+### 6.5.1 Repeated Division Method
 
 1. Decimal number ko 2 se divide karein.
 2. Remainder note karein.
@@ -219,7 +219,7 @@ $$
 4. Quotient 0 hone tak repeat karein.
 5. Remainders ko bottom-to-top read karein.
 
-## Solved Example
+#### Solved Example
 
 Convert $(45)_{10}$ to binary.
 
@@ -240,19 +240,19 @@ $$
 
 ---
 
-# 6.6 Octal Number System
+## 6.6 Octal Number System
 
-## 6.6.1 Meaning
+### 6.6.1 Meaning
 
 Octal system ka base **8** hai. Allowed digits `0` se `7` tak hain.
 
-## 6.6.2 Positional Weights
+### 6.6.2 Positional Weights
 
 ```text
 ... 8³  8²  8¹  8⁰ . 8⁻¹  8⁻² ...
 ```
 
-## Octal to Decimal Example
+#### Octal to Decimal Example
 
 Convert $(725)_8$ to decimal.
 
@@ -270,7 +270,7 @@ $$
 (725)_8=(469)_{10}
 $$
 
-## Decimal to Octal Example
+#### Decimal to Octal Example
 
 Convert $(156)_{10}$ to octal.
 
@@ -288,9 +288,9 @@ $$
 
 ---
 
-# 6.7 Hexadecimal Number System
+## 6.7 Hexadecimal Number System
 
-## 6.7.1 Meaning
+### 6.7.1 Meaning
 
 Hexadecimal system ka base **16** hai.
 
@@ -304,13 +304,13 @@ Hexadecimal system ka base **16** hai.
 | 14 | E |
 | 15 | F |
 
-## 6.7.2 Positional Weights
+### 6.7.2 Positional Weights
 
 ```text
 ... 16³  16²  16¹  16⁰ . 16⁻¹  16⁻² ...
 ```
 
-## Hexadecimal to Decimal Example
+#### Hexadecimal to Decimal Example
 
 Convert $(2AF)_{16}$ to decimal.
 
@@ -328,7 +328,7 @@ $$
 (2AF)_{16}=(687)_{10}
 $$
 
-## Decimal to Hexadecimal Example
+#### Decimal to Hexadecimal Example
 
 Convert $(254)_{10}$ to hexadecimal.
 
@@ -343,7 +343,7 @@ $$
 (254)_{10}=(FE)_{16}
 $$
 
-## 6.7.3 Uses of Hexadecimal
+### 6.7.3 Uses of Hexadecimal
 
 - Memory addresses
 - Machine-code representation
@@ -353,13 +353,13 @@ $$
 
 ---
 
-# 6.8 Binary and Octal Conversion
+## 6.8 Binary and Octal Conversion
 
-## 6.8.1 Binary to Octal
+### 6.8.1 Binary to Octal
 
 Radix point se left aur right side bits ko **3-3 ke groups** mein divide karein.
 
-### Solved Example
+#### Solved Example
 
 Convert $(1101011)_2$ to octal.
 
@@ -374,7 +374,7 @@ $$
 (1101011)_2=(153)_8
 $$
 
-## 6.8.2 Octal to Binary
+### 6.8.2 Octal to Binary
 
 Har octal digit ko equivalent 3-bit binary group mein convert karein.
 
@@ -389,7 +389,7 @@ Har octal digit ko equivalent 3-bit binary group mein convert karein.
 | 6 | 110 |
 | 7 | 111 |
 
-### Example
+#### Example
 
 $$
 (572)_8
@@ -407,13 +407,13 @@ $$
 
 ---
 
-# 6.9 Binary and Hexadecimal Conversion
+## 6.9 Binary and Hexadecimal Conversion
 
-## 6.9.1 Binary to Hexadecimal
+### 6.9.1 Binary to Hexadecimal
 
 Bits ko **4-4 ke groups** mein divide karein.
 
-### Solved Example
+#### Solved Example
 
 Convert $(1101111010)_2$ to hexadecimal.
 
@@ -428,7 +428,7 @@ $$
 (1101111010)_2=(37A)_{16}
 $$
 
-## 6.9.2 Hexadecimal to Binary
+### 6.9.2 Hexadecimal to Binary
 
 Har hexadecimal digit ko 4-bit binary group mein convert karein.
 
@@ -443,7 +443,7 @@ Har hexadecimal digit ko 4-bit binary group mein convert karein.
 | 6 | 0110 | E | 1110 |
 | 7 | 0111 | F | 1111 |
 
-### Example
+#### Example
 
 $$
 (9C)_{16}
@@ -460,11 +460,11 @@ $$
 
 ---
 
-# 6.10 Octal and Hexadecimal Conversion
+## 6.10 Octal and Hexadecimal Conversion
 
 Direct digit grouping common nahi hai. Pehle binary mein convert karein.
 
-## Octal to Hexadecimal Example
+### Octal to Hexadecimal Example
 
 Convert $(73)_8$ to hexadecimal.
 
@@ -482,7 +482,7 @@ $$
 (73)_8=(3B)_{16}
 $$
 
-## Hexadecimal to Octal Example
+### Hexadecimal to Octal Example
 
 Convert $(2D)_{16}$ to octal.
 
@@ -502,13 +502,13 @@ $$
 
 ---
 
-# 6.11 Working with Fractions
+## 6.11 Working with Fractions
 
-## 6.11.1 Binary Fraction to Decimal
+### 6.11.1 Binary Fraction to Decimal
 
 Radix point ke right side positions $2^{-1}, 2^{-2}, 2^{-3}...$ hoti hain.
 
-### Solved Example
+#### Solved Example
 
 Convert $(101.101)_2$ to decimal.
 
@@ -531,11 +531,11 @@ $$
 (101.101)_2=(5.625)_{10}
 $$
 
-## 6.11.2 Decimal Fraction to Binary
+### 6.11.2 Decimal Fraction to Binary
 
 Fractional part ko repeatedly 2 se multiply karein. Har multiplication ka integer part top-to-bottom read karein.
 
-### Solved Example
+#### Solved Example
 
 Convert $(0.625)_{10}$ to binary.
 
@@ -551,7 +551,7 @@ $$
 (0.625)_{10}=(0.101)_2
 $$
 
-## Mixed Decimal to Binary Example
+#### Mixed Decimal to Binary Example
 
 Convert $(10.625)_{10}$ to binary.
 
@@ -564,7 +564,7 @@ $$
 (10.625)_{10}=(1010.101)_2
 $$
 
-## Octal Fraction to Decimal Example
+#### Octal Fraction to Decimal Example
 
 Convert $(17.4)_8$ to decimal.
 
@@ -576,7 +576,7 @@ $$
 =8+7+0.5=15.5
 $$
 
-## Hexadecimal Fraction to Decimal Example
+#### Hexadecimal Fraction to Decimal Example
 
 Convert $(A.8)_{16}$ to decimal.
 
@@ -588,15 +588,15 @@ $$
 =10+\frac{8}{16}=10.5
 $$
 
-## 6.11.3 Non-Terminating Fractions
+### 6.11.3 Non-Terminating Fractions
 
 Har decimal fraction binary mein exactly terminate nahi hoti. Aise cases mein required precision tak bits calculate karke approximation use ki jati hai.
 
 ---
 
-# 6.12 Binary Arithmetic
+## 6.12 Binary Arithmetic
 
-## 6.12.1 Binary Addition Rules
+### 6.12.1 Binary Addition Rules
 
 | Operation | Sum | Carry |
 |---|---:|---:|
@@ -606,7 +606,7 @@ Har decimal fraction binary mein exactly terminate nahi hoti. Aise cases mein re
 | 1 + 1 | 0 | 1 |
 | 1 + 1 + 1 | 1 | 1 |
 
-### Solved Example
+#### Solved Example
 
 ```text
    1011
@@ -619,7 +619,7 @@ $$
 (1011)_2+(0110)_2=(10001)_2
 $$
 
-## 6.12.2 Binary Subtraction Rules
+### 6.12.2 Binary Subtraction Rules
 
 | Operation | Difference | Borrow |
 |---|---:|---:|
@@ -628,7 +628,7 @@ $$
 | 1 − 1 | 0 | 0 |
 | 0 − 1 | 1 | 1 from next position |
 
-### Solved Example
+#### Solved Example
 
 ```text
    1010
@@ -637,7 +637,7 @@ $$
    0111
 ```
 
-## 6.12.3 Binary Multiplication Rules
+### 6.12.3 Binary Multiplication Rules
 
 | Operation | Result |
 |---|---:|
@@ -646,7 +646,7 @@ $$
 | 1 × 0 | 0 |
 | 1 × 1 | 1 |
 
-### Solved Example
+#### Solved Example
 
 ```text
      101
@@ -658,11 +658,11 @@ $$
     1111
 ```
 
-## 6.12.4 Binary Division
+### 6.12.4 Binary Division
 
 Binary long division decimal division jaisi hoti hai, lekin digits 0 aur 1 hote hain.
 
-### Example
+#### Example
 
 $$
 (1100)_2 \div (10)_2=(110)_2
@@ -676,13 +676,13 @@ $$
 
 ---
 
-# 6.13 Signed Number Representation
+## 6.13 Signed Number Representation
 
-## 6.13.1 Need for Signed Numbers
+### 6.13.1 Need for Signed Numbers
 
 Computer ko positive aur negative dono integers represent karne hote hain. Fixed number of bits mein sign represent karne ke different methods hain.
 
-## 6.13.2 Sign Bit
+### 6.13.2 Sign Bit
 
 Common convention mein leftmost bit sign indicate kar sakti hai:
 
@@ -693,9 +693,9 @@ Common convention mein leftmost bit sign indicate kar sakti hai:
 
 ---
 
-# 6.14 Signed-Magnitude Representation
+## 6.14 Signed-Magnitude Representation
 
-## Method
+### Method
 
 MSB sign ke liye aur remaining bits magnitude ke liye use hote hain.
 
@@ -706,7 +706,7 @@ MSB sign ke liye aur remaining bits magnitude ke liye use hote hain.
 -13 = 10001101
 ```
 
-## 6.14.1 Limitation
+### 6.14.1 Limitation
 
 Positive zero aur negative zero ke two representations hote hain:
 
@@ -717,9 +717,9 @@ Positive zero aur negative zero ke two representations hote hain:
 
 ---
 
-# 6.15 One's Complement Representation
+## 6.15 One's Complement Representation
 
-## 6.15.1 Meaning
+### 6.15.1 Meaning
 
 Positive binary number ke every bit ko invert karke negative number obtain kiya jata hai.
 
@@ -728,7 +728,7 @@ Positive binary number ke every bit ko invert karke negative number obtain kiya 
 1 → 0
 ```
 
-## Example
+#### Example
 
 8-bit $+13$:
 
@@ -742,25 +742,25 @@ All bits invert:
 11110010 = -13 in 1's complement
 ```
 
-## 6.15.2 Limitation
+### 6.15.2 Limitation
 
 Ismein bhi positive zero aur negative zero ke separate representations hote hain.
 
 ---
 
-# 6.16 Two's Complement Representation
+## 6.16 Two's Complement Representation
 
-## 6.16.1 Meaning
+### 6.16.1 Meaning
 
 1's complement mein 1 add karke 2's complement milta hai.
 
-## Steps
+#### Steps
 
 1. Positive number ka fixed-bit binary form likhein.
 2. All bits invert karein.
 3. Result mein 1 add karein.
 
-## Solved Example
+#### Solved Example
 
 8-bit mein $-13$ represent karein.
 
@@ -776,13 +776,13 @@ Therefore:
 -13 = 11110011
 ```
 
-## 6.16.2 Advantages
+### 6.16.2 Advantages
 
 - Sirf one representation of zero.
 - Addition aur subtraction hardware simple hota hai.
 - Modern computers mein signed integers ke liye widely used.
 
-## 6.16.3 Signed Range
+### 6.16.3 Signed Range
 
 $n$ bits ke 2's complement number ki range:
 
@@ -790,7 +790,7 @@ $$
 -2^{n-1}\text{ to }2^{n-1}-1
 $$
 
-### 8-Bit Range
+#### 8-Bit Range
 
 $$
 -2^7\text{ to }2^7-1
@@ -800,7 +800,7 @@ $$
 -128\text{ to }127
 $$
 
-## 6.16.4 Reading a Negative Two's Complement Number
+### 6.16.4 Reading a Negative Two's Complement Number
 
 Example: $(11110110)_2$
 
@@ -817,9 +817,9 @@ $$
 
 ---
 
-# 6.17 Subtraction Using Two's Complement
+## 6.17 Subtraction Using Two's Complement
 
-## Method
+### Method
 
 To calculate $A-B$:
 
@@ -828,7 +828,7 @@ To calculate $A-B$:
 3. Final carry ho to discard karein.
 4. No carry aur sign negative ho to result interpret karein.
 
-## Solved Example: $9-5$
+### Solved Example: $9-5$
 
 4-bit representation:
 
@@ -862,13 +862,13 @@ $$
 
 ---
 
-# 6.18 Overflow
+## 6.18 Overflow
 
-## 6.18.1 Meaning
+### 6.18.1 Meaning
 
 Fixed bits ki representable range se result outside hone par **overflow** hota hai.
 
-### Example
+#### Example
 
 4-bit 2's complement range $-8$ to $+7$ hai.
 
@@ -883,13 +883,13 @@ Actual result $+8$ hai, jo 4-bit signed range mein represent nahi ho sakta. Isli
 
 ---
 
-# 6.19 Binary-Coded Decimal
+## 6.19 Binary-Coded Decimal
 
-## 6.19.1 Meaning of BCD
+### 6.19.1 Meaning of BCD
 
 BCD mein each decimal digit ko separately 4-bit binary group se represent kiya jata hai.
 
-## 6.19.2 BCD Table
+### 6.19.2 BCD Table
 
 | Decimal Digit | BCD |
 |---:|:---:|
@@ -904,7 +904,7 @@ BCD mein each decimal digit ko separately 4-bit binary group se represent kiya j
 | 8 | 1000 |
 | 9 | 1001 |
 
-## Solved Example
+#### Solved Example
 
 Decimal $59$ in BCD:
 
@@ -921,7 +921,7 @@ Therefore:
 
 > ⚠️ Pure binary representation of 59 is `111011`, which is different from BCD.
 
-## 6.19.3 Uses
+### 6.19.3 Uses
 
 - Digital clocks
 - Calculators
@@ -930,23 +930,23 @@ Therefore:
 
 ---
 
-# 6.20 Character Codes
+## 6.20 Character Codes
 
-## 6.20.1 Need for Character Codes
+### 6.20.1 Need for Character Codes
 
 Computers binary values store karte hain. Letters, digits, symbols aur different-language characters ko numeric codes se map karna padta hai.
 
-## 6.20.2 ASCII
+### 6.20.2 ASCII
 
 ASCII ka full form **American Standard Code for Information Interchange** hai.
 
-### 6.20.2.1 Features
+#### 6.20.2.1 Features
 
 - Original standard 7-bit codes use karta hai.
 - 128 values represent karta hai.
 - English letters, digits, punctuation aur control characters include karta hai.
 
-### Examples
+##### Examples
 
 | Character | Decimal ASCII | Binary |
 |:---:|---:|:---:|
@@ -955,27 +955,27 @@ ASCII ka full form **American Standard Code for Information Interchange** hai.
 | a | 97 | 1100001 |
 | 0 | 48 | 0110000 |
 
-## 6.20.3 Extended ASCII
+### 6.20.3 Extended ASCII
 
 Different 8-bit extensions up to 256 code positions use karte hain, lekin same universal character set nahi hote.
 
-## 6.20.4 Unicode
+### 6.20.4 Unicode
 
 Unicode worldwide writing systems ke characters ko unique code points provide karta hai.
 
 **Examples:** English, Hindi, Arabic, Chinese characters and emojis.
 
-### 6.20.4.1 Unicode Encodings
+#### 6.20.4.1 Unicode Encodings
 
 - UTF-8
 - UTF-16
 - UTF-32
 
-### 6.20.4.2 UTF-8
+#### 6.20.4.2 UTF-8
 
 Web aur modern systems mein widely used variable-length Unicode encoding.
 
-## 6.20.5 ASCII vs Unicode
+### 6.20.5 ASCII vs Unicode
 
 | Basis | ASCII | Unicode |
 |---|---|---|
@@ -986,35 +986,35 @@ Web aur modern systems mein widely used variable-length Unicode encoding.
 
 ---
 
-# 6.21 Error-Detection Code
+## 6.21 Error-Detection Code
 
-## 6.21.1 Parity Bit
+### 6.21.1 Parity Bit
 
 Data transmission/storage mein simple error detection ke liye extra bit add ki ja sakti hai.
 
-## 6.21.2 Even Parity
+### 6.21.2 Even Parity
 
 Total 1-bits ki count even banayi jati hai.
 
-### Example
+#### Example
 
 Data: `1011001` contains four 1s. Even parity bit = `0`.
 
-## 6.21.3 Odd Parity
+### 6.21.3 Odd Parity
 
 Total 1-bits ki count odd banayi jati hai.
 
 Same data mein four 1s hain, so odd parity bit = `1`.
 
-## 6.21.4 Limitation
+### 6.21.4 Limitation
 
 Single parity sab types ke multiple-bit errors detect nahi kar sakti aur error correct nahi karti.
 
 ---
 
-# 6.22 Important Differences
+## 6.22 Important Differences
 
-## 6.22.1 Binary vs Octal vs Hexadecimal
+### 6.22.1 Binary vs Octal vs Hexadecimal
 
 | Basis | Binary | Octal | Hexadecimal |
 |---|---:|---:|---:|
@@ -1023,7 +1023,7 @@ Single parity sab types ke multiple-bit errors detect nahi kar sakti aur error c
 | Binary Group | 1 bit | 3 bits | 4 bits |
 | Use | Machine representation | Compact binary | Addresses/debugging/colors |
 
-## 6.22.2 Signed Magnitude vs 1's vs 2's Complement
+### 6.22.2 Signed Magnitude vs 1's vs 2's Complement
 
 | Basis | Signed Magnitude | 1's Complement | 2's Complement |
 |---|---|---|---|
@@ -1032,7 +1032,7 @@ Single parity sab types ke multiple-bit errors detect nahi kar sakti aur error c
 | Arithmetic | Complex | End-around carry | Simplest/common |
 | Modern Use | Limited | Limited | Widely used |
 
-## 6.22.3 Pure Binary vs BCD
+### 6.22.3 Pure Binary vs BCD
 
 | Pure Binary | BCD |
 |---|---|
@@ -1042,13 +1042,13 @@ Single parity sab types ke multiple-bit errors detect nahi kar sakti aur error c
 
 ---
 
-# 6.23 Chapter Summary
+## 6.23 Chapter Summary
 
 A number system represents values through a defined set of digits and a base. Computers use binary internally, while octal and hexadecimal provide compact forms of binary data and decimal is used in everyday calculations. Base conversions use positional weights, repeated division, repeated multiplication or binary grouping. Fractional numbers use negative positional powers, and binary arithmetic follows rules based on the digits 0 and 1. Signed values can be represented through signed magnitude, 1's complement or 2's complement, with 2's complement being widely used because it provides one zero and simpler arithmetic. BCD represents each decimal digit separately, ASCII and Unicode encode characters, and parity bits provide basic error detection.
 
 ---
 
-# 6.24 Quick Revision
+## 6.24 Quick Revision
 
 - Base unique digits ki total count hoti hai.
 - Binary base 2, octal 8, decimal 10 aur hexadecimal 16 hai.
@@ -1064,7 +1064,7 @@ A number system represents values through a defined set of digits and a base. Co
 
 ---
 
-# 6.25 Important Abbreviations
+## 6.25 Important Abbreviations
 
 | Abbreviation | Full Form |
 |---|---|
@@ -1079,7 +1079,7 @@ A number system represents values through a defined set of digits and a base. Co
 
 ---
 
-# 6.26 Multiple-Choice Questions
+## 6.26 Multiple-Choice Questions
 
 ### 1. Binary number system ka base kya hai?
 
@@ -1173,7 +1173,7 @@ D. 0.111
 
 ---
 
-# 6.27 Short-Answer Questions
+## 6.27 Short-Answer Questions
 
 1. Number system aur base ko define kijiye.
 2. Positional value kya hai?
@@ -1193,7 +1193,7 @@ D. 0.111
 
 ---
 
-# 6.28 Long-Answer and Exam Questions
+## 6.28 Long-Answer and Exam Questions
 
 1. Decimal, binary, octal aur hexadecimal systems ko examples ke saath explain kijiye.
 2. Different base-conversion methods solved examples ke saath samjhaiye.
@@ -1208,37 +1208,37 @@ D. 0.111
 
 ---
 
-# 6.29 Practice Problems
+## 6.29 Practice Problems
 
-## 6.29.1 Convert to Decimal
+### 6.29.1 Convert to Decimal
 
 1. $(101011)_2$
 2. $(1101.101)_2$
 3. $(347)_8$
 4. $(2F9)_{16}$
 
-## 6.29.2 Convert from Decimal
+### 6.29.2 Convert from Decimal
 
 1. $(75)_{10}$ to binary
 2. $(256)_{10}$ to octal
 3. $(4095)_{10}$ to hexadecimal
 4. $(12.375)_{10}$ to binary
 
-## 6.29.3 Direct Conversions
+### 6.29.3 Direct Conversions
 
 1. $(111010101)_2$ to octal
 2. $(1011110010)_2$ to hexadecimal
 3. $(657)_8$ to binary
 4. $(A7F)_{16}$ to binary
 
-## 6.29.4 Signed Representation
+### 6.29.4 Signed Representation
 
 1. Represent $-25$ in 8-bit signed magnitude.
 2. Represent $-25$ in 8-bit 1's complement.
 3. Represent $-25$ in 8-bit 2's complement.
 4. Find decimal value of 8-bit 2's complement `11100110`.
 
-## 6.29.5 Binary Arithmetic
+### 6.29.5 Binary Arithmetic
 
 1. $1011+1101$
 2. $11010-01011$
@@ -1247,7 +1247,7 @@ D. 0.111
 
 ---
 
-# 6.30 Answers to Selected Practice Problems
+## 6.30 Answers to Selected Practice Problems
 
 1. $(101011)_2=(43)_{10}$
 2. $(347)_8=(231)_{10}$
@@ -1262,7 +1262,7 @@ D. 0.111
 
 ---
 
-# 6.31 Viva Questions
+## 6.31 Viva Questions
 
 1. Radix kya hota hai?
 2. Binary system mein kaunse digits hote hain?
@@ -1277,7 +1277,7 @@ D. 0.111
 
 ---
 
-# 6.32 Answers to Selected Viva Questions
+## 6.32 Answers to Selected Viva Questions
 
 1. Radix number system mein unique digits ki count hai.
 2. Binary mein 0 aur 1 digits hote hain.
@@ -1294,7 +1294,7 @@ D. 0.111
 
 <div align="center">
 
-## ✅ Chapter 6 Complete
+### ✅ Chapter 6 Complete
 
 [⬅️ Previous Chapter](chapter-05-introduction-to-the-internet.md) · [📚 Table of Contents](../SUMMARY.md) · **Next: Introduction to C++ ➡️**
 
