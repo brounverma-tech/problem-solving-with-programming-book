@@ -22,7 +22,7 @@
 
 ## Unit D: Functions, Arrays and Pointers in C++
 
-10. Functions and Structured Programming
+10. [Functions and Structured Programming](chapters/chapter-10-functions-and-structured-programming.md)
 11. Arrays
 12. Pointers
 
