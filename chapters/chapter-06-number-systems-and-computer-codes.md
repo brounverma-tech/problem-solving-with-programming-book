@@ -68,7 +68,7 @@ $$
 \sum d_i \times r^i
 $$
 
-## 6.1.4 Place-Value Example
+## Place-Value Example
 
 Decimal number:
 
@@ -84,7 +84,7 @@ $$
 = 500+70+2+0.4=572.4
 $$
 
-## 6.1.5 Important Terms
+## 6.1.4 Important Terms
 
 | Term | Pronunciation | Meaning |
 |---|---|---|
@@ -111,7 +111,7 @@ Decimal system ka base **10** hai aur digits `0` se `9` tak hain.
 ... 10³  10²  10¹  10⁰ . 10⁻¹  10⁻² ...
 ```
 
-## 6.2.3 Example
+## Example
 
 $$
 (3847)_{10}
@@ -166,11 +166,11 @@ Electronic circuits easily two stable states represent karte hain:
 
 # 6.4 Binary to Decimal Conversion
 
-## 6.4.1 Method
+## Method
 
 Har binary digit ko corresponding power of 2 se multiply karke values add karein.
 
-## 6.4.2 Solved Example 1
+## Solved Example 1
 
 Convert $(101101)_2$ to decimal.
 
@@ -189,7 +189,7 @@ $$
 (101101)_2=(45)_{10}
 $$
 
-## 6.4.3 Solved Example 2
+## Solved Example 2
 
 Convert $(11001)_2$ to decimal.
 
@@ -219,7 +219,7 @@ $$
 4. Quotient 0 hone tak repeat karein.
 5. Remainders ko bottom-to-top read karein.
 
-## 6.5.2 Solved Example
+## Solved Example
 
 Convert $(45)_{10}$ to binary.
 
@@ -252,7 +252,7 @@ Octal system ka base **8** hai. Allowed digits `0` se `7` tak hain.
 ... 8³  8²  8¹  8⁰ . 8⁻¹  8⁻² ...
 ```
 
-## 6.6.3 Octal to Decimal Example
+## Octal to Decimal Example
 
 Convert $(725)_8$ to decimal.
 
@@ -270,7 +270,7 @@ $$
 (725)_8=(469)_{10}
 $$
 
-## 6.6.4 Decimal to Octal Example
+## Decimal to Octal Example
 
 Convert $(156)_{10}$ to octal.
 
@@ -310,7 +310,7 @@ Hexadecimal system ka base **16** hai.
 ... 16³  16²  16¹  16⁰ . 16⁻¹  16⁻² ...
 ```
 
-## 6.7.3 Hexadecimal to Decimal Example
+## Hexadecimal to Decimal Example
 
 Convert $(2AF)_{16}$ to decimal.
 
@@ -328,7 +328,7 @@ $$
 (2AF)_{16}=(687)_{10}
 $$
 
-## 6.7.4 Decimal to Hexadecimal Example
+## Decimal to Hexadecimal Example
 
 Convert $(254)_{10}$ to hexadecimal.
 
@@ -343,7 +343,7 @@ $$
 (254)_{10}=(FE)_{16}
 $$
 
-## 6.7.5 Uses of Hexadecimal
+## 6.7.3 Uses of Hexadecimal
 
 - Memory addresses
 - Machine-code representation
@@ -464,7 +464,7 @@ $$
 
 Direct digit grouping common nahi hai. Pehle binary mein convert karein.
 
-## 6.10.1 Octal to Hexadecimal Example
+## Octal to Hexadecimal Example
 
 Convert $(73)_8$ to hexadecimal.
 
@@ -482,7 +482,7 @@ $$
 (73)_8=(3B)_{16}
 $$
 
-## 6.10.2 Hexadecimal to Octal Example
+## Hexadecimal to Octal Example
 
 Convert $(2D)_{16}$ to octal.
 
@@ -551,7 +551,7 @@ $$
 (0.625)_{10}=(0.101)_2
 $$
 
-## 6.11.3 Mixed Decimal to Binary Example
+## Mixed Decimal to Binary Example
 
 Convert $(10.625)_{10}$ to binary.
 
@@ -564,7 +564,7 @@ $$
 (10.625)_{10}=(1010.101)_2
 $$
 
-## 6.11.4 Octal Fraction to Decimal Example
+## Octal Fraction to Decimal Example
 
 Convert $(17.4)_8$ to decimal.
 
@@ -576,7 +576,7 @@ $$
 =8+7+0.5=15.5
 $$
 
-## 6.11.5 Hexadecimal Fraction to Decimal Example
+## Hexadecimal Fraction to Decimal Example
 
 Convert $(A.8)_{16}$ to decimal.
 
@@ -588,7 +588,7 @@ $$
 =10+\frac{8}{16}=10.5
 $$
 
-## 6.11.6 Non-Terminating Fractions
+## 6.11.3 Non-Terminating Fractions
 
 Har decimal fraction binary mein exactly terminate nahi hoti. Aise cases mein required precision tak bits calculate karke approximation use ki jati hai.
 
@@ -695,7 +695,7 @@ Common convention mein leftmost bit sign indicate kar sakti hai:
 
 # 6.14 Signed-Magnitude Representation
 
-## 6.14.1 Method
+## Method
 
 MSB sign ke liye aur remaining bits magnitude ke liye use hote hain.
 
@@ -706,7 +706,7 @@ MSB sign ke liye aur remaining bits magnitude ke liye use hote hain.
 -13 = 10001101
 ```
 
-## 6.14.2 Limitation
+## 6.14.1 Limitation
 
 Positive zero aur negative zero ke two representations hote hain:
 
@@ -728,7 +728,7 @@ Positive binary number ke every bit ko invert karke negative number obtain kiya 
 1 → 0
 ```
 
-## 6.15.2 Example
+## Example
 
 8-bit $+13$:
 
@@ -742,7 +742,7 @@ All bits invert:
 11110010 = -13 in 1's complement
 ```
 
-## 6.15.3 Limitation
+## 6.15.2 Limitation
 
 Ismein bhi positive zero aur negative zero ke separate representations hote hain.
 
@@ -754,13 +754,13 @@ Ismein bhi positive zero aur negative zero ke separate representations hote hain
 
 1's complement mein 1 add karke 2's complement milta hai.
 
-## 6.16.2 Steps
+## Steps
 
 1. Positive number ka fixed-bit binary form likhein.
 2. All bits invert karein.
 3. Result mein 1 add karein.
 
-## 6.16.3 Solved Example
+## Solved Example
 
 8-bit mein $-13$ represent karein.
 
@@ -776,13 +776,13 @@ Therefore:
 -13 = 11110011
 ```
 
-## 6.16.4 Advantages
+## 6.16.2 Advantages
 
 - Sirf one representation of zero.
 - Addition aur subtraction hardware simple hota hai.
 - Modern computers mein signed integers ke liye widely used.
 
-## 6.16.5 Signed Range
+## 6.16.3 Signed Range
 
 $n$ bits ke 2's complement number ki range:
 
@@ -800,7 +800,7 @@ $$
 -128\text{ to }127
 $$
 
-## 6.16.6 Reading a Negative Two's Complement Number
+## 6.16.4 Reading a Negative Two's Complement Number
 
 Example: $(11110110)_2$
 
@@ -819,7 +819,7 @@ $$
 
 # 6.17 Subtraction Using Two's Complement
 
-## 6.17.1 Method
+## Method
 
 To calculate $A-B$:
 
@@ -828,7 +828,7 @@ To calculate $A-B$:
 3. Final carry ho to discard karein.
 4. No carry aur sign negative ho to result interpret karein.
 
-## 6.17.2 Solved Example: $9-5$
+## Solved Example: $9-5$
 
 4-bit representation:
 
@@ -904,7 +904,7 @@ BCD mein each decimal digit ko separately 4-bit binary group se represent kiya j
 | 8 | 1000 |
 | 9 | 1001 |
 
-## 6.19.3 Solved Example
+## Solved Example
 
 Decimal $59$ in BCD:
 
@@ -921,7 +921,7 @@ Therefore:
 
 > ⚠️ Pure binary representation of 59 is `111011`, which is different from BCD.
 
-## 6.19.4 Uses
+## 6.19.3 Uses
 
 - Digital clocks
 - Calculators
@@ -946,7 +946,7 @@ ASCII ka full form **American Standard Code for Information Interchange** hai.
 - 128 values represent karta hai.
 - English letters, digits, punctuation aur control characters include karta hai.
 
-### 6.20.2.2 Examples
+### Examples
 
 | Character | Decimal ASCII | Binary |
 |:---:|---:|:---:|
