@@ -27,33 +27,33 @@ Is chapter ko complete karne ke baad aap:
 
 ---
 
-# 3.1 Introduction to Input and Output Devices
+## 3.1 Introduction to Input and Output Devices
 
-## 3.1.1 Meaning of Input
+### 3.1.1 Meaning of Input
 
-### 📘 English Definition
+#### 📘 English Definition
 
 > Input is the data and instructions entered into a computer system for processing.
 
-### 💬 Hinglish Explanation
+#### 💬 Hinglish Explanation
 
 Computer ko kaam karne ke liye jo data aur instructions diye jate hain, unhe **input** kehte hain.
 
 **Examples:** Keyboard se name type karna, microphone se voice record karna aur scanner se image scan karna.
 
-## 3.1.2 Meaning of Output
+### 3.1.2 Meaning of Output
 
-### 📘 English Definition
+#### 📘 English Definition
 
 > Output is the processed information produced by a computer system.
 
-### 💬 Hinglish Explanation
+#### 💬 Hinglish Explanation
 
 Computer data ko process karne ke baad jo result deta hai, use **output** kehte hain.
 
 **Examples:** Monitor par result, printer se printed document aur speaker se sound.
 
-## 3.1.3 Input–Process–Output Cycle
+### 3.1.3 Input–Process–Output Cycle
 
 ```text
 Input Devices → CPU Processing → Output Devices
@@ -61,7 +61,7 @@ Input Devices → CPU Processing → Output Devices
  Data/Instructions             Useful Information
 ```
 
-## 3.1.4 Input and Output Device Difference
+### 3.1.4 Input and Output Device Difference
 
 | Basis | Input Device | Output Device |
 |---|---|---|
@@ -70,7 +70,7 @@ Input Devices → CPU Processing → Output Devices
 | Conversion | Human form to machine-readable form | Machine form to human-readable form |
 | Examples | Keyboard, mouse, scanner | Monitor, printer, speaker |
 
-## 3.1.5 Important Terms
+### 3.1.5 Important Terms
 
 | Term | Pronunciation | Meaning |
 |---|---|---|
@@ -84,22 +84,22 @@ Input Devices → CPU Processing → Output Devices
 
 ---
 
-# 3.2 Input Devices
+## 3.2 Input Devices
 
-## 3.2.1 Meaning of Input Device
+### 3.2.1 Meaning of Input Device
 
 > An input device is a hardware component used to enter data and instructions into a computer.
 
 Input device user ke data ko computer-readable signals mein convert karta hai.
 
-## 3.2.2 Main Functions of Input Devices
+### 3.2.2 Main Functions of Input Devices
 
 1. Outside world se data receive karna.
 2. Data ko machine-readable form mein convert karna.
 3. Converted data CPU ya memory tak bhejna.
 4. User ko system control karne mein help karna.
 
-## 3.2.3 Categories of Input Devices
+### 3.2.3 Categories of Input Devices
 
 - Text-entry devices
 - Pointing devices
@@ -111,43 +111,43 @@ Input device user ke data ko computer-readable signals mein convert karta hai.
 
 ---
 
-# 3.3 Keyboard
+## 3.3 Keyboard
 
-## 3.3.1 Meaning of Keyboard
+### 3.3.1 Meaning of Keyboard
 
 Keyboard sabse common text-entry input device hai. Iski help se letters, numbers, symbols aur commands enter kiye jate hain.
 
-## 3.3.2 Types of Keys
+### 3.3.2 Types of Keys
 
-### 3.3.2.1 Alphanumeric Keys
+#### 3.3.2.1 Alphanumeric Keys
 
 Letters `A–Z`, numbers `0–9` aur punctuation symbols.
 
-### 3.3.2.2 Function Keys
+#### 3.3.2.2 Function Keys
 
 `F1` se `F12` tak keys, jo application ke according special functions perform karti hain.
 
-### 3.3.2.3 Control Keys
+#### 3.3.2.3 Control Keys
 
 `Ctrl`, `Alt`, `Esc`, `Windows` aur menu-related keys.
 
-### 3.3.2.4 Navigation Keys
+#### 3.3.2.4 Navigation Keys
 
 Arrow keys, `Home`, `End`, `Page Up` aur `Page Down`.
 
-### 3.3.2.5 Editing Keys
+#### 3.3.2.5 Editing Keys
 
 `Backspace`, `Delete`, `Insert`, `Enter` aur `Tab`.
 
-### 3.3.2.6 Numeric Keypad
+#### 3.3.2.6 Numeric Keypad
 
 Numbers aur arithmetic operations quickly enter karne ke liye.
 
-### 3.3.2.7 Modifier Keys
+#### 3.3.2.7 Modifier Keys
 
 `Shift`, `Ctrl` aur `Alt` doosri key ke function ko modify karti hain.
 
-## 3.3.3 Types of Keyboards
+### 3.3.3 Types of Keyboards
 
 - Wired keyboard
 - Wireless keyboard
@@ -156,7 +156,7 @@ Numbers aur arithmetic operations quickly enter karne ke liye.
 - Ergonomic keyboard
 - Virtual/on-screen keyboard
 
-## 3.3.4 Advantages and Limitations
+### 3.3.4 Advantages and Limitations
 
 **Advantages:**
 
@@ -173,13 +173,13 @@ Numbers aur arithmetic operations quickly enter karne ke liye.
 
 ---
 
-# 3.4 Pointing Devices
+## 3.4 Pointing Devices
 
-## 3.4.1 Mouse
+### 3.4.1 Mouse
 
 Mouse screen par pointer control karta hai.
 
-### 3.4.1.1 Common Mouse Operations
+#### 3.4.1.1 Common Mouse Operations
 
 - Point
 - Click
@@ -188,7 +188,7 @@ Mouse screen par pointer control karta hai.
 - Drag and drop
 - Scroll
 
-### 3.4.1.2 Types of Mouse
+#### 3.4.1.2 Types of Mouse
 
 - Mechanical mouse
 - Optical mouse
@@ -196,27 +196,27 @@ Mouse screen par pointer control karta hai.
 - Wired mouse
 - Wireless mouse
 
-## 3.4.2 Touchpad
+### 3.4.2 Touchpad
 
 Laptop mein available touch-sensitive flat surface. Finger movement se pointer control hota hai.
 
-## 3.4.3 Trackball
+### 3.4.3 Trackball
 
 Device stationary rehta hai aur user exposed ball ko rotate karke pointer control karta hai.
 
-## 3.4.4 Joystick
+### 3.4.4 Joystick
 
 Stick-based pointing device, commonly games, simulators aur industrial control systems mein use hota hai.
 
-## 3.4.5 Light Pen
+### 3.4.5 Light Pen
 
 Screen par point ya draw karne ke liye light-sensitive pointing device. Traditional display systems mein use hota tha.
 
-## 3.4.6 Stylus and Graphics Tablet
+### 3.4.6 Stylus and Graphics Tablet
 
 Stylus pen-like device hai. Graphics tablet ke saath drawing, digital signature aur designing ke liye use hota hai.
 
-## 3.4.7 Pointing Device Comparison
+### 3.4.7 Pointing Device Comparison
 
 | Device | Main Use | Common Location |
 |---|---|---|
@@ -228,41 +228,41 @@ Stylus pen-like device hai. Graphics tablet ke saath drawing, digital signature 
 
 ---
 
-# 3.5 Scanning Devices
+## 3.5 Scanning Devices
 
-## 3.5.1 Scanner
+### 3.5.1 Scanner
 
-### 📘 English Definition
+#### 📘 English Definition
 
 > A scanner is an input device that converts printed text, photographs or documents into digital form.
 
-### 💬 Hinglish Explanation
+#### 💬 Hinglish Explanation
 
 Scanner paper par maujood document ya photo ko digital image mein convert karta hai.
 
-## 3.5.2 Types of Scanner
+### 3.5.2 Types of Scanner
 
-### 3.5.2.1 Flatbed Scanner
+#### 3.5.2.1 Flatbed Scanner
 
 Document glass surface par rakha jata hai. Offices aur homes mein common hai.
 
-### 3.5.2.2 Sheet-Fed Scanner
+#### 3.5.2.2 Sheet-Fed Scanner
 
 Paper rollers ke through device ke andar pass hota hai. Multiple pages scan karne ke liye useful.
 
-### 3.5.2.3 Handheld Scanner
+#### 3.5.2.3 Handheld Scanner
 
 User scanner ko document ya object ke upar move karta hai.
 
-### 3.5.2.4 Drum Scanner
+#### 3.5.2.4 Drum Scanner
 
 Very high-quality image scanning ke liye professional device.
 
-### 3.5.2.5 3D Scanner
+#### 3.5.2.5 3D Scanner
 
 Object ki shape aur dimensions capture karke digital 3D model banata hai.
 
-## 3.5.3 Scanner Quality Factors
+### 3.5.3 Scanner Quality Factors
 
 - Resolution, measured in DPI
 - Color depth
@@ -274,39 +274,39 @@ Object ki shape aur dimensions capture karke digital 3D model banata hai.
 
 ---
 
-# 3.6 Recognition and Reading Devices
+## 3.6 Recognition and Reading Devices
 
-## 3.6.1 Optical Character Recognition
+### 3.6.1 Optical Character Recognition
 
 OCR printed ya scanned text ke characters ko editable digital text mein convert karta hai.
 
 **Example:** Printed page ko scan karke editable Word text banana.
 
-## 3.6.2 Optical Mark Recognition
+### 3.6.2 Optical Mark Recognition
 
 OMR specially designed sheet par filled marks identify karta hai.
 
 **Applications:** MCQ answer sheets, surveys and voting forms.
 
-## 3.6.3 Magnetic Ink Character Recognition
+### 3.6.3 Magnetic Ink Character Recognition
 
 MICR magnetic ink se printed special characters read karta hai.
 
 **Application:** Bank cheque processing.
 
-## 3.6.4 Barcode Reader
+### 3.6.4 Barcode Reader
 
 Barcode ki lines/patterns ko scan karke product code read karta hai.
 
 **Applications:** Shops, warehouses, libraries and courier systems.
 
-## 3.6.5 QR Code Reader
+### 3.6.5 QR Code Reader
 
 Two-dimensional QR code ko camera ya scanner se read karta hai.
 
 **Applications:** Payments, website links, tickets and product information.
 
-## 3.6.6 Recognition Device Comparison
+### 3.6.6 Recognition Device Comparison
 
 | Device | Reads | Common Use |
 |---|---|---|
@@ -318,59 +318,59 @@ Two-dimensional QR code ko camera ya scanner se read karta hai.
 
 ---
 
-# 3.7 Audio and Video Input Devices
+## 3.7 Audio and Video Input Devices
 
-## 3.7.1 Microphone
+### 3.7.1 Microphone
 
 Sound waves ko electrical/digital signals mein convert karta hai.
 
 **Uses:** Voice recording, calls, speech recognition and online classes.
 
-## 3.7.2 Webcam
+### 3.7.2 Webcam
 
 Live image aur video capture karta hai.
 
 **Uses:** Video meetings, online classes, streaming and security.
 
-## 3.7.3 Digital Camera
+### 3.7.3 Digital Camera
 
 Photos aur videos digital form mein capture karti hai.
 
-## 3.7.4 Video Capture Device
+### 3.7.4 Video Capture Device
 
 External video source ke signal ko computer-readable digital data mein convert karta hai.
 
 ---
 
-# 3.8 Touch, Sensor and Biometric Input Devices
+## 3.8 Touch, Sensor and Biometric Input Devices
 
-## 3.8.1 Touchscreen
+### 3.8.1 Touchscreen
 
 Touchscreen input aur output dono device hai. Yeh content display karta hai aur touch input receive karta hai.
 
 **Applications:** Smartphones, ATMs, kiosks and tablets.
 
-## 3.8.2 Biometric Devices
+### 3.8.2 Biometric Devices
 
 Unique biological characteristics ko capture aur recognize karte hain.
 
-### 3.8.2.1 Fingerprint Scanner
+#### 3.8.2.1 Fingerprint Scanner
 
 Finger pattern identify karta hai.
 
-### 3.8.2.2 Iris Scanner
+#### 3.8.2.2 Iris Scanner
 
 Eye ke iris pattern ko scan karta hai.
 
-### 3.8.2.3 Face Recognition Camera
+#### 3.8.2.3 Face Recognition Camera
 
 Facial features ko capture aur compare karti hai.
 
-### 3.8.2.4 Voice Recognition System
+#### 3.8.2.4 Voice Recognition System
 
 Voice characteristics ko identify karta hai.
 
-## 3.8.3 Sensors
+### 3.8.3 Sensors
 
 Environment se physical data detect karte hain.
 
@@ -385,19 +385,19 @@ Environment se physical data detect karte hain.
 
 ---
 
-# 3.9 Output Devices
+## 3.9 Output Devices
 
-## 3.9.1 Meaning of Output Device
+### 3.9.1 Meaning of Output Device
 
 > An output device is a hardware component that presents processed information from a computer to the user.
 
-## 3.9.2 Functions of Output Devices
+### 3.9.2 Functions of Output Devices
 
 1. Machine-processed result receive karna.
 2. Result ko human-readable form mein convert karna.
 3. Visual, printed, audio ya physical output provide karna.
 
-## 3.9.3 Categories
+### 3.9.3 Categories
 
 - Visual output devices
 - Hardcopy devices
@@ -406,70 +406,70 @@ Environment se physical data detect karte hain.
 
 ---
 
-# 3.10 Monitor
+## 3.10 Monitor
 
-## 3.10.1 Meaning of Monitor
+### 3.10.1 Meaning of Monitor
 
 Monitor computer ka primary visual output device hai. Yeh text, images, videos aur graphical interface display karta hai.
 
-## 3.10.2 Types of Monitor
+### 3.10.2 Types of Monitor
 
-### 3.10.2.1 Cathode-Ray Tube Monitor
+#### 3.10.2.1 Cathode-Ray Tube Monitor
 
 CRT older, bulky monitor technology hai. Electron beam screen par image produce karta hai.
 
-### 3.10.2.2 Liquid-Crystal Display
+#### 3.10.2.2 Liquid-Crystal Display
 
 LCD flat-panel technology hai jo liquid crystals use karti hai.
 
-### 3.10.2.3 Light-Emitting Diode Display
+#### 3.10.2.3 Light-Emitting Diode Display
 
 LED monitor technically LED backlighting wala LCD display ho sakta hai. Yeh thin aur energy-efficient hota hai.
 
-### 3.10.2.4 Organic Light-Emitting Diode Display
+#### 3.10.2.4 Organic Light-Emitting Diode Display
 
 OLED mein individual pixels light emit karte hain. High contrast aur deep black levels provide karta hai.
 
-## 3.10.3 Monitor Quality Factors
+### 3.10.3 Monitor Quality Factors
 
-### 3.10.3.1 Screen Size
+#### 3.10.3.1 Screen Size
 
 Diagonal measurement, generally inches mein.
 
-### 3.10.3.2 Resolution
+#### 3.10.3.2 Resolution
 
 Screen par total pixels ka arrangement.
 
 **Examples:** `1920 × 1080`, `2560 × 1440`, `3840 × 2160`.
 
-### 3.10.3.3 Refresh Rate
+#### 3.10.3.3 Refresh Rate
 
 Display ek second mein kitni baar image update karta hai. Hertz mein measured.
 
-### 3.10.3.4 Response Time
+#### 3.10.3.4 Response Time
 
 Pixel ko state change karne mein lagne wala time.
 
-### 3.10.3.5 Color Accuracy
+#### 3.10.3.5 Color Accuracy
 
 Display colors ko kitni correctly represent karta hai.
 
 ---
 
-# 3.11 Projector
+## 3.11 Projector
 
-## 3.11.1 Meaning
+### 3.11.1 Meaning
 
 Projector computer ke visual output ko large screen ya wall par display karta hai.
 
-## 3.11.2 Types
+### 3.11.2 Types
 
 - LCD projector
 - DLP projector
 - LED projector
 - Laser projector
 
-## 3.11.3 Applications
+### 3.11.3 Applications
 
 - Classrooms
 - Business presentations
@@ -479,21 +479,21 @@ Projector computer ke visual output ko large screen ya wall par display karta ha
 
 ---
 
-# 3.12 Audio Output Devices
+## 3.12 Audio Output Devices
 
-## 3.12.1 Speakers
+### 3.12.1 Speakers
 
 Electrical/digital audio signals ko audible sound mein convert karte hain.
 
-## 3.12.2 Headphones
+### 3.12.2 Headphones
 
 Individual user ko private audio output provide karte hain.
 
-## 3.12.3 Earphones
+### 3.12.3 Earphones
 
 Compact in-ear audio output devices.
 
-## 3.12.4 Common Uses
+### 3.12.4 Common Uses
 
 - Music and videos
 - Alerts and notifications
@@ -503,31 +503,31 @@ Compact in-ear audio output devices.
 
 ---
 
-# 3.13 Printers
+## 3.13 Printers
 
-## 3.13.1 Meaning of Printer
+### 3.13.1 Meaning of Printer
 
 > A printer is an output device that produces text or images on paper or another physical medium.
 
-## 3.13.2 Printer Quality Measures
+### 3.13.2 Printer Quality Measures
 
-### 3.13.2.1 Print Speed
+#### 3.13.2.1 Print Speed
 
 Pages per minute (**PPM**) ya characters per second (**CPS**) mein measure ho sakti hai.
 
-### 3.13.2.2 Print Resolution
+#### 3.13.2.2 Print Resolution
 
 Dots per inch (**DPI**) mein measured.
 
-### 3.13.2.3 Cost per Page
+#### 3.13.2.3 Cost per Page
 
 Ink, toner, ribbon aur maintenance cost ke basis par.
 
-## 3.13.3 Impact Printers
+### 3.13.3 Impact Printers
 
 Impact printer ribbon ko paper par mechanically strike karta hai.
 
-### 3.13.3.1 Dot-Matrix Printer
+#### 3.13.3.1 Dot-Matrix Printer
 
 Pins ribbon par strike karke dots se characters aur images banati hain.
 
@@ -543,43 +543,43 @@ Pins ribbon par strike karke dots se characters aur images banati hain.
 - Low print quality
 - Slow
 
-### 3.13.3.2 Daisy-Wheel Printer
+#### 3.13.3.2 Daisy-Wheel Printer
 
 Wheel-shaped print head ke characters ribbon par strike karte hain. Letter-quality text deta tha, lekin graphics ke liye suitable nahi.
 
-### 3.13.3.3 Line Printer
+#### 3.13.3.3 Line Printer
 
 Ek time par complete line print karta hai. High-volume legacy environments mein use hota tha.
 
-## 3.13.4 Non-Impact Printers
+### 3.13.4 Non-Impact Printers
 
 Paper ko mechanically strike nahi karte.
 
-### 3.13.4.1 Inkjet Printer
+#### 3.13.4.1 Inkjet Printer
 
 Paper par tiny ink droplets spray karta hai.
 
 **Advantages:** Color printing, photo output, affordable initial cost.  
 **Limitations:** Ink cost aur nozzle maintenance.
 
-### 3.13.4.2 Laser Printer
+#### 3.13.4.2 Laser Printer
 
 Laser, drum aur toner process se page print karta hai.
 
 **Advantages:** Fast, sharp text, high-volume printing.  
 **Limitations:** Initial cost higher ho sakti hai.
 
-### 3.13.4.3 Thermal Printer
+#### 3.13.4.3 Thermal Printer
 
 Heat-sensitive paper ya thermal-transfer technology use karta hai.
 
 **Applications:** Receipts, labels, tickets and billing machines.
 
-### 3.13.4.4 3D Printer
+#### 3.13.4.4 3D Printer
 
 Digital model ke अनुसार material ki layers add karke physical three-dimensional object banata hai.
 
-## 3.13.5 Impact and Non-Impact Printer Difference
+### 3.13.5 Impact and Non-Impact Printer Difference
 
 | Basis | Impact Printer | Non-Impact Printer |
 |---|---|---|
@@ -590,7 +590,7 @@ Digital model ke अनुसार material ki layers add karke physical three-
 | Multipart Forms | Possible | Usually not |
 | Examples | Dot matrix, line printer | Inkjet, laser, thermal |
 
-## 3.13.6 Inkjet and Laser Printer Difference
+### 3.13.6 Inkjet and Laser Printer Difference
 
 | Basis | Inkjet | Laser |
 |---|---|---|
@@ -602,13 +602,13 @@ Digital model ke अनुसार material ki layers add karke physical three-
 
 ---
 
-# 3.14 Plotter
+## 3.14 Plotter
 
-## 3.14.1 Meaning
+### 3.14.1 Meaning
 
 Plotter large and precise drawings produce karne wala output device hai.
 
-## 3.14.2 Uses
+### 3.14.2 Uses
 
 - Engineering drawings
 - Architectural plans
@@ -616,13 +616,13 @@ Plotter large and precise drawings produce karne wala output device hai.
 - CAD designs
 - Large posters
 
-## 3.14.3 Types
+### 3.14.3 Types
 
 - Flatbed plotter
 - Drum plotter
 - Large-format inkjet plotter
 
-## 3.14.4 Printer and Plotter Difference
+### 3.14.4 Printer and Plotter Difference
 
 | Printer | Plotter |
 |---|---|
@@ -633,17 +633,17 @@ Plotter large and precise drawings produce karne wala output device hai.
 
 ---
 
-# 3.15 Softcopy Devices
+## 3.15 Softcopy Devices
 
-## 3.15.1 Meaning of Softcopy
+### 3.15.1 Meaning of Softcopy
 
 > Softcopy is an electronic form of output that is viewed, heard or accessed through a device and is not permanently printed on paper.
 
-### 💬 Hinglish Explanation
+#### 💬 Hinglish Explanation
 
 Jo output digital form mein screen par dikhe ya speaker se sunai de, woh softcopy hai.
 
-## 3.15.2 Softcopy Output Devices
+### 3.15.2 Softcopy Output Devices
 
 - Monitor
 - Projector
@@ -652,7 +652,7 @@ Jo output digital form mein screen par dikhe ya speaker se sunai de, woh softcop
 - Touchscreen display
 - Virtual-reality headset
 
-## 3.15.3 Features of Softcopy
+### 3.15.3 Features of Softcopy
 
 - Electronic form
 - Easily editable
@@ -661,7 +661,7 @@ Jo output digital form mein screen par dikhe ya speaker se sunai de, woh softcop
 - Device aur power required
 - Storage space digital hota hai
 
-## Examples
+#### Examples
 
 - PDF on screen
 - Digital photograph
@@ -672,24 +672,24 @@ Jo output digital form mein screen par dikhe ya speaker se sunai de, woh softcop
 
 ---
 
-# 3.16 Hardcopy Devices
+## 3.16 Hardcopy Devices
 
-## 3.16.1 Meaning of Hardcopy
+### 3.16.1 Meaning of Hardcopy
 
 > Hardcopy is a physical and usually permanent form of output produced on paper or another material.
 
-### 💬 Hinglish Explanation
+#### 💬 Hinglish Explanation
 
 Computer output jab paper ya physical object ke form mein milta hai, use hardcopy kehte hain.
 
-## 3.16.2 Hardcopy Output Devices
+### 3.16.2 Hardcopy Output Devices
 
 - Printer
 - Plotter
 - 3D printer
 - Braille embosser
 
-## 3.16.3 Features of Hardcopy
+### 3.16.3 Features of Hardcopy
 
 - Physical form
 - Directly hold aur read ki ja sakti hai
@@ -698,7 +698,7 @@ Computer output jab paper ya physical object ke form mein milta hai, use hardcop
 - Edit karna difficult
 - Printing material aur cost required
 
-## 3.16.4 Softcopy and Hardcopy Difference
+### 3.16.4 Softcopy and Hardcopy Difference
 
 | Basis | Softcopy | Hardcopy |
 |---|---|---|
@@ -711,25 +711,25 @@ Computer output jab paper ya physical object ke form mein milta hai, use hardcop
 
 ---
 
-# 3.17 Special-Purpose Output Devices
+## 3.17 Special-Purpose Output Devices
 
-## 3.17.1 Braille Embosser
+### 3.17.1 Braille Embosser
 
 Raised Braille dots paper par produce karta hai, visually impaired users ke liye.
 
-## 3.17.2 Haptic Device
+### 3.17.2 Haptic Device
 
 Touch, vibration ya force feedback provide karta hai.
 
 **Applications:** Smartphones, game controllers, simulators and accessibility systems.
 
-## 3.17.3 Virtual-Reality Headset
+### 3.17.3 Virtual-Reality Headset
 
 Stereoscopic visual aur audio output provide karke immersive environment create karta hai. Motion sensors ke कारण input bhi receive kar sakta hai.
 
 ---
 
-# 3.18 Selecting the Right Device
+## 3.18 Selecting the Right Device
 
 | Task | Suitable Device |
 |---|---|
@@ -748,13 +748,13 @@ Stereoscopic visual aur audio output provide karke immersive environment create 
 
 ---
 
-# 3.19 Chapter Summary
+## 3.19 Chapter Summary
 
 Input devices enter data and instructions into a computer, while output devices present processed information to the user. Common input devices include keyboards, mice, touchpads, scanners, OCR, OMR, MICR, barcode readers, microphones, webcams, touchscreens, biometric readers and sensors. Output devices include monitors, projectors, speakers, headphones, printers, plotters and specialized accessibility devices. Printers are classified as impact and non-impact printers, while monitors differ by display technology, resolution and refresh rate. Softcopy is electronic and easily editable output viewed through a device, whereas hardcopy is physical output produced on paper or another material.
 
 ---
 
-# 3.20 Quick Revision
+## 3.20 Quick Revision
 
 - Keyboard common text-entry input device hai.
 - Mouse aur touchpad pointing devices hain.
@@ -770,7 +770,7 @@ Input devices enter data and instructions into a computer, while output devices 
 
 ---
 
-# 3.21 Important Abbreviations
+## 3.21 Important Abbreviations
 
 | Abbreviation | Full Form |
 |---|---|
@@ -790,7 +790,7 @@ Input devices enter data and instructions into a computer, while output devices 
 
 ---
 
-# 3.22 Multiple-Choice Questions
+## 3.22 Multiple-Choice Questions
 
 ### 1. Text enter karne ke liye sabse common device kaunsa hai?
 
@@ -884,7 +884,7 @@ D. PPM only
 
 ---
 
-# 3.23 Short-Answer Questions
+## 3.23 Short-Answer Questions
 
 1. Input device ko define kijiye.
 2. Output device ko define kijiye.
@@ -903,7 +903,7 @@ D. PPM only
 
 ---
 
-# 3.24 Long-Answer and Exam Questions
+## 3.24 Long-Answer and Exam Questions
 
 1. Input devices ko categories aur examples ke saath explain kijiye.
 2. Keyboard aur pointing devices ko detail mein samjhaiye.
@@ -918,7 +918,7 @@ D. PPM only
 
 ---
 
-# 3.25 Practical Exercises
+## 3.25 Practical Exercises
 
 1. Apne keyboard par alphanumeric, function, control aur navigation keys identify kijiye.
 2. Mouse ke click, double-click, right-click, drag aur scroll operations practice kijiye.
@@ -930,7 +930,7 @@ D. PPM only
 
 ---
 
-# 3.26 Viva Questions
+## 3.26 Viva Questions
 
 1. Keyboard input device kyun hai?
 2. Mouse pointer ko kaise control karta hai?
@@ -945,7 +945,7 @@ D. PPM only
 
 ---
 
-# 3.27 Answers to Selected Viva Questions
+## 3.27 Answers to Selected Viva Questions
 
 1. Keyboard user ke text aur commands computer mein enter karta hai.
 2. Mouse movement ko pointer movement mein convert karta hai.
@@ -962,7 +962,7 @@ D. PPM only
 
 <div align="center">
 
-## ✅ Chapter 3 Complete
+### ✅ Chapter 3 Complete
 
 [⬅️ Previous Chapter](chapter-02-computer-memory-and-processors.md) · [📚 Table of Contents](../SUMMARY.md) · **Next: Computer Software ➡️**
 
