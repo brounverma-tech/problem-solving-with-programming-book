@@ -78,7 +78,7 @@ Device → Local Network → ISP → Internet → Server
 
 Data ko small packets mein divide karke network ke through destination tak bhejne ka method packet switching kehlata hai.
 
-### 5.2.3.1 Basic Process
+### Basic Process
 
 1. Data packets mein divide hota hai.
 2. Har packet addressing information carry karta hai.
@@ -320,7 +320,7 @@ Person ya organization ka work showcase karti hai.
 
 Browser woh application hai jisse hum websites open karte hain. Browser server ko request bhejta hai aur received HTML, CSS, JavaScript aur media ko screen par display karta hai.
 
-## 5.7.2 Examples
+## Examples
 
 - Google Chrome
 - Mozilla Firefox
@@ -329,33 +329,33 @@ Browser woh application hai jisse hum websites open karte hain. Browser server k
 - Opera
 - Brave
 
-## 5.7.3 Main Browser Components
+## 5.7.2 Main Browser Components
 
-### 5.7.3.1 Address Bar
+### 5.7.2.1 Address Bar
 
 URL enter aur current address view karne ke liye.
 
-### 5.7.3.2 Tabs
+### 5.7.2.2 Tabs
 
 Ek window mein multiple web pages open karne ke liye.
 
-### 5.7.3.3 Navigation Buttons
+### 5.7.2.3 Navigation Buttons
 
 Back, forward, reload aur home actions ke liye.
 
-### 5.7.3.4 Bookmarks
+### 5.7.2.4 Bookmarks
 
 Useful web addresses save karne ke liye.
 
-### 5.7.3.5 History
+### 5.7.2.5 History
 
 Previously visited pages ka record.
 
-### 5.7.3.6 Download Manager
+### 5.7.2.6 Download Manager
 
 Downloaded files manage karta hai.
 
-## 5.7.4 Functions of a Browser
+## 5.7.3 Functions of a Browser
 
 1. URL receive karna.
 2. DNS aur network ke through server locate karna.
@@ -367,7 +367,7 @@ Downloaded files manage karta hai.
 8. Final page display karna.
 9. Security warnings aur permissions manage karna.
 
-## 5.7.5 Browser vs Search Engine
+## 5.7.4 Browser vs Search Engine
 
 | Browser | Search Engine |
 |---|---|
@@ -384,43 +384,43 @@ Downloaded files manage karta hai.
 
 > A Uniform Resource Locator is the address used to identify and access a resource on the Internet or Web.
 
-## 5.8.2 URL Example
+## URL Example
 
 ```text
 https://www.example.com:443/courses/cpp?unit=1#notes
 ```
 
-## 5.8.3 Components of a URL
+## 5.8.2 Components of a URL
 
-### 5.8.3.1 Scheme or Protocol
+### 5.8.2.1 Scheme or Protocol
 
 `https://` batata hai resource ko kis protocol se access karna hai.
 
-### 5.8.3.2 Subdomain
+### 5.8.2.2 Subdomain
 
 `www` main domain ke under optional subdomain hai.
 
-### 5.8.3.3 Domain Name
+### 5.8.2.3 Domain Name
 
 `example.com` website ka human-readable name hai.
 
-### 5.8.3.4 Port
+### 5.8.2.4 Port
 
 `:443` service ka network port represent karta hai. Standard ports often URL mein omit hote hain.
 
-### 5.8.3.5 Path
+### 5.8.2.5 Path
 
 `/courses/cpp` server par resource ka location/path batata hai.
 
-### 5.8.3.6 Query String
+### 5.8.2.6 Query String
 
 `?unit=1` request ke saath parameters bhejti hai.
 
-### 5.8.3.7 Fragment
+### 5.8.2.7 Fragment
 
 `#notes` page ke specific section ko indicate karta hai.
 
-## 5.8.4 Domain Name Parts
+## 5.8.3 Domain Name Parts
 
 ```text
 www.example.com
@@ -429,7 +429,7 @@ www.example.com
 └─────────────── Subdomain
 ```
 
-## 5.8.5 Common Top-Level Domains
+## 5.8.4 Common Top-Level Domains
 
 | TLD | Common Association |
 |---|---|
@@ -440,7 +440,7 @@ www.example.com
 | .in | India country-code domain |
 | .net | Network/general |
 
-## 5.8.6 HTTP and HTTPS
+## 5.8.5 HTTP and HTTPS
 
 - **HTTP:** Hypertext Transfer Protocol
 - **HTTPS:** Hypertext Transfer Protocol Secure
@@ -463,7 +463,7 @@ HTML web page ka basic structure banata hai. Yeh browser ko batata hai ki headin
 
 > HTML programming language nahi, **markup language** hai.
 
-## 5.9.2 HTML Document Example
+## HTML Document Example
 
 ```html
 <!DOCTYPE html>
@@ -479,7 +479,7 @@ HTML web page ka basic structure banata hai. Yeh browser ko batata hai ki headin
 </html>
 ```
 
-## 5.9.3 Basic HTML Elements
+## 5.9.2 Basic HTML Elements
 
 | Element | Purpose |
 |---|---|
@@ -492,7 +492,7 @@ HTML web page ka basic structure banata hai. Yeh browser ko batata hai ki headin
 | `a` | Hyperlink |
 | `img` | Image |
 
-## 5.9.4 HTML, CSS and JavaScript
+## 5.9.3 HTML, CSS and JavaScript
 
 | Technology | Main Role |
 |---|---|
@@ -500,7 +500,7 @@ HTML web page ka basic structure banata hai. Yeh browser ko batata hai ki headin
 | CSS | Style and layout |
 | JavaScript | Behaviour and interactivity |
 
-## 5.9.5 Hyperlink
+## 5.9.4 Hyperlink
 
 Hyperlink ek clickable connection hai jo user ko another page, file, section ya resource par le jata hai.
 
