@@ -207,7 +207,7 @@ Approximately **1940–1956**
 - Punched cards input ke liye use hote the.
 - Maintenance costly thi.
 
-### 1.4.2.4 Examples
+### Examples
 ENIAC, EDVAC, EDSAC, UNIVAC I, IBM 701
 
 ## 1.4.3 Second Generation Computers
@@ -225,7 +225,7 @@ Approximately **1956–1963**
 - Assembly language aur early high-level languages ka use.
 - Magnetic core memory ka use.
 
-### 1.4.3.4 Examples
+### Examples
 IBM 1401, IBM 7094, CDC 1604, UNIVAC 1108
 
 ## 1.4.4 Third Generation Computers
@@ -243,7 +243,7 @@ Approximately **1964–1971**
 - Operating systems aur multiprogramming ka development.
 - Keyboard aur monitor ka use popular hua.
 
-### 1.4.4.4 Examples
+### Examples
 IBM System/360, PDP-8, PDP-11
 
 ## 1.4.5 Fourth Generation Computers
@@ -261,7 +261,7 @@ Approximately **1971–Present**
 - GUI, networking aur portable computers popular hue.
 - Cost kam hui aur common users tak computers pahunche.
 
-### 1.4.5.4 Examples
+### Examples
 IBM PC, Apple Macintosh, modern desktops and laptops
 
 ## 1.4.6 Fifth Generation Computers
@@ -279,7 +279,7 @@ Present and future-oriented development
 - Very high processing speed.
 - Large memory and cloud connectivity.
 
-### 1.4.6.4 Examples
+### Examples
 AI-enabled systems, robots, expert systems and modern supercomputers
 
 ## 1.4.7 Generation Comparison
