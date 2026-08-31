@@ -105,7 +105,7 @@ Yeh book **Problem Solving with Programming** ko bilkul basic level se samjhane 
 - **7.5** Variables and Constants
 - **7.6** Input and Output
 
-### 📖 Chapter 8: Operators and Expressions
+### 📖 [Chapter 8: Operators and Expressions](chapters/chapter-08-operators-and-expressions.md) ✅
 - **8.1** Arithmetic Operators
 - **8.2** Relational Operators
 - **8.3** Logical Operators
