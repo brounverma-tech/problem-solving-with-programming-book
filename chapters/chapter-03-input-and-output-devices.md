@@ -661,7 +661,7 @@ Jo output digital form mein screen par dikhe ya speaker se sunai de, woh softcop
 - Device aur power required
 - Storage space digital hota hai
 
-## 3.15.4 Examples
+## Examples
 
 - PDF on screen
 - Digital photograph
