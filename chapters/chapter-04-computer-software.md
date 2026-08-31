@@ -41,13 +41,13 @@ Software instructions aur programs ka set hota hai jo computer hardware ko batat
 
 **Examples:** Windows, Linux, Microsoft Word, web browser, media player aur mobile apps.
 
-## 4.1.2 Program
+## Program
 
 > A program is an ordered set of instructions written to perform a particular task.
 
 **Example:** Do numbers ka sum calculate karne wala C++ program.
 
-## 4.1.3 Relationship Between Hardware and Software
+## 4.1.2 Relationship Between Hardware and Software
 
 ```text
 User → Application Software → System Software → Hardware
@@ -59,7 +59,7 @@ User → Application Software → System Software → Hardware
 - Software hardware ko instructions deta hai.
 - Dono ek doosre ke bina useful computer system nahi bana sakte.
 
-## 4.1.4 Hardware and Software Difference
+## 4.1.3 Hardware and Software Difference
 
 | Basis | Hardware | Software |
 |---|---|---|
@@ -69,7 +69,7 @@ User → Application Software → System Software → Hardware
 | Damage | Physically damage ho sakta hai | Corrupt, delete ya infect ho sakta hai |
 | Examples | CPU, keyboard, monitor | Windows, browser, Word |
 
-## 4.1.5 Important Terms
+## 4.1.4 Important Terms
 
 | Term | Pronunciation | Meaning |
 |---|---|---|
@@ -247,7 +247,7 @@ Smartphones aur tablets ke liye optimized hota hai.
 
 Har hardware device ka working method different ho sakta hai. Driver operating system ke general commands ko device-specific instructions mein convert karta hai.
 
-## 4.5.2 Examples
+## Examples
 
 - Printer driver
 - Graphics driver
@@ -256,13 +256,13 @@ Har hardware device ka working method different ho sakta hai. Driver operating s
 - Scanner driver
 - Webcam driver
 
-## 4.5.3 Working
+## Working
 
 ```text
 Application → Operating System → Device Driver → Hardware
 ```
 
-## 4.5.4 Why Drivers Are Important
+## 4.5.2 Why Drivers Are Important
 
 - Device ko recognize karne ke liye
 - Device ke complete features use karne ke liye
@@ -504,7 +504,7 @@ Firmware hardware ke andar ya uske close permanently stored software hota hai. Y
 - User applications se lower level par work karta hai.
 - Manufacturer updates provide kar sakta hai.
 
-## 4.10.3 Examples
+## Examples
 
 - Computer BIOS/UEFI
 - Router firmware
@@ -513,7 +513,7 @@ Firmware hardware ke andar ya uske close permanently stored software hota hai. Y
 - Smart TV firmware
 - Embedded controller firmware
 
-## 4.10.4 Firmware Update
+## 4.10.3 Firmware Update
 
 Firmware update bugs fix, security improve ya new features add kar sakta hai.
 
@@ -533,13 +533,13 @@ Firmware update bugs fix, security improve ya new features add kar sakta hai.
 
 Middleware do software systems ke beech **middle layer** ki tarah kaam karta hai. Yeh communication, data conversion, authentication aur message handling ko आसान banata hai.
 
-## 4.11.2 Working
+## Working
 
 ```text
 Application A → Middleware → Application B / Database / Service
 ```
 
-## 4.11.3 Functions
+## 4.11.2 Functions
 
 - Applications connect karna
 - Different data formats convert karna
@@ -548,7 +548,7 @@ Application A → Middleware → Application B / Database / Service
 - Database access manage karna
 - Distributed systems coordinate karna
 
-## 4.11.4 Examples
+## Examples
 
 - Database middleware
 - Message-oriented middleware
@@ -556,7 +556,7 @@ Application A → Middleware → Application B / Database / Service
 - API gateway
 - Remote procedure call system
 
-## 4.11.5 Firmware and Middleware Difference
+## 4.11.3 Firmware and Middleware Difference
 
 | Basis | Firmware | Middleware |
 |---|---|---|
